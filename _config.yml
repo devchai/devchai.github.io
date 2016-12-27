@@ -9,7 +9,7 @@
 title: DevChai
 email: ohinchang@mail.com
 description: Developer C
-baseurl: "/Gravity/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://devchai.github.io" # the base hostname & protocol for your site
 github_username:  devchai
 
