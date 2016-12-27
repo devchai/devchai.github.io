@@ -10,8 +10,16 @@ title: DevChai
 email: ohinchang@mail.com
 description: Developer C
 baseurl: "" # the subpath of your site, e.g. /blog
+<<<<<<< HEAD
 url: "https://devchai.github.io" # the base hostname & protocol for your site
 github_username:  devchai
+=======
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: hemang_kumar
+github_username:  hemangsk
+paginate: 5
+>>>>>>> hemangsk/master
 
+gems: [jekyll-paginate, kramdown]
 # Build settings
 markdown: kramdown
