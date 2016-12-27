@@ -6,13 +6,12 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Gravity
+title: DevChai
 email: hemangsk@gmail.com
 description: The Liberal Jekyll Theme
-baseurl: "/Gravity" # the subpath of your site, e.g. /blog
-url: "http://hemangsk.github.io" # the base hostname & protocol for your site
-twitter_username: hemang_kumar
-github_username:  hemangsk
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://devchai.github.io" # the base hostname & protocol for your site
+github_username:  devchai
 
 # Build settings
 markdown: kramdown
