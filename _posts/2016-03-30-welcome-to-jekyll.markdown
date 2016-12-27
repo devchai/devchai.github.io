@@ -6,11 +6,18 @@ categories: jekyll update
 ---
 Gravity is an unopinionated theme for Jekyll, the awesome static site generator.
 
-Some General Instructions for Jekyll
+Some General Instructions for **Jekyll**
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, 
+Add `>` which launches a web server and auto-regenerates your site when a file is updated.
+
+```html
+<img src=''/>
+```
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+
+![](https://search.pstatic.net/common?type=o&size=120x150&quality=95&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2F190%2F201607051108206481.jpg)
 
 Jekyll also offers powerful support for code snippets:
 
