@@ -64,7 +64,9 @@ comments : true
 
 
 
-일반 이미지와 같은 경우에는 Glide만을 사용하여 아래와 같이 간단하게 이미지 로드가 가능한데요 GIF 관련해서는 한가지 추가되는 부분이 있습니다. 바로 GlideDrawableImageViewTarget입니다.
+일반 이미지와 같은 경우에는 Glide만을 사용하여 아래와 같이 간단하게 이미지 로드가 가능한데요 **GIF** 관련해서는 한가지 추가되는 부분이 있습니다. 
+
+바로 **GlideDrawableImageViewTarget**입니다.
 
 {% highlight java %}
 public class MainActivity extends AppCompatActivity {
