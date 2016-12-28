@@ -4,6 +4,9 @@ title:  "[OpenSource] Glide 에서 일반 이미지와 GIF 사용"
 date:   2016-12-08 19:45:31 +0530
 categories: "android"
 author: "Dev C"
+tag : ANDROID
+image : https://github.com/bumptech/glide/raw/master/static/glide_logo.png
+comments : true
 ---
 
 이미지 로드 라이브러리로 **Glide**를 사용하여 일반 이미지와 GIF를 사용하는 방법을 알아보겠습니다.
