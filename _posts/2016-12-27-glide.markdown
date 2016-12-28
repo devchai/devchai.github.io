@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[OpenSource] Glide 에서 일반 이미지와 GIF 사용"
-date:   2016-12-08 19:45:31 +0530
+date:   2016-12-28 11:45:31 +0530
 categories: "android"
 author: "Dev C"
 tag : ANDROID
