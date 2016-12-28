@@ -66,7 +66,7 @@ comments : true
 
 일반 이미지와 같은 경우에는 Glide만을 사용하여 아래와 같이 간단하게 이미지 로드가 가능한데요 GIF 관련해서는 한가지 추가되는 부분이 있습니다. 바로 GlideDrawableImageViewTarget입니다.
 
-```java
+{% highlight java %}
 public class MainActivity extends AppCompatActivity {
 
     private static final String NORMAL_IMAGE_URL = "http://www.w3schools.com/css/img_fjords.jpg";
@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
         Glide.with(this).load(NORMAL_IMAGE_URL).into(imageViewNormal);
     }
 }  
-```  
+{% endhighlight %}
 
 위와 같이 이미지 로드를 간단하게 할 수 있어 좋은 라이브러리이지만 이미지 관련 개발을 하시다 보면 메모리 관리 때문에 Resize 와 같은 작업들을 하신 경험이 있을 텐데요 *OOM*{: style="color:red"} 관리를 Glide에서 해준다는 것이 가장 장점 같네요.
 
