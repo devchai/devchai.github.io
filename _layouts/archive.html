@@ -16,6 +16,11 @@ layout: page
     {{post.tag}}
   </div>
   <br>
+  {%
+        if post.image
+  %}
+  <img style='width:100%;' src="{{ post.image }}"/>
+  {% endif %}
   <div class="postTitle">
   <a class='postLink' href="{{site.url}}{{site.baseurl}}{{post.url}}">{{post.title}}</a>
   </div>
