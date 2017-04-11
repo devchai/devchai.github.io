@@ -1,4 +1,5 @@
-var DOMAIN_URL = "http://localhost:8080/chailab";
+var DOMAIN_URL = "http://chailab.cafe24.com/chailab";
+// var DOMAIN_URL = "http://localhost:8080/chailab";
 
 var URL_QUERY = "/feed/query?q=";
 var URL_QUERY_UPDATE = "/feed/update?q=";
