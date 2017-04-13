@@ -3,5 +3,5 @@
   "tstore_share_link" : "#리얼피드",
   "admob_native_call":"true",
   "admob_native_call_period":5,
-  "native_ad_type":"facebook",
+  "native_ad_type":"facebook"
 }
