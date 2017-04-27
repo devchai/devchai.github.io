@@ -1,0 +1,79 @@
+{
+  "items": [
+    {
+      "keywords": "마이튜브-유튜브다운(원스토어)",
+      "type": "android",
+      "flag": "best", 
+      "thumbs": "http://i.imgur.com/VrleENL.png",
+      "url": "https://goo.gl/tlC8MM",
+      "desc": "원스토어 마켓에서 유튜브를 다운로드할 수 있는 마이튜브를 검색해주세요." 
+    },
+    {
+      "keywords": "직캠 중독-레전드/아이돌/가수/팬캠/유튜브",
+      "type": "android",
+      "flag": "best",
+      "thumbs": "https://lh3.googleusercontent.com/TrYv2h56P5N8rOLFKdx77ad86xAO09y9uK8vdzQdq_7xeND0AsGclslYrV-tvN5eCBM=w124",
+      "url": "com.jikcamm",
+      "desc": "직캠(팬캠)을 즐겨보세요^^ 엑소, 소녀시대, EXID하니, 밤비노, AOA 설현 외에도 여러 직캠이 있습니다."
+    },
+    {
+      "keywords": "아프리카bj-다시보기/생방송/유튜브",
+      "type": "android",
+      "flag": "best",
+      "thumbs": "https://lh3.googleusercontent.com/q5Q5NzADDnQm-JA-6MQ0g0wm6cvBJs6h6ALuV-fQYgyImA-A6WXXzPtexHjuZqawCvRC=w124",
+      "url": "com.afplayer",
+      "desc": "아프리카TV 대표하는 BJ들의 유튜브 다시보기 와 생방송 시청하기."
+    },
+    {
+      "keywords": "Piano Tiles 2",
+      "type": "android",
+      "flag": "best",
+      "thumbs": "https://lh3.googleusercontent.com/HFaXZVKHGgRZM4Iu1JsADE6zXaH6h3a45EsOkrqvbxSMg3kkUDhzHF0dnPXAgTi-o0M=w124",
+      "url": "com.cmplay.tiles2",
+      "desc": "전세계 플레이어들과 함께 경쟁하세요"
+    },
+    {
+      "keywords": "아케인",
+      "type": "android",
+      "flag": "best",
+      "thumbs": "https://lh3.googleusercontent.com/_8bbXcAj_Kn7QlbhvVVE1Mi6kXKVMEAAjkl6Anva-KpwCtvOJ2kbA9szPUm7HZwgcHJe=w124",
+      "url": "com.entermate.arcanekakao_kr_gg",
+      "desc": "카카오로 즐기는 대규모 공성전! 1세대 MMORPG 전성시대!"
+    },
+    {
+      "keywords": "이터널 클래시",
+      "type": "android",
+      "flag": "best",
+      "thumbs": "https://lh3.googleusercontent.com/Xiz7k1qjbiEsMb9bxK6_7S7wzOXABt-44vx5mr3-SglzY9FyBl21FkOlReVcjEW8bsM=w124",
+      "url": "com.ftt.eternalclash.gl.kr",
+      "desc": "나만의 전략과 강력한 부대로 전장을 지휘하라!"
+    },
+    {
+      "keywords": "직방",
+      "type": "android",
+      "flag": "best",
+      "thumbs": "https://lh3.googleusercontent.com/QBnly97i31doJhP6E_PF2cmzIuXFzbFBDnuiy_DkzjNJtcqAFwPHwLfCe0B0_z7a4fWO=w124",
+      "url": "com.chbreeze.jikbang4a",
+      "desc": "대한민국 1위 전월세 부동산 앱 직방 "
+    },
+    {
+      "keywords": "360 Security Lite",
+      "type": "android",
+      "flag": "best",
+      "thumbs": "https://lh3.googleusercontent.com/tqu6xtUIG-Jxb91v_gkOlbEs5jIYzoLgEFb2trI4o2qd7AqX-FHSbJwDMoNsuKdDDmE=w124",
+      "url": "com.qihoo.security.lite",
+      "desc": "360 Security Lite"
+    },
+    {
+      "keywords": "CLiP",
+      "type": "android",
+      "flag": "best",
+      "thumbs": "https://lh3.googleusercontent.com/v5tOMoovaPjZevNVCGoGi31DmDjkbAh4CDex70ib8DlEj8BqTg5XqYkY9GLg1nnjVN8=w124",
+      "url": "com.kt.android.showtouch",
+      "desc": "“돈 버는 앱? 할인 받는 앱?”"
+    }
+  ],
+  "items_link" : [
+    
+  ]
+}
