@@ -6,7 +6,7 @@
       "flag": "best", 
       "thumbs": "http://i.imgur.com/plBdgm3.png",
       "url": "https://goo.gl/tCoHRw",
-      "desc": "실시간으로 커뮤니티 인기글을 한 곳에서 즐기자!~!"
+      "desc": "실시간으로 커뮤니티 인기글을 한 곳에서 즐기자!~! 설치가 안될경우 원스토어에서 리얼피드 검색후 설치해주세요."
     },
     {
       "keywords": "마이튜브-유튜브다운로드(원스토어)",
@@ -15,22 +15,6 @@
       "thumbs": "http://i.imgur.com/VrleENL.png",
       "url": "https://goo.gl/tlC8MM",
       "desc": "원스토어 마켓에서 유튜브를 다운로드할 수 있는 마이튜브를 검색해주세요." 
-    },
-    {
-      "keywords": "직캠 중독-레전드/아이돌/가수/팬캠/유튜브",
-      "type": "android",
-      "flag": "best",
-      "thumbs": "https://lh3.googleusercontent.com/TrYv2h56P5N8rOLFKdx77ad86xAO09y9uK8vdzQdq_7xeND0AsGclslYrV-tvN5eCBM=w124",
-      "url": "com.jikcamm",
-      "desc": "직캠(팬캠)을 즐겨보세요^^ 엑소, 소녀시대, EXID하니, 밤비노, AOA 설현 외에도 여러 직캠이 있습니다."
-    },
-    {
-      "keywords": "아프리카bj-다시보기/생방송/유튜브",
-      "type": "android",
-      "flag": "best",
-      "thumbs": "https://lh3.googleusercontent.com/q5Q5NzADDnQm-JA-6MQ0g0wm6cvBJs6h6ALuV-fQYgyImA-A6WXXzPtexHjuZqawCvRC=w124",
-      "url": "com.afplayer",
-      "desc": "아프리카TV 대표하는 BJ들의 유튜브 다시보기 와 생방송 시청하기."
     },
     {
       "keywords": "Piano Tiles 2",
