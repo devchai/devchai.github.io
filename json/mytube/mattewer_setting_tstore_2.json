@@ -30,5 +30,7 @@
 	"web_search_setting_search_url":"https://m.youtube.com/results?search_query=",
 	"web_search_setting_user_agent":"Mozilla/5.0 (Linux; U; Android 2.1-update1; ko-kr; Nexus One Build/ERE27) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17",
 	"web_search_setting_search_type":"web",
-	"web_search_setting_search_keyword_insert_url":""
+	"web_search_setting_search_keyword_insert_url":"",
+	"ad_iga_banner_show":"true",
+	"ad_iga_interstitial_show":"true"
 }
