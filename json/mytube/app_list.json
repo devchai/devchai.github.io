@@ -17,20 +17,20 @@
       "desc": "원스토어 마켓에서 유튜브를 다운로드할 수 있는 마이튜브를 검색해주세요." 
     },
     {
-      "keywords": "Piano Tiles 2",
+      "keywords": "데스티니6",
       "type": "android",
       "flag": "best",
-      "thumbs": "https://lh3.googleusercontent.com/HFaXZVKHGgRZM4Iu1JsADE6zXaH6h3a45EsOkrqvbxSMg3kkUDhzHF0dnPXAgTi-o0M=w124",
-      "url": "com.cmplay.tiles2",
-      "desc": "전세계 플레이어들과 함께 경쟁하세요"
+      "thumbs": "https://lh3.googleusercontent.com/dZUNbYxcdYTkHqBNzuF33fPToJJI5IJcE-EmNn-V3j78uf7h9jwe3ibfO-jYzEKhgQo=w124",
+      "url": "com.netmarble.destiny",
+      "desc": "똑 같은 게임/바라만 보던 게임은 이제 그만!!"
     },
     {
-      "keywords": "아케인",
+      "keywords": "피젯 스피너",
       "type": "android",
       "flag": "best",
-      "thumbs": "https://lh3.googleusercontent.com/_8bbXcAj_Kn7QlbhvVVE1Mi6kXKVMEAAjkl6Anva-KpwCtvOJ2kbA9szPUm7HZwgcHJe=w124",
-      "url": "com.entermate.arcanekakao_kr_gg",
-      "desc": "카카오로 즐기는 대규모 공성전! 1세대 MMORPG 전성시대!"
+      "thumbs": "https://lh3.googleusercontent.com/tiNd1xojYtbNX63HjM5aZUWGqkZfBb_H-kZlKM6-rzad_pEPzEob8KpcPm6OG2zHJw=w124",
+      "url": "myandroid.fphoenix.fastspinner",
+      "desc": "당신은 아직 벌려진 일, 공부와 일상으로 고민하십니까?"
     },
     {
       "keywords": "이터널 클래시",
@@ -49,20 +49,12 @@
       "desc": "대한민국 1위 전월세 부동산 앱 직방 "
     },
     {
-      "keywords": "360 Security Lite",
+      "keywords": "캐시워크",
       "type": "android",
       "flag": "best",
-      "thumbs": "https://lh3.googleusercontent.com/tqu6xtUIG-Jxb91v_gkOlbEs5jIYzoLgEFb2trI4o2qd7AqX-FHSbJwDMoNsuKdDDmE=w124",
-      "url": "com.qihoo.security.lite",
-      "desc": "360 Security Lite"
-    },
-    {
-      "keywords": "CLiP",
-      "type": "android",
-      "flag": "best",
-      "thumbs": "https://lh3.googleusercontent.com/v5tOMoovaPjZevNVCGoGi31DmDjkbAh4CDex70ib8DlEj8BqTg5XqYkY9GLg1nnjVN8=w124",
-      "url": "com.kt.android.showtouch",
-      "desc": "“돈 버는 앱? 할인 받는 앱?”"
+      "thumbs": "https://lh3.googleusercontent.com/JpumWMeFtltV_nDza4AyxcNOYLS2hgETmOWOG_kARXFGJVphfmjrkVJ7h6KwpFVSnIwr=w124",
+      "url": "com.cashwalk.cashwalk",
+      "desc": "캐시워크는 걸으면 걸을수록 돈을 버는 신기한 만보기입니다."
     }
   ],
   "items_link" : [
