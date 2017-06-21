@@ -12,7 +12,7 @@
 	"fragment_prior":"0||1||2||3",
 	"fragment_webview_css":"._muc{visibility:hidden !important; height:0px !important;} ._mshc{visibility:hidden !important; height:0px !important;} ._mthc{visibility:hidden !important; height:0px !important;}",
 	"finish_flag":"invisible",
-	"download_flag":"visible",
+	"download_flag":"invisible",
 	"videolist":[
 		"인기동영상,separator,http://chailab.cafe24.com/chailab/y/category?id=popular",
 		"영화 & 애니메이션,separator,http://chailab.cafe24.com/chailab/y/category?id=1",
