@@ -10,7 +10,7 @@
 	"suggest":"http://suggestqueries.google.com/complete/search?client=youtube&ds=yt&hl=ko&callback=youtube",
 	"fragment_webview_url":"https://m.youtube.com/",
 	"fragment_prior":"0||1||2||3",
-	"fragment_webview_css":"._muc{visibility:hidden !important; height:0px !important;} ._mshc{visibility:hidden !important; height:0px !important;} ._mthc{visibility:hidden !important; height:0px !important;}",
+	"fragment_webview_css":"",
 	"finish_flag":"invisible",
 	"download_flag":"invisible",
 	"videolist":[
