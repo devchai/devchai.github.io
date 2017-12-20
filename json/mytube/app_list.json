@@ -1,13 +1,5 @@
 {
   "items": [
-    {
-      "keywords": "로드샵-화장품 세일 정보 앱",
-      "type": "android",
-      "flag": "best", 
-      "thumbs": "http://i.imgur.com/9fnrITZ.png",
-      "url": "http://onesto.re/0000721162",
-      "desc": "로드샵 화장품 브랜드들의 온/오프라인 할인정보를 하나의 앱 에서 모두 확인해볼수 있습니다. "
-    },
   	{
       "keywords": "리얼피드 - 인기 컨텐츠 모음 앱",
       "type": "android",
@@ -63,6 +55,14 @@
       "thumbs": "https://lh3.googleusercontent.com/JpumWMeFtltV_nDza4AyxcNOYLS2hgETmOWOG_kARXFGJVphfmjrkVJ7h6KwpFVSnIwr=w124",
       "url": "com.cashwalk.cashwalk",
       "desc": "캐시워크는 걸으면 걸을수록 돈을 버는 신기한 만보기입니다."
+    },
+    {
+      "keywords": "로드샵-화장품 세일 정보 앱",
+      "type": "android",
+      "flag": "best", 
+      "thumbs": "http://i.imgur.com/9fnrITZ.png",
+      "url": "http://onesto.re/0000721162",
+      "desc": "로드샵 화장품 브랜드들의 온/오프라인 할인정보를 하나의 앱 에서 모두 확인해볼수 있습니다. "
     }
   ],
   "items_link" : [
