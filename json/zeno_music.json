@@ -1,0 +1,4 @@
+{
+  "search_url":"https://www.4shared.com/web/rest/v1_2/files?query={query}&offset={offset}&view=web&limit=12",
+  "target_el_class":".jsD1PreviewUrl"
+}
