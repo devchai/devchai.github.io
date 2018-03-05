@@ -3,5 +3,6 @@
   "target_el_class":".jsD1PreviewUrl",
   "target_el_class_value":"value",
   "row_ad_thumb":"http://i.imgur.com/geFhdi8.png",
-  "row_ad_direct_url":"https://goo.gl/z4D7pk"
+  "row_ad_direct_url":"https://goo.gl/z4D7pk",
+  "force_redirect":""
 }
