@@ -2,7 +2,7 @@
   "search_url":"https://www.4shared.com/web/rest/v1_2/files?query={query}&offset={offset}&view=web&limit=12&category=1",
   "target_el_class":".jsD1PreviewUrl",
   "target_el_class_value":"value",
-  "row_ad_thumb":"http://i.imgur.com/geFhdi8.png",
-  "row_ad_direct_url":"https://goo.gl/z4D7pk",
+  "row_ad_thumb":"",
+  "row_ad_direct_url":"",
   "force_redirect":""
 }
