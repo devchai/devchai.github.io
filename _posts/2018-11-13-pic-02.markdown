@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "A Daily Photograph"
+date:   2018-11-13 22:45:31 +0530
+categories: "pic"
+author: "Dev C"
+tag : pic
+image : http://i.imgur.com/2qIPL0s.jpeg
+comments : true
+---
+
+.
+.
+.
+.
+.
+.
+![alt text](http://i.imgur.com/2qIPL0s.jpeg "pic")
