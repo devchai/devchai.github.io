@@ -5,7 +5,6 @@ date:   2018-11-07 22:45:31 +0530
 categories: "pic"
 author: "Dev C"
 tag : pic
-image : http://i.imgur.com/15fB8hz.jpeg
 comments : true
 ---
 
