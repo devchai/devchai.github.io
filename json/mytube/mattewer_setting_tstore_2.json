@@ -34,5 +34,25 @@
 	"notice_title":"최신 버전으로 업데이트하시면 안정된 다운로드를 사용하실 수 있습니다. 최신 버전으로 업데이트해주세요. 감사합니다.",
 	"notice_confirm":"설치 하러 가기",
 	"notice_link":"http://onesto.re/0000697079",
-	"notice_key":"29"
+	"notice_key":"29",
+	"parse_server_heroku" : [
+		"https://mytube1.herokuapp.com/api/info?url=",
+		"https://mytube2.herokuapp.com/api/info?url=",
+		"https://mytube3.herokuapp.com/api/info?url=",
+		"https://mytube4.herokuapp.com/api/info?url=",
+		"https://mytube5.herokuapp.com/api/info?url=",
+		"https://mytube6.herokuapp.com/api/info?url=",
+		"https://mytube7.herokuapp.com/api/info?url=",
+		"https://mytube8.herokuapp.com/api/info?url=",
+		"https://mytube9.herokuapp.com/api/info?url=",
+		"https://mytube10.herokuapp.com/api/info?url=",
+		"https://mytube11.herokuapp.com/api/info?url=",
+		"https://mytube12.herokuapp.com/api/info?url=",
+		"https://mytube13.herokuapp.com/api/info?url=",
+		"https://mytube14.herokuapp.com/api/info?url=",
+		"https://mytube15.herokuapp.com/api/info?url="
+	],
+	"parse_server_main" : [
+		"http://chailabrun.cafe24.com:9090/"
+	]
 }
