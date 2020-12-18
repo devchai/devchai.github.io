@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "[Kotlin] study"
+date:   2020-12-18 11:45:31 +0530
+categories: "kotlin"
+author: "Dev C"
+tag : KOTLIN
+image : https://github.com/bumptech/glide/raw/master/static/glide_logo.png
+comments : true
+---
+
+
+
+**kotlin study**
+
+
+
+
