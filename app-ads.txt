@@ -1,20 +1,149 @@
-adpopcornssp.com, 618812902, DIRECT  
-smartyads.com, 1445, DIRECT, fd2bde0ff2e62c5d
-improvedigital.com, 1797, RESELLER
-improvedigital.com, 1202, RESELLER
-pubmatic.com, 158651, RESELLER, 5d62403b186f2ace
-smartadserver.com, 1894, RESELLER
-Peak226.com, 12400, RESELLER
-meitu.com, 285, RESELLER
-bizzclick.com, 30, RESELLER, 7e936b1feafdaa61
-thebrave.io, 490457, RESELLER, c25b2154543746ac
-lunamedia.io, 449, RESELLER
-mars.media, 102834, RESELLER
-mobco-serve.com, 984703, RESELLER
-pubmatic.com, 150561, RESELLER, 5d62403b186f2ace
-indexexchange.com, 184785, RESELLER
-districtm.io, 100434, RESELLER
-openx.com, 537153161, RESELLER, 6a698e2ec38604c6
-onetag.com, 5e18052625cfd00, RESELLER
-advertising.com, 28246, RESELLER
-appnexus.com, 12223, RESELLER, f5ab79cb980f11d1
+adlibr.com, 4f585bc70cf2b309e8b639a1, direct
+acexchange.co.kr, 1981402498, direct
+Sabio.us,100032,Reseller
+pubnative.net,1007249,Reseller
+engagebdr.com,10252,Reseller
+loopme.com,11322,Reseller
+improvedigital.com,1210,Reseller
+Rubiconproject.com,15278,Reseller
+Verve.com,15503,Reseller
+pubmatic.com,155975,Reseller
+Pubmatic.com,156517,Reseller
+pubmatic.com,160145,Reseller
+rubiconproject.com,17328,Reseller
+indexexchange.com,191332,Reseller
+indexexchange.com,192829,Reseller
+adcolony.com,1efc6603710003ea,Reseller
+rubiconproject.com,20744,Reseller
+advertising.com,28246,Reseller
+rhythmone.com,4173858586,Reseller
+openx.com,540298543,Reseller
+openx.com,540543195,Reseller
+bidmachine.io,55,Reseller
+Contextweb.com,561849,Reseller
+bidmachine.io,59,Reseller
+onetag.com,59aa7be4921bac8,Reseller
+appnexus.com,8178,Reseller
+admixer.net,8e380da6-31ba-488c-939c-290c48d577e4,Reseller
+Inmobi.com,c1e6d3502da64ebaa3ad0e4a4be15f11,Reseller
+sonobi.com,eaec54c63f,Reseller
+inmobi.com,f3924290136e4129a5c082ff982c3a58,Reseller
+Sabio.us,100032,Reseller
+pubnative.net,1007466,Reseller
+engagebdr.com,10252,Reseller
+loopme.com,11322,Reseller
+improvedigital.com,1210,Reseller
+improvedigital.com,1366,Reseller
+bidmachine.io,138,Reseller
+Rubiconproject.com,15278,Reseller
+Verve.com,15503,Reseller
+pubmatic.com,155975,Reseller
+Pubmatic.com,156517,Reseller
+pubmatic.com,160145,Reseller
+rubiconproject.com,17328,Reseller
+indexexchange.com,191332,Reseller
+indexexchange.com,192829,Reseller
+bidence.com,1c671a01123b03e998a4d4b1ea9e7141,Reseller
+adcolony.com,1efc6603710003ea,Reseller
+rubiconproject.com,20744,Reseller
+advertising.com,28246,Reseller
+rhythmone.com,4173858586,Reseller
+openx.com,540298543,Reseller
+openx.com,540543195,Reseller
+bidmachine.io,55,Reseller
+Contextweb.com,561849,Reseller
+bidmachine.io,59,Reseller
+onetag.com,59aa7be4921bac8,Reseller
+appnexus.com,8178,Reseller
+admixer.net,8e380da6-31ba-488c-939c-290c48d577e4,Reseller
+Inmobi.com,c1e6d3502da64ebaa3ad0e4a4be15f11,Reseller
+sonobi.com,eaec54c63f,Reseller
+inmobi.com,f3924290136e4129a5c082ff982c3a58,Reseller
+dable.io,pub-0mg2xex3v1e587w9,Reseller
+dable.io,pub-zk310rz3jmpm5xlw,Reseller
+admixer.net,0072fb58-999b-445e-9a9b-3fc2a7194277,Reseller
+Pubnative.net,1006231,Reseller
+Engagebdr.com,10252,Reseller
+peak226.com,12400,Reseller
+EMXDGT.com,1324,Reseller
+Improvedigital.com,1366,Reseller
+rubiconproject.com,14334,Reseller
+Pubmatic.com,155975,Reseller
+pubmatic.com,158651,Reseller
+improvedigital.com,1797,Reseller
+smartadserver.com,1894,Reseller
+Adcolony.com,1efc6603710003ea,Reseller
+meitu.com,285,Reseller
+bizzclick.com,30,Reseller
+Rhythmone.com,4173858586,Reseller
+thebrave.io,490457,Reseller
+Openx.com,537152826,Reseller
+Openx.com,539472296,Reseller
+bidmachine.io,55,Reseller
+Contextweb.com,561884,Reseller
+bidmachine.io,59,Reseller
+Appnexus.com,8178,Reseller
+mman.kr,30769,Reseller
+admixer.net,0072fb58-999b-445e-9a9b-3fc2a7194277,Reseller
+tpmn.co.kr,1,Reseller
+tpmn.io,1,Reseller
+Sabio.us,100032,Reseller
+Sabio.us,100032,Reseller
+pubnative.net,1003459,Reseller
+Pubnative.net,1006231,Reseller
+pubnative.net,1007466,Reseller
+Engagebdr.com,10252,Reseller
+engagebdr.com,10252,Reseller
+loopme.com,11322,Reseller
+improvedigital.com,1210,Reseller
+EMXDGT.com,1324,Reseller
+Improvedigital.com,1366,Reseller
+bidmachine.io,138,Reseller
+rubiconproject.com,14334,Reseller
+Rubiconproject.com,15278,Reseller
+Rubiconproject.com,15278,Reseller
+Verve.com,15503,Reseller
+Verve.com,15503,Reseller
+Pubmatic.com,155975,Reseller
+Pubmatic.com,156517,Reseller
+Pubmatic.com,156517,Reseller
+pubmatic.com,157654,Reseller
+pubmatic.com,158651,Reseller
+pubmatic.com,160145,Reseller
+rubiconproject.com,17328,Reseller
+improvedigital.com,1797,Reseller
+smartadserver.com,1894,Reseller
+indexexchange.com,191332,Reseller
+indexexchange.com,192829,Reseller
+Adcolony.com,1efc6603710003ea,Reseller
+rubiconproject.com,20744,Reseller
+meitu.com,251,Reseller
+advertising.com,28246,Reseller
+meitu.com,285,Reseller
+bizzclick.com,30,Reseller
+mman.kr,30915,Reseller
+mman.kr,32002,Reseller
+Rhythmone.com,4173858586,Reseller
+bidence.com,483780f4c7c5d77ab30eeceaffc0e506,Reseller
+thebrave.io,490457,Reseller
+Openx.com,537152826,Reseller
+Openx.com,539472296,Reseller
+openx.com,540298543,Reseller
+openx.com,540543195,Reseller
+openx.com,540543195,Reseller
+openx.com,540899687,Reseller
+bidmachine.io,55,Reseller
+Contextweb.com,561849,Reseller
+Contextweb.com,561849,Reseller
+Contextweb.com,561884,Reseller
+bidmachine.io,59,Reseller
+onetag.com,59aa7be4921bac8,Reseller
+onetag.com,59d216e971852f2,Reseller
+Appnexus.com,8178,Reseller
+admixer.net,8e380da6-31ba-488c-939c-290c48d577e4,Reseller
+bidence.com,bb8088e44b63ec0ee086d3f1933d001e,Reseller
+Inmobi.com,c1e6d3502da64ebaa3ad0e4a4be15f11,Reseller
+Inmobi.com,c1e6d3502da64ebaa3ad0e4a4be15f11,Reseller
+sonobi.com,eaec54c63f,Reseller
+inmobi.com,f3924290136e4129a5c082ff982c3a58,Reseller
+adcolony.com,f858ba060bce51ad,Reseller
