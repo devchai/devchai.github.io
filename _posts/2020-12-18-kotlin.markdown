@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Kotlin] study"
+title:  "[Kotlin] open"
 date:   2020-12-18 11:45:31 +0530
 categories: "kotlin"
 author: "Dev C"
@@ -13,6 +13,9 @@ comments : true
 
 
 **kotlin study**
+
+
+
 
 
 
