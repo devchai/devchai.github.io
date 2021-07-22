@@ -1,5 +1,5 @@
-adlibr.com, 4f585bc70cf2b309e8b639a1, direct
-acexchange.co.kr, 1981402498, direct
+adlibr.com, 4f585bc70cf2b309e8b639a1, DIRECT
+acexchange.co.kr, 1981402498, DIRECT
 Sabio.us,100032,Reseller
 pubnative.net,1007249,Reseller
 engagebdr.com,10252,Reseller
