@@ -1,6 +1,14 @@
 {
   "items": [
     {
+      "keywords": "마이언더샵 - 언더웨어(속옷, 란제리) 쇼핑몰",
+      "type": "android",
+      "flag": "best", 
+      "thumbs": "https://play-lh.googleusercontent.com/Vbn-Oq_22lN_OxaZ1yj_6MCuYM6_fPpXZieLK659fztdvu0QwiywRvbp5ckz62RHjmny=s180-rw",
+      "url": "com.dev.chai.underwearshop",
+      "desc": "1,000개가 넘는 여성 언더웨어(속옷) 특별한 날을 위한 란제리 쇼핑몰" 
+    },
+    {
       "keywords": "마이튜브-올인원버전",
       "type": "android",
       "flag": "best", 
