@@ -54,5 +54,8 @@
 	],
 	"parse_server_main" : [
 		"http://chailabrun.cafe24.com:9090/"
-	]
+	],
+	"notice_web_link":"https://devchai.github.io/android/2016/12/28/opensource-sample-glide.html",
+	"notice_web_enable":true,
+	"notice_web_index":"1"
 }
