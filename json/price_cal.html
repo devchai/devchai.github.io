@@ -236,6 +236,10 @@ debugger;
         var valPrice = ((lowPrice * valCount) + valDeliveryCharge + valProfit) * valCharge;
         valPrice = Math.floor(valPrice);
 
+        var strValPrice = valPrice.toString();
+
+        valPrice = parseInt((strValPrice.substring(0, strValPrice.length - 1)) + "0");
+
 
         //((최저가 * 갯수) + 택배비 + 이윤) * 수수료
 
