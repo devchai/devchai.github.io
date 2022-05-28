@@ -272,6 +272,13 @@ debugger;
       // alert("price : " + price);
       // navigator.clipboard.writeText(price);
 
+      const el = document.createElement('input')
+    el.value = price;
+    document.body.appendChild(el);
+    el.select();
+    document.execCommand("copy");
+    document.body.removeChild(el);
+
     }
 
     function copyToClipboard(text) {
