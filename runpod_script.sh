@@ -17,7 +17,6 @@ wget https://civitai.com/api/download/models/11745 -O /workspace/stable-diffusio
 wget https://civitai.com/api/download/models/18420 -O /workspace/stable-diffusion-webui/models/Lora/aespaKarina_aespaKarinaV2.safetensors
 wget https://civitai.com/api/download/models/13739 -O /workspace/stable-diffusion-webui/models/Lora/koreanDollLikeness_v15.safetensors
 wget https://civitai.com/api/download/models/10107 -O /workspace/stable-diffusion-webui/embeddings/ulzzang-6500-v1.1.bin
-wget https://civitai.com/api/download/models/23558 -O /workspace/stable-diffusion-webui/models/Stable-diffusion/dalcefo.safetensors 
 # VAE 쓸거 다운받기
 wget https://huggingface.co/hakurei/waifu-diffusion-v1-4/resolve/main/vae/kl-f8-anime2.ckpt -O /workspace/stable-diffusion-webui/models/VAE/kl-f8-anime2.ckpt
 # EasyNegative 다운받기
