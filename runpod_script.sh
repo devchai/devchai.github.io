@@ -12,7 +12,6 @@ echo "authtoken: NGROK_TOKEN_HERE" > /workspace/ngrok.yml
 # 자동좌 레포 클론
 git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git /workspace/stable-diffusion-webui/
 # 모델 쓸거 다운받기
-wget https://huggingface.co/Linaqruf/anything-v3.0/resolve/main/anything-v3-fp16-pruned.safetensors -O /workspace/stable-diffusion-webui/models/Stable-diffusion/anything-v3-fp16-pruned.safetensors
 wget https://civitai.com/api/download/models/11745 -O /workspace/stable-diffusion-webui/models/Stable-diffusion/chilloutmix_NiPrunedFp32Fix.safetensors
 wget https://civitai.com/api/download/models/18420 -O /workspace/stable-diffusion-webui/models/Lora/aespaKarina_aespaKarinaV2.safetensors
 wget https://civitai.com/api/download/models/13739 -O /workspace/stable-diffusion-webui/models/Lora/koreanDollLikeness_v15.safetensors
