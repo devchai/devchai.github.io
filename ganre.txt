@@ -1,0 +1,9 @@
+fantasy
+dark fantasy
+gothic fantasy
+urban fantasy
+romance fantasy
+steampunk
+dieselpunk
+cyberpunk
+arcanepunk
