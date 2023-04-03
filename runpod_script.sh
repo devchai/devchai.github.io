@@ -12,10 +12,15 @@ echo "authtoken: NGROK_TOKEN_HERE" > /workspace/ngrok.yml
 # 자동좌 레포 클론
 git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git /workspace/stable-diffusion-webui/
 # 모델 쓸거 다운받기
-wget https://civitai.com/api/download/models/11745 -O /workspace/stable-diffusion-webui/models/Stable-diffusion/chilloutmix_NiPrunedFp32Fix.safetensors
-wget https://civitai.com/api/download/models/18420 -O /workspace/stable-diffusion-webui/models/Lora/aespaKarina_aespaKarinaV2.safetensors
-wget https://civitai.com/api/download/models/13739 -O /workspace/stable-diffusion-webui/models/Lora/koreanDollLikeness_v15.safetensors
+wget https://civitai.com/api/download/models/33092 -O /workspace/stable-diffusion-webui/models/Stable-diffusion/henmix.safetensors
+wget https://huggingface.co/jomcs/NeverEnding_Dream-Feb19-2023/resolve/main/Realistic%20LORA/shojovibe_v11.safetensors -O /workspace/stable-diffusion-webui/models/Lora/shojovibe_v11.safetensors
+wget https://civitai.com/api/download/models/22482 -O /workspace/stable-diffusion-webui/models/Lora/aespaKarina_aespaKarinaV5.safetensors
+wget https://civitai.com/api/download/models/13739 -O /workspace/stable-diffusion-webui/models/Lora/koreandolllikenessV20_v20.safetensors
 wget https://civitai.com/api/download/models/10107 -O /workspace/stable-diffusion-webui/embeddings/ulzzang-6500-v1.1.bin
+wget https://huggingface.co/nolanaatama/embeddings/resolve/main/badhandv4.pt -O /workspace/stable-diffusion-webui/embeddings/badhandv4.pt
+wget https://huggingface.co/datasets/gsdf/EasyNegative/resolve/main/EasyNegative.pt -O /workspace/stable-diffusion-webui/embeddings/EasyNegative.pt
+wget https://huggingface.co/datasets/gsdf/EasyNegative/resolve/main/EasyNegative.safetensors -O /workspace/stable-diffusion-webui/embeddings/EasyNegative.safetensors
+wget https://civitai.com/api/download/models/29870 -O /workspace/stable-diffusion-webui/models/Lora/saggingBreasts_v10.safetensors
 # VAE 쓸거 다운받기
 wget https://huggingface.co/hakurei/waifu-diffusion-v1-4/resolve/main/vae/kl-f8-anime2.ckpt -O /workspace/stable-diffusion-webui/models/VAE/kl-f8-anime2.ckpt
 # EasyNegative 다운받기
