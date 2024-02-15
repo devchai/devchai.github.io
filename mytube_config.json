@@ -1,3 +1,4 @@
 {
-  "abuse_web_url" : "http://naver.com"
+  "abuse_web_url" : "http://naver.com",
+  "search_type":"web"
 }
