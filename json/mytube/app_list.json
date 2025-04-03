@@ -1,60 +1,12 @@
 {
   "items": [
     {
-      "keywords": "마이언더샵 - 언더웨어(속옷, 란제리) 쇼핑몰",
-      "type": "android",
-      "flag": "best", 
-      "thumbs": "https://play-lh.googleusercontent.com/Vbn-Oq_22lN_OxaZ1yj_6MCuYM6_fPpXZieLK659fztdvu0QwiywRvbp5ckz62RHjmny=s180-rw",
-      "url": "com.dev.chai.underwearshop",
-      "desc": "1,000개가 넘는 여성 언더웨어(속옷) 특별한 날을 위한 란제리 쇼핑몰" 
-    },
-    {
-      "keywords": "마이튜브-올인원버전",
+      "keywords": "마이튜브-최신버전",
       "type": "android",
       "flag": "best", 
       "thumbs": "http://i.imgur.com/9Osukor.png",
-      "url": "https://m.onestore.co.kr/mobilepoc/apps/appsDetail.omp?prodId=0000743000",
-      "desc": "이제 인스타그램, 데일리모션, 카카오, 네이버, 구글에서 이용 하실수 있습니다." 
-    },
-    {
-      "keywords": "데스티니",
-      "type": "android",
-      "flag": "best",
-      "thumbs": "https://lh3.googleusercontent.com/dZUNbYxcdYTkHqBNzuF33fPToJJI5IJcE-EmNn-V3j78uf7h9jwe3ibfO-jYzEKhgQo=w124",
-      "url": "com.netmarble.destiny",
-      "desc": "똑 같은 게임/바라만 보던 게임은 이제 그만!!"
-    },
-    {
-      "keywords": "피젯 스피너",
-      "type": "android",
-      "flag": "best",
-      "thumbs": "https://lh3.googleusercontent.com/tiNd1xojYtbNX63HjM5aZUWGqkZfBb_H-kZlKM6-rzad_pEPzEob8KpcPm6OG2zHJw=w124",
-      "url": "myandroid.fphoenix.fastspinner",
-      "desc": "당신은 아직 벌려진 일, 공부와 일상으로 고민하십니까?"
-    },
-    {
-      "keywords": "이터널 클래시",
-      "type": "android",
-      "flag": "best",
-      "thumbs": "https://lh3.googleusercontent.com/Xiz7k1qjbiEsMb9bxK6_7S7wzOXABt-44vx5mr3-SglzY9FyBl21FkOlReVcjEW8bsM=w124",
-      "url": "com.ftt.eternalclash.gl.kr",
-      "desc": "나만의 전략과 강력한 부대로 전장을 지휘하라!"
-    },
-    {
-      "keywords": "직방",
-      "type": "android",
-      "flag": "best",
-      "thumbs": "https://lh3.googleusercontent.com/QBnly97i31doJhP6E_PF2cmzIuXFzbFBDnuiy_DkzjNJtcqAFwPHwLfCe0B0_z7a4fWO=w124",
-      "url": "com.chbreeze.jikbang4a",
-      "desc": "대한민국 1위 전월세 부동산 앱 직방 "
-    },
-    {
-      "keywords": "캐시워크",
-      "type": "android",
-      "flag": "best",
-      "thumbs": "https://lh3.googleusercontent.com/JpumWMeFtltV_nDza4AyxcNOYLS2hgETmOWOG_kARXFGJVphfmjrkVJ7h6KwpFVSnIwr=w124",
-      "url": "com.cashwalk.cashwalk",
-      "desc": "캐시워크는 걸으면 걸을수록 돈을 버는 신기한 만보기입니다."
+      "url": "https://m.onestore.co.kr/mobilepoc/apps/appsDetail.omp?prodId=0000774590",
+      "desc": "기존의 버전은 삭제 후 최신버전으로 설치 바랍니다. 구버전의 마이튜브는 더 이상 서비스 되지 않습니다." 
     }
   ],
   "items_link" : [
