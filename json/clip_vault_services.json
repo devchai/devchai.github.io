@@ -1,51 +1,7 @@
 {
   "services": {
     "service": [
-      {
-        "title": "Soop",
-        "logo_link": "https://play-lh.googleusercontent.com/p9zXgkP4pkCDVR-dQ2HfcHyD5vg9MTjDLFVpckObdHI9dGiiMO9TldFJ7kc5bgEGwYjo=w240-h480-rw",
-        "link": "https://www.sooplive.co.kr/search?szSearchType=vod&szKeyword=&szStype=di&szActype=input_field&rs=1&szVideoFileType=ALL&has_hint=&pk_cnt=&location=total_search"
-      },
-      {
-        "title": "Instagram",
-        "logo_link": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png",
-        "link": "https://www.instagram.com"
-      },
-      {
-        "title": "Facebook",
-        "logo_link": "https://upload.wikimedia.org/wikipedia/commons/6/66/Facebook_Logo_2023.png",
-        "link": "https://www.facebook.com"
-      },
-      {
-        "title": "TikTok",
-        "logo_link": "https://upload.wikimedia.org/wikipedia/commons/6/69/TikTok_logo.svg",
-        "link": "https://www.tiktok.com/discover"
-      },
-      {
-        "title": "X",
-        "logo_link": "https://upload.wikimedia.org/wikipedia/commons/6/63/X_logo_2023_%28white%29.png",
-        "link": "https://www.x.com"
-      },
-      {
-        "title": "Dailymotion",
-        "logo_link": "https://seeklogo.com/images/D/dailymotion-logo-1107208CE5-seeklogo.com.png",
-        "link": "https://www.dailymotion.com"
-      },
-      {
-        "title": "Vimeo",
-        "logo_link": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Vimeo_Logo.svg",
-        "link": "https://vimeo.com/watch"
-      },
-      {
-        "title": "Tubidy",
-        "logo_link": "https://favpng.com/png_view/tubidy-logo-png/AQdnsZmB/download-png.html",
-        "link": "https://tubidy.ws"
-      },
-      {
-        "title": "Naver TV",
-        "logo_link": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Naver_TV_logo.png",
-        "link": "https://tv.naver.com"
-      }
+      
     ]
   }
 }
