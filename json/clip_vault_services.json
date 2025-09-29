@@ -4,17 +4,20 @@
       {
         "title": "Instagram",
         "logo_link": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png",
-        "link": "https://www.instagram.com"
+        "link": "https://www.instagram.com",
+        "type:"web"
       },
       {
         "title": "Naver TV",
         "logo_link": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Naver_TV_logo.png",
-        "link": "https://tv.naver.com"
+        "link": "https://tv.naver.com",
+        "type:"web"
       },
       {
         "title": "Soop",
         "logo_link": "https://play-lh.googleusercontent.com/p9zXgkP4pkCDVR-dQ2HfcHyD5vg9MTjDLFVpckObdHI9dGiiMO9TldFJ7kc5bgEGwYjo=w240-h480-rw",
-        "link": "https://www.sooplive.co.kr/search?szSearchType=vod&szKeyword=&szStype=di&szActype=input_field&rs=1&szVideoFileType=ALL&has_hint=&pk_cnt=&location=total_search"
+        "link": "https://www.sooplive.co.kr/search?szSearchType=vod&szKeyword=&szStype=di&szActype=input_field&rs=1&szVideoFileType=ALL&has_hint=&pk_cnt=&location=total_search",
+        "type:"web"
       }
     ]
   }
