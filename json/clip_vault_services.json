@@ -1,7 +1,11 @@
 {
   "services": {
     "service": [
-      
+      {
+        "title": "Instagram",
+        "logo_link": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png",
+        "link": "https://www.instagram.com"
+      }
     ]
   }
 }
