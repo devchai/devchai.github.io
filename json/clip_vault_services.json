@@ -18,6 +18,12 @@
         "logo_link": "https://play-lh.googleusercontent.com/p9zXgkP4pkCDVR-dQ2HfcHyD5vg9MTjDLFVpckObdHI9dGiiMO9TldFJ7kc5bgEGwYjo=w240-h480-rw",
         "link": "https://www.sooplive.co.kr/search?szSearchType=vod&szKeyword=&szStype=di&szActype=input_field&rs=1&szVideoFileType=ALL&has_hint=&pk_cnt=&location=total_search",
         "type":"web"
+      },
+      {
+        "title": "Soop",
+        "logo_link": "https://play-lh.googleusercontent.com/p9zXgkP4pkCDVR-dQ2HfcHyD5vg9MTjDLFVpckObdHI9dGiiMO9TldFJ7kc5bgEGwYjo=w240-h480-rw",
+        "link": "https://m.onestore.co.kr/v2/ko-kr/app/0000781477",
+        "type":"direct_link"
       }
     ]
   }
