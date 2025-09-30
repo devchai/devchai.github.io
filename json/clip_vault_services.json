@@ -32,6 +32,11 @@
         "type":"web"
       },
       {
+        "title": "Bilibili",
+        "logo_link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqjxkxOMpWVit1t4_8EAJOq1hpwZksM8D79A&s",
+        "link": "https://m.bilibili.com"
+      },
+      {
         "title": "Facebook",
         "logo_link": "https://upload.wikimedia.org/wikipedia/commons/6/66/Facebook_Logo_2023.png",
         "link": "https://www.facebook.com"
