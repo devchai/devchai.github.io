@@ -26,7 +26,27 @@
         "type":"web"
       },
       {
-        "title": "Soop",
+        "title": "Facebook",
+        "logo_link": "https://upload.wikimedia.org/wikipedia/commons/6/66/Facebook_Logo_2023.png",
+        "link": "https://www.facebook.com"
+      },
+      {
+        "title": "Dailymotion",
+        "logo_link": "https://seeklogo.com/images/D/dailymotion-logo-1107208CE5-seeklogo.com.png",
+        "link": "https://www.dailymotion.com"
+      },
+      {
+        "title": "X",
+        "logo_link": "https://upload.wikimedia.org/wikipedia/commons/6/63/X_logo_2023_%28white%29.png",
+        "link": "https://www.x.com"
+      },
+      {
+        "title": "Vimeo",
+        "logo_link": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Vimeo_Logo.svg",
+        "link": "https://vimeo.com/watch"
+      },
+      {
+        "title": "OneStore",
         "logo_link": "https://play-lh.googleusercontent.com/p9zXgkP4pkCDVR-dQ2HfcHyD5vg9MTjDLFVpckObdHI9dGiiMO9TldFJ7kc5bgEGwYjo=w240-h480-rw",
         "link": "https://m.onestore.co.kr/v2/ko-kr/app/0000781477",
         "type":"direct_link"
