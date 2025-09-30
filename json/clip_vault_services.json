@@ -33,7 +33,7 @@
       },
       {
         "title": "Bilibili",
-        "logo_link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqjxkxOMpWVit1t4_8EAJOq1hpwZksM8D79A&s",
+        "logo_link": "https://i.imgur.com/ZEHVxho.png",
         "link": "https://m.bilibili.com"
       },
       {
@@ -45,6 +45,11 @@
         "title": "Dailymotion",
         "logo_link": "https://seeklogo.com/images/D/dailymotion-logo-1107208CE5-seeklogo.com.png",
         "link": "https://www.dailymotion.com"
+      },
+      {
+        "title": "TED",
+        "logo_link": "https://i.imgur.com/NLL2pmD.png",
+        "link": "https://ted.com/talks"
       },
       {
         "title": "X",
