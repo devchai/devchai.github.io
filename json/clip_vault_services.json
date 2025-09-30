@@ -2,6 +2,12 @@
   "services": {
     "service": [
       {
+        "title": "Tiktok",
+        "logo_link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLLJCftVWmY4BVQEieS2LY0pBHg4N1WW99sg&s",
+        "link": "https://www.tiktok.com/explore",
+        "type":"web"
+      },
+      {
         "title": "Instagram",
         "logo_link": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png",
         "link": "https://www.instagram.com",
