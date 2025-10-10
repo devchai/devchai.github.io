@@ -822,3 +822,22 @@ yeahmobi.com,5135370,RESELLER
 yieldmo.com,2757543169808605705,RESELLER
 zeta.com,757,RESELLER
 zmaticoo.com,5135655,RESELLER
+adlibr.com, 4f585bc70cf2b309e8b639a1, DIRECT
+acexchange.co.kr, 1981402498, DIRECT
+yeahmobi.com,5135370,RESELLER
+admize.io,p_4765925189486858,RESELLER
+betweendigital.com,44917,RESELLER
+bidence.com,1c671a01123b03e998a4d4b1ea9e7141,RESELLER
+mman.kr,30769,RESELLER
+admixer.co.kr,1252,RESELLER
+adbro.me,ddb75a63-1726-4176-af2a-cb4527edc652,RESELLER
+exelbid.com,200,RESELLER
+smartyads.com,100102,RESELLER, fd2bde0ff2e62c5d
+pubmatic.com,163120,RESELLER, 5d62403b186f2ace
+rubiconproject.com,27052,RESELLER, 0bfd66d529a55807
+pubmatic.com,165611,RESELLER, 5d62403b186f2ace
+smartadserver.com,5044,RESELLER, 060d053dcf45cbf3
+openx.com,563677663,RESELLER, 6a698e2ec38604c6
+algorix.co,60376,RESELLER, 5b394c12fea27a1d
+pubnative.net,1007249,RESELLER, d641df8625486a7b
+loopme.com,11544,RESELLER, 6c8d5f95897a5a3b
