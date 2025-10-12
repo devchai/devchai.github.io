@@ -1,10 +1,26 @@
 {
 	"google_api_key":"AIzaSyCAhvotmZ38H3-KeyadJ9CVSFZTL8b3T6Y",
 	"location":[
-		"미국 뉴욕", "한국 - 서울", "프랑스 파리", "베트남 다낭"
+		"미국 뉴욕", "한국 서울", "프랑스 파리", "베트남 다낭",
+		"일본 도쿄", "이탈리아 로마", "영국 런던", "스페인 바르셀로나",
+		"태국 방콕", "호주 시드니", "그리스 산토리니", "터키 이스탄불",
+		"UAE 두바이", "싱가포르", "독일 베를린", "체코 프라하",
+		"오스트리아 빈", "스위스 취리히", "네덜란드 암스테르담", "포르투갈 리스본",
+		"모로코 마라케시", "이집트 카이로", "인도 뭄바이", "중국 상하이",
+		"캐나다 밴쿠버", "브라질 리우데자네이루", "아르헨티나 부에노스아이레스", "멕시코 칸쿤",
+		"뉴질랜드 퀸스타운", "아이슬란드 레이캬비크", "노르웨이 오슬로", "스웨덴 스톡홀름",
+		"크로아티아 두브로브니크", "인도네시아 발리", "한국 제주도", "한국 부산"
 	],
 	"clothes":[
-		"캐쥬얼", "정장", "원피스"
+		"캐쥬얼", "정장", "원피스",
+		"비즈니스 캐주얼", "빈티지 스타일", "보헤미안 룩", "스트리트 패션",
+		"리조트 웨어", "데님 룩", "트렌치코트", "가죽 재킷",
+		"플로럴 드레스", "맥시 드레스", "미니 스커트", "와이드 팬츠",
+		"블레이저", "니트웨어", "카디건", "점프수트",
+		"한복", "기모노", "사리", "전통 의상",
+		"수영복", "비키니", "비치웨어", "선드레스",
+		"스포츠웨어", "등산복", "아웃도어 룩", "레깅스",
+		"롱코트", "패딩", "퍼 재킷", "트위드 재킷"
 	],
 	"prompt":"masterpiece, best quality, highly detailed, professional photography, Everyone in image 1, center composition, {location} photography, {clothe}, iconic landmark background, maintain facial identity, travel photography, candid pose, natural aesthetic, authentic moment, photorealistic, 8K resolution, cinematic composition"
 }
