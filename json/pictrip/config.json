@@ -9,7 +9,7 @@
 		"모로코 마라케시", "이집트 카이로", "인도 뭄바이", "중국 상하이",
 		"캐나다 밴쿠버", "브라질 리우데자네이루", "아르헨티나 부에노스아이레스", "멕시코 칸쿤",
 		"뉴질랜드 퀸스타운", "아이슬란드 레이캬비크", "노르웨이 오슬로", "스웨덴 스톡홀름",
-		"크로아티아 두브로브니크", "인도네시아 발리", "한국 제주도", "한국 부산"
+		"크로아티아 두브로브니크", "인도네시아 발리", "한국 제주도", "한국 부산", "몰디브"
 	],
 	"clothes":[
 		"캐쥬얼", "정장", "원피스",
@@ -22,5 +22,5 @@
 		"스포츠웨어", "등산복", "아웃도어 룩", "레깅스",
 		"롱코트", "패딩", "퍼 재킷", "트위드 재킷"
 	],
-	"prompt":"Keep the exact same face shape, eye shape, nose, lips, jawline as the person in the attached image, full body shot,masterpiece, best quality, highly detailed, professional photography, exact facial features from reference image, preserve facial identity accurately, all people from original photo, full body shot, medium to wide angle composition, environmental portrait style, {location} travel photography, {clothe}, iconic landmark background prominent, natural pose in scene, realistic skin texture on face, accurate facial structure maintained, person integrated with landscape, instagram-worthy photo, authentic travel moment, candid natural pose, golden hour lighting, balanced composition with background, photorealistic rendering, 8K resolution, cinematic travel photography, natural color grading, vacation aesthetic, subject and environment equally important, no extreme closeup"
+	"prompt":"Keep the exact same face shape, eye shape, nose, lips, jawline as the person in the attached image, full body shot,masterpiece, light smile, best quality, highly detailed, professional photography, exact facial features from reference image, preserve facial identity accurately, all people from original photo, full body shot, medium to wide angle composition, environmental portrait style, {location} travel photography, {clothe}, iconic landmark background prominent, natural pose in scene, realistic skin texture on face, accurate facial structure maintained, person integrated with landscape, instagram-worthy photo, authentic travel moment, candid natural pose, golden hour lighting, balanced composition with background, photorealistic rendering, 8K resolution, cinematic travel photography, natural color grading, vacation aesthetic, subject and environment equally important, no extreme closeup"
 }
