@@ -1,7 +1,56 @@
 {
   "services": {
     "service": [
-      
+      {
+        "title": "Tiktok",
+        "logo_link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLLJCftVWmY4BVQEieS2LY0pBHg4N1WW99sg&s",
+        "link": "https://www.tiktok.com/explore",
+        "type":"web"
+      },
+      {
+        "title": "Instagram",
+        "logo_link": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png",
+        "link": "https://www.instagram.com",
+        "type":"web"
+      },
+      {
+        "title": "Naver TV",
+        "logo_link": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Naver_TV_logo.png",
+        "link": "https://tv.naver.com",
+        "type":"web"
+      },
+      {
+        "title": "Soop",
+        "logo_link": "https://play-lh.googleusercontent.com/p9zXgkP4pkCDVR-dQ2HfcHyD5vg9MTjDLFVpckObdHI9dGiiMO9TldFJ7kc5bgEGwYjo=w240-h480-rw",
+        "link": "https://www.sooplive.co.kr/search?szSearchType=vod&szKeyword=&szStype=di&szActype=input_field&rs=1&szVideoFileType=ALL&has_hint=&pk_cnt=&location=total_search",
+        "type":"web"
+      },
+      {
+        "title": "Facebook",
+        "logo_link": "https://upload.wikimedia.org/wikipedia/commons/6/66/Facebook_Logo_2023.png",
+        "link": "https://www.facebook.com"
+      },
+      {
+        "title": "Dailymotion",
+        "logo_link": "https://i.imgur.com/wIRbiii.png",
+        "link": "https://www.dailymotion.com"
+      },
+      {
+        "title": "TED",
+        "logo_link": "https://i.imgur.com/NLL2pmD.png",
+        "link": "https://ted.com/talks"
+      },
+      {
+        "title": "X",
+        "logo_link": "https://i.imgur.com/q86EGUw.png",
+        "link": "https://www.x.com"
+      },
+      {
+        "title": "OneStore",
+        "logo_link": "https://play-lh.googleusercontent.com/p9zXgkP4pkCDVR-dQ2HfcHyD5vg9MTjDLFVpckObdHI9dGiiMO9TldFJ7kc5bgEGwYjo=w240-h480-rw",
+        "link": "https://m.onestore.co.kr/v2/ko-kr/app/0000781477",
+        "type":"direct_link"
+      }
     ]
   }
 }
