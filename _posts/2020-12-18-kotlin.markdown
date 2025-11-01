@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Kotlin] open"
+title:  "bigsale"
 date:   2020-12-18 11:45:31 +0530
 categories: "kotlin"
 author: "Dev C"
