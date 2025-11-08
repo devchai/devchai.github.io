@@ -1,0 +1,2081 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description" content="MyTube - High-Quality YouTube Video Downloader. Save your favorite YouTube videos and music in high quality and enjoy them offline without data worries.">
+    <meta name="keywords" content="YouTube downloader, video download, offline music, background playback">
+    <meta name="author" content="MyTube">
+    <meta name="theme-color" content="#DC143C">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="MyTube - High-Quality YouTube Video Downloader">
+    <meta property="og:description" content="Save your favorite YouTube videos and music in high quality and enjoy them offline">
+    <meta property="og:image" content="https://i.imgur.com/LvyjH1T.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="MyTube - High-Quality YouTube Video Downloader">
+    <meta name="twitter:description" content="Save your favorite YouTube videos and music in high quality and enjoy them offline">
+
+    <title>MyTube - High-Quality YouTube Video Downloader</title>
+    <link rel="icon" type="image/png" href="https://i.imgur.com/LvyjH1T.png">
+
+    <style>
+/* ============================================
+   CSS Variables - Red & White Theme
+   ============================================ */
+:root {
+    /* Primary Colors */
+    --color-primary: #DC143C;
+    --color-primary-dark: #B22222;
+    --color-primary-light: #FF4444;
+    --color-white: #FFFFFF;
+    --color-off-white: #F8F9FA;
+
+    /* Neutral Colors */
+    --color-gray-light: #E9ECEF;
+    --color-gray-medium: #ADB5BD;
+    --color-gray-dark: #6C757D;
+    --color-black: #212529;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+    --gradient-overlay: linear-gradient(180deg, rgba(220, 20, 60, 0.05) 0%, rgba(255, 255, 255, 0) 100%);
+
+    /* Spacing */
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 1rem;
+    --spacing-md: 1.5rem;
+    --spacing-lg: 2rem;
+    --spacing-xl: 3rem;
+    --spacing-2xl: 4rem;
+
+    /* Typography */
+    --font-family-base: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    --font-size-base: 1rem;
+    --font-size-sm: 0.875rem;
+    --font-size-lg: 1.125rem;
+    --font-size-xl: 1.5rem;
+    --font-size-2xl: 2rem;
+    --font-size-3xl: 2.5rem;
+    --font-size-4xl: 3rem;
+
+    /* Border Radius */
+    --border-radius-sm: 0.5rem;
+    --border-radius-md: 1rem;
+    --border-radius-lg: 1.5rem;
+    --border-radius-full: 9999px;
+
+    /* Shadows */
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.15);
+    --shadow-xl: 0 16px 48px rgba(0, 0, 0, 0.2);
+
+    /* Transitions */
+    --transition-fast: 0.15s ease;
+    --transition-base: 0.3s ease;
+    --transition-slow: 0.5s ease;
+
+    /* Z-index */
+    --z-index-dropdown: 1000;
+    --z-index-sticky: 1020;
+    --z-index-fixed: 1030;
+    --z-index-modal: 1040;
+    --z-index-tooltip: 1050;
+}
+
+/* ============================================
+   Reset & Base Styles
+   ============================================ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    font-family: var(--font-family-base);
+    font-size: var(--font-size-base);
+    line-height: 1.6;
+    color: var(--color-black);
+    background-color: var(--color-white);
+    overflow-x: hidden;
+
+    /* Edge-to-Edge Support */
+    padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: all var(--transition-base);
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+/* ============================================
+   Container & Layout
+   ============================================ */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 var(--spacing-md);
+}
+
+/* ============================================
+   Hero Section
+   ============================================ */
+.hero {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--gradient-primary);
+    color: var(--color-white);
+    text-align: center;
+    padding: var(--spacing-2xl) var(--spacing-md);
+    overflow: hidden;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at 30% 50%, rgba(255, 255, 255, 0.1) 0%, transparent 50%);
+    pointer-events: none;
+}
+
+.hero-container {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-content {
+    animation: fadeInUp 1s ease;
+}
+
+.app-icon {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto var(--spacing-lg);
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--shadow-xl);
+    animation: scaleIn 0.6s ease;
+}
+
+.hero-title {
+    font-size: var(--font-size-4xl);
+    font-weight: 700;
+    margin-bottom: var(--spacing-sm);
+    letter-spacing: -0.02em;
+}
+
+.hero-subtitle {
+    font-size: var(--font-size-xl);
+    font-weight: 500;
+    margin-bottom: var(--spacing-md);
+    opacity: 0.95;
+}
+
+.hero-description {
+    font-size: var(--font-size-lg);
+    max-width: 600px;
+    margin: 0 auto var(--spacing-xl);
+    opacity: 0.9;
+    line-height: 1.8;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: var(--spacing-md);
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* ============================================
+   Buttons
+   ============================================ */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-xs);
+    padding: var(--spacing-md) var(--spacing-xl);
+    font-size: var(--font-size-base);
+    font-weight: 600;
+    border-radius: var(--border-radius-full);
+    transition: all var(--transition-base);
+    box-shadow: var(--shadow-md);
+    cursor: pointer;
+}
+
+.btn-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.btn-primary {
+    background-color: var(--color-white);
+    color: var(--color-primary);
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+    background-color: var(--color-off-white);
+}
+
+.btn-secondary {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: var(--color-white);
+    backdrop-filter: blur(10px);
+    border: 2px solid var(--color-white);
+}
+
+.btn-secondary:hover {
+    transform: translateY(-2px);
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: var(--shadow-lg);
+}
+
+.btn-large {
+    padding: var(--spacing-lg) var(--spacing-2xl);
+    font-size: var(--font-size-lg);
+}
+
+/* ============================================
+   Section Styles
+   ============================================ */
+.section-title {
+    font-size: var(--font-size-3xl);
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: var(--spacing-2xl);
+    color: var(--color-black);
+    position: relative;
+}
+
+.section-title::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: var(--gradient-primary);
+    margin: var(--spacing-md) auto 0;
+    border-radius: var(--border-radius-sm);
+}
+
+/* ============================================
+   Features Section
+   ============================================ */
+.features {
+    padding: var(--spacing-2xl) 0;
+    background-color: var(--color-off-white);
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--spacing-xl);
+}
+
+.feature-card {
+    background-color: var(--color-white);
+    padding: var(--spacing-xl);
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--shadow-sm);
+    transition: all var(--transition-base);
+    text-align: center;
+}
+
+.feature-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-lg);
+}
+
+.feature-icon {
+    width: 64px;
+    height: 64px;
+    margin: 0 auto var(--spacing-lg);
+    color: var(--color-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, rgba(220, 20, 60, 0.1) 0%, rgba(220, 20, 60, 0.05) 100%);
+    border-radius: var(--border-radius-md);
+}
+
+.feature-icon svg {
+    width: 32px;
+    height: 32px;
+}
+
+.feature-title {
+    font-size: var(--font-size-xl);
+    font-weight: 600;
+    margin-bottom: var(--spacing-md);
+    color: var(--color-black);
+}
+
+.feature-description {
+    font-size: var(--font-size-base);
+    color: var(--color-gray-dark);
+    line-height: 1.7;
+}
+
+/* ============================================
+   Screenshots Gallery
+   ============================================ */
+.screenshots {
+    padding: var(--spacing-2xl) 0;
+    background-color: var(--color-white);
+}
+
+.screenshots-slider {
+    position: relative;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 60px;
+}
+
+.screenshots-container {
+    overflow: hidden;
+    border-radius: var(--border-radius-lg);
+}
+
+.screenshots-track {
+    display: flex;
+    gap: var(--spacing-lg);
+    transition: transform var(--transition-slow);
+}
+
+.screenshot-item {
+    flex: 0 0 calc(33.333% - var(--spacing-lg));
+    min-width: 300px;
+    border-radius: var(--border-radius-md);
+    overflow: hidden;
+    box-shadow: var(--shadow-md);
+    transition: all var(--transition-base);
+}
+
+.screenshot-item:hover {
+    transform: scale(1.05);
+    box-shadow: var(--shadow-xl);
+}
+
+.screenshot-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 48px;
+    height: 48px;
+    background-color: var(--color-white);
+    border-radius: var(--border-radius-full);
+    box-shadow: var(--shadow-lg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-primary);
+    transition: all var(--transition-base);
+    z-index: 10;
+}
+
+.slider-btn:hover {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    transform: translateY(-50%) scale(1.1);
+}
+
+.slider-btn svg {
+    width: 24px;
+    height: 24px;
+}
+
+.slider-btn-prev {
+    left: 0;
+}
+
+.slider-btn-next {
+    right: 0;
+}
+
+.slider-dots {
+    display: flex;
+    justify-content: center;
+    gap: var(--spacing-xs);
+    margin-top: var(--spacing-xl);
+}
+
+.slider-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: var(--border-radius-full);
+    background-color: var(--color-gray-light);
+    border: none;
+    cursor: pointer;
+    transition: all var(--transition-base);
+}
+
+.slider-dot.active {
+    background-color: var(--color-primary);
+    width: 32px;
+}
+
+.slider-dot:hover {
+    background-color: var(--color-primary-light);
+}
+
+/* ============================================
+   Benefits Section
+   ============================================ */
+.benefits {
+    padding: var(--spacing-2xl) 0;
+    background: var(--gradient-overlay);
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-lg);
+}
+
+.benefit-card {
+    background-color: var(--color-white);
+    padding: var(--spacing-xl);
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--shadow-sm);
+    transition: all var(--transition-base);
+    text-align: center;
+    border: 2px solid transparent;
+}
+
+.benefit-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--color-primary);
+}
+
+.benefit-emoji {
+    font-size: 3rem;
+    margin-bottom: var(--spacing-md);
+}
+
+.benefit-title {
+    font-size: var(--font-size-xl);
+    font-weight: 600;
+    margin-bottom: var(--spacing-sm);
+    color: var(--color-black);
+}
+
+.benefit-description {
+    font-size: var(--font-size-base);
+    color: var(--color-gray-dark);
+    line-height: 1.6;
+}
+
+/* ============================================
+   CTA Section
+   ============================================ */
+.cta-section {
+    padding: var(--spacing-2xl) 0;
+    background: var(--gradient-primary);
+    color: var(--color-white);
+    text-align: center;
+}
+
+.cta-title {
+    font-size: var(--font-size-3xl);
+    font-weight: 700;
+    margin-bottom: var(--spacing-md);
+}
+
+.cta-description {
+    font-size: var(--font-size-lg);
+    margin-bottom: var(--spacing-xl);
+    opacity: 0.95;
+}
+
+/* ============================================
+   Footer
+   ============================================ */
+.footer {
+    padding: var(--spacing-2xl) 0 var(--spacing-lg);
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: var(--spacing-xl);
+    margin-bottom: var(--spacing-xl);
+}
+
+.footer-title {
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    margin-bottom: var(--spacing-md);
+    color: var(--color-primary);
+}
+
+.footer-subtitle {
+    font-size: var(--font-size-lg);
+    font-weight: 600;
+    margin-bottom: var(--spacing-md);
+}
+
+.footer-description {
+    font-size: var(--font-size-base);
+    color: var(--color-gray-medium);
+    line-height: 1.6;
+}
+
+.footer-list {
+    list-style: none;
+}
+
+.footer-list li {
+    margin-bottom: var(--spacing-sm);
+}
+
+.footer-list a {
+    color: var(--color-gray-medium);
+    transition: color var(--transition-base);
+}
+
+.footer-list a:hover {
+    color: var(--color-primary);
+}
+
+.footer-bottom {
+    padding-top: var(--spacing-xl);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--spacing-md);
+}
+
+.copyright {
+    color: var(--color-gray-medium);
+    font-size: var(--font-size-sm);
+}
+
+.social-links {
+    display: flex;
+    gap: var(--spacing-md);
+}
+
+.social-link {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: var(--border-radius-full);
+    color: var(--color-white);
+    transition: all var(--transition-base);
+}
+
+.social-link:hover {
+    background-color: var(--color-primary);
+    transform: translateY(-3px);
+}
+
+.social-link svg {
+    width: 20px;
+    height: 20px;
+}
+
+/* ============================================
+   Animations
+   ============================================ */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes scaleIn {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Scroll Animation Trigger */
+.fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all var(--transition-slow);
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ============================================
+   Responsive Design
+   ============================================ */
+@media (max-width: 1024px) {
+    :root {
+        --font-size-4xl: 2.5rem;
+        --font-size-3xl: 2rem;
+    }
+
+    .screenshots-track {
+        gap: var(--spacing-md);
+    }
+
+    .screenshot-item {
+        flex: 0 0 calc(50% - var(--spacing-md));
+        min-width: 250px;
+    }
+}
+
+@media (max-width: 768px) {
+    :root {
+        --font-size-4xl: 2rem;
+        --font-size-3xl: 1.75rem;
+        --font-size-2xl: 1.5rem;
+        --spacing-2xl: 3rem;
+    }
+
+    .hero {
+        min-height: 90vh;
+        padding: var(--spacing-xl) var(--spacing-md);
+    }
+
+    .app-icon {
+        width: 100px;
+        height: 100px;
+    }
+
+    .hero-title {
+        font-size: var(--font-size-3xl);
+    }
+
+    .hero-subtitle {
+        font-size: var(--font-size-lg);
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .btn {
+        width: 100%;
+        max-width: 320px;
+        margin: 0 auto;
+    }
+
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .screenshots-slider {
+        padding: 0 var(--spacing-md);
+    }
+
+    .screenshot-item {
+        flex: 0 0 100%;
+        min-width: 100%;
+    }
+
+    .slider-btn {
+        width: 40px;
+        height: 40px;
+    }
+
+    .benefits-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    :root {
+        --spacing-xl: 2rem;
+        --spacing-2xl: 2.5rem;
+    }
+
+    .container {
+        padding: 0 var(--spacing-sm);
+    }
+
+    .app-icon {
+        width: 80px;
+        height: 80px;
+    }
+
+    .hero-description br {
+        display: none;
+    }
+
+    .btn-large {
+        padding: var(--spacing-md) var(--spacing-lg);
+        font-size: var(--font-size-base);
+    }
+
+    .screenshot-item {
+        min-width: 100%;
+    }
+}
+
+/* ============================================
+   Accessibility
+   ============================================ */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* Focus Styles */
+a:focus-visible,
+button:focus-visible {
+    outline: 3px solid var(--color-primary);
+    outline-offset: 2px;
+}
+
+/* Print Styles */
+@media print {
+    .slider-btn,
+    .social-links,
+    .cta-buttons {
+        display: none;
+    }
+
+    .screenshot-item {
+        flex: 0 0 100%;
+        page-break-inside: avoid;
+    }
+}
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero" role="banner">
+        <div class="hero-container">
+            <div class="hero-content">
+                <img
+                    src="https://i.imgur.com/LvyjH1T.png"
+                    alt="MyTube App Icon"
+                    class="app-icon"
+                    loading="eager"
+                >
+                <h1 class="hero-title">MyTube</h1>
+                <p class="hero-subtitle">High-Quality YouTube Video Downloader</p>
+                <p class="hero-description">
+                    Save your favorite YouTube videos and music in high quality<br>
+                    and enjoy them offline without data worries
+                </p>
+                <div class="cta-buttons">
+                    <a href="https://m.onestore.co.kr/ko-kr/apps/appsDetail.omp?prodId=0000774590" class="btn btn-primary btn-large" target="_blank" rel="noopener noreferrer" aria-label="Download on ONE store">
+                        <img src="https://i.imgur.com/MxE0Hp7.png" alt="ONE store" class="btn-icon" aria-hidden="true">
+                        ONE store
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section class="features" id="features" role="region" aria-labelledby="features-heading">
+        <div class="container">
+            <h2 id="features-heading" class="section-title">Premium Features for Ultimate Experience</h2>
+            <div class="features-grid">
+                <article class="feature-card">
+                    <div class="feature-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M13,9V3.5L18.5,9M6,2C4.89,2 4,2.89 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2H6Z"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">One-Tap Download</h3>
+                    <p class="feature-description">
+                        Download any video instantly with just one touch - no complicated steps required.
+                        Quick search and save functionality for all your favorite content.
+                    </p>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M17,10.5V7A1,1 0 0,0 16,6H4A1,1 0 0,0 3,7V17A1,1 0 0,0 4,18H16A1,1 0 0,0 17,17V13.5L21,17.5V6.5L17,10.5Z"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Multiple Quality Options</h3>
+                    <p class="feature-description">
+                        Choose from 360p to 1080p Full HD resolution.
+                        Perfect balance between storage space and viewing quality for your needs.
+                    </p>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12,3V12.26C11.5,12.09 11,12 10.5,12C8,12 6,14 6,16.5C6,19 8,21 10.5,21C13,21 15,19 15,16.5V6H19V3H12Z"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Background Playback</h3>
+                    <p class="feature-description">
+                        Enjoy music even with your screen off or while using other apps.
+                        Perfect for multitasking and saving battery life.
+                    </p>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M17,13H13V17H11V13H7V11H11V7H13V11H17M19,3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3Z"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Perfect Offline Playback</h3>
+                    <p class="feature-description">
+                        Once downloaded, enjoy unlimited playback without internet.
+                        Perfect for flights, travel, and data-free entertainment.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshots Gallery -->
+    <section class="screenshots" id="screenshots" role="region" aria-labelledby="screenshots-heading">
+        <div class="container">
+            <h2 id="screenshots-heading" class="section-title">App Screenshots</h2>
+            <div class="screenshots-slider" role="region" aria-label="App screenshots carousel">
+                <button class="slider-btn slider-btn-prev" aria-label="Previous screenshot">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z"/>
+                    </svg>
+                </button>
+
+                <div class="screenshots-container">
+                    <div class="screenshots-track">
+                        <div class="screenshot-item">
+                            <img src="https://i.imgur.com/HYirrD2.png" alt="MyTube main screen showing video search and download interface" loading="lazy">
+                        </div>
+                        <div class="screenshot-item">
+                            <img src="https://i.imgur.com/F6qrHak.png" alt="Video quality selection screen with multiple resolution options" loading="lazy">
+                        </div>
+                        <div class="screenshot-item">
+                            <img src="https://i.imgur.com/gXEYLUy.png" alt="Downloaded videos library with organized playlist" loading="lazy">
+                        </div>
+                        <div class="screenshot-item">
+                            <img src="https://i.imgur.com/xJxHvfb.png" alt="Video player interface with playback controls" loading="lazy">
+                        </div>
+                        <div class="screenshot-item">
+                            <img src="https://i.imgur.com/sxYdqkI.png" alt="Background music player with playlist management" loading="lazy">
+                        </div>
+                        <div class="screenshot-item">
+                            <img src="https://i.imgur.com/gXEYLUy.png" alt="Download progress and management screen" loading="lazy">
+                        </div>
+                        <div class="screenshot-item">
+                            <img src="https://i.imgur.com/AGumYVY.png" alt="App settings and customization options" loading="lazy">
+                        </div>
+                        <div class="screenshot-item">
+                            <img src="https://i.imgur.com/qzfLKWg.png" alt="Offline playback feature demonstration" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+
+                <button class="slider-btn slider-btn-next" aria-label="Next screenshot">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"/>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="slider-dots" role="tablist" aria-label="Screenshot navigation"></div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits" id="benefits" role="region" aria-labelledby="benefits-heading">
+        <div class="container">
+            <h2 id="benefits-heading" class="section-title">Perfect For</h2>
+            <div class="benefits-grid">
+                <article class="benefit-card">
+                    <div class="benefit-emoji" aria-hidden="true">🚇</div>
+                    <h3 class="benefit-title">Commuters</h3>
+                    <p class="benefit-description">Watch YouTube videos without data worries during your daily commute</p>
+                </article>
+
+                <article class="benefit-card">
+                    <div class="benefit-emoji" aria-hidden="true">✈️</div>
+                    <h3 class="benefit-title">Travelers</h3>
+                    <p class="benefit-description">Enjoy your favorite music during international trips and flights</p>
+                </article>
+
+                <article class="benefit-card">
+                    <div class="benefit-emoji" aria-hidden="true">📚</div>
+                    <h3 class="benefit-title">Students</h3>
+                    <p class="benefit-description">Review lectures and educational videos offline anytime, anywhere</p>
+                </article>
+
+                <article class="benefit-card">
+                    <div class="benefit-emoji" aria-hidden="true">💰</div>
+                    <h3 class="benefit-title">Budget-Conscious Users</h3>
+                    <p class="benefit-description">Save on data plan costs by downloading videos on WiFi</p>
+                </article>
+
+                <article class="benefit-card">
+                    <div class="benefit-emoji" aria-hidden="true">🎵</div>
+                    <h3 class="benefit-title">Music Lovers</h3>
+                    <p class="benefit-description">Collect music videos in high quality and build your personal library</p>
+                </article>
+
+                <article class="benefit-card">
+                    <div class="benefit-emoji" aria-hidden="true">💪</div>
+                    <h3 class="benefit-title">Fitness Enthusiasts</h3>
+                    <p class="benefit-description">Background music during workouts without interruption</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta-section" role="region" aria-labelledby="cta-heading">
+        <div class="container">
+            <h2 id="cta-heading" class="cta-title">Download MyTube Now</h2>
+            <p class="cta-description">Join millions of users enjoying unlimited offline videos and music</p>
+            <div class="cta-buttons">
+                <a href="https://m.onestore.co.kr/ko-kr/apps/appsDetail.omp?prodId=0000774590" class="btn btn-primary btn-large" target="_blank" rel="noopener noreferrer" aria-label="Download on ONE store">
+                    <img src="https://i.imgur.com/MxE0Hp7.png" alt="ONE store" class="btn-icon" aria-hidden="true">
+                    Download for Android
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">MyTube</h3>
+                    <p class="footer-description">
+                        The ultimate YouTube video downloader trusted by millions worldwide
+                    </p>
+                </div>
+
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Features</h4>
+                    <ul class="footer-list">
+                        <li><a href="#features">One-Tap Download</a></li>
+                        <li><a href="#features">Multiple Quality</a></li>
+                        <li><a href="#features">Background Playback</a></li>
+                        <li><a href="#features">Offline Mode</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Support</h4>
+                    <ul class="footer-list">
+                        <li><a href="#help">Help Center</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="copyright">
+                    &copy; 2024 MyTube. All rights reserved.
+                </p>
+                <div class="social-links" aria-label="Social media links">
+                    <a href="#" class="social-link" aria-label="Facebook">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2.04C6.5 2.04 2 6.53 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.85C10.44 7.34 11.93 5.96 14.22 5.96C15.31 5.96 16.45 6.15 16.45 6.15V8.62H15.19C13.95 8.62 13.56 9.39 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96A10 10 0 0 0 22 12.06C22 6.53 17.5 2.04 12 2.04Z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Twitter">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M22.46,6C21.69,6.35 20.86,6.58 20,6.69C20.88,6.16 21.56,5.32 21.88,4.31C21.05,4.81 20.13,5.16 19.16,5.36C18.37,4.5 17.26,4 16,4C13.65,4 11.73,5.92 11.73,8.29C11.73,8.63 11.77,8.96 11.84,9.27C8.28,9.09 5.11,7.38 3,4.79C2.63,5.42 2.42,6.16 2.42,6.94C2.42,8.43 3.17,9.75 4.33,10.5C3.62,10.5 2.96,10.3 2.38,10C2.38,10 2.38,10 2.38,10.03C2.38,12.11 3.86,13.85 5.82,14.24C5.46,14.34 5.08,14.39 4.69,14.39C4.42,14.39 4.15,14.36 3.89,14.31C4.43,16 6,17.26 7.89,17.29C6.43,18.45 4.58,19.13 2.56,19.13C2.22,19.13 1.88,19.11 1.54,19.07C3.44,20.29 5.70,21 8.12,21C16,21 20.33,14.46 20.33,8.79C20.33,8.6 20.33,8.42 20.32,8.23C21.16,7.63 21.88,6.87 22.46,6Z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+/**
+ * ============================================
+ * LoggerManager - Centralized Logging System
+ * ============================================
+ *
+ * 디버그/릴리즈 모드를 쉽게 전환할 수 있는 로깅 시스템
+ * 로그 포맷: className - methodName(line_number) : msg
+ * 로그 태그: logger_tag_chai
+ */
+
+class LoggerManager {
+    // 디버그 모드 설정 (true: 로그 출력, false: 로그 숨김)
+    static DEBUG_MODE = true;  // 개발 중에는 true, 배포 시에는 false로 변경
+    static LOG_TAG = 'logger_tag_chai';
+
+    /**
+     * 로그 레벨
+     */
+    static LogLevel = {
+        DEBUG: 'DEBUG',
+        INFO: 'INFO',
+        WARN: 'WARN',
+        ERROR: 'ERROR'
+    };
+
+    /**
+     * 로그 출력 스타일
+     */
+    static LogStyles = {
+        DEBUG: 'color: #6C757D; font-weight: normal;',
+        INFO: 'color: #0D6EFD; font-weight: normal;',
+        WARN: 'color: #FFC107; font-weight: bold;',
+        ERROR: 'color: #DC3545; font-weight: bold;'
+    };
+
+    /**
+     * 포맷된 로그 메시지 생성
+     * @param {string} className - 클래스명
+     * @param {string} methodName - 메서드명
+     * @param {number} lineNumber - 라인 번호
+     * @param {string} message - 로그 메시지
+     * @returns {string} 포맷된 로그 메시지
+     */
+    static formatMessage(className, methodName, lineNumber, message) {
+        return `[${this.LOG_TAG}] ${className} - ${methodName}(${lineNumber}) : ${message}`;
+    }
+
+    /**
+     * 디버그 로그
+     * @param {string} className - 클래스명
+     * @param {string} methodName - 메서드명
+     * @param {number} lineNumber - 라인 번호
+     * @param {string} message - 로그 메시지
+     * @param {any} data - 추가 데이터 (선택사항)
+     */
+    static debug(className, methodName, lineNumber, message, data = null) {
+        if (!this.DEBUG_MODE) return;
+
+        const formattedMsg = this.formatMessage(className, methodName, lineNumber, message);
+        console.log(`%c${formattedMsg}`, this.LogStyles.DEBUG);
+
+        if (data !== null) {
+            console.log('%cData:', 'color: #6C757D;', data);
+        }
+    }
+
+    /**
+     * 정보 로그
+     * @param {string} className - 클래스명
+     * @param {string} methodName - 메서드명
+     * @param {number} lineNumber - 라인 번호
+     * @param {string} message - 로그 메시지
+     * @param {any} data - 추가 데이터 (선택사항)
+     */
+    static info(className, methodName, lineNumber, message, data = null) {
+        if (!this.DEBUG_MODE) return;
+
+        const formattedMsg = this.formatMessage(className, methodName, lineNumber, message);
+        console.info(`%c${formattedMsg}`, this.LogStyles.INFO);
+
+        if (data !== null) {
+            console.info('%cData:', 'color: #0D6EFD;', data);
+        }
+    }
+
+    /**
+     * 경고 로그
+     * @param {string} className - 클래스명
+     * @param {string} methodName - 메서드명
+     * @param {number} lineNumber - 라인 번호
+     * @param {string} message - 로그 메시지
+     * @param {any} data - 추가 데이터 (선택사항)
+     */
+    static warn(className, methodName, lineNumber, message, data = null) {
+        if (!this.DEBUG_MODE) return;
+
+        const formattedMsg = this.formatMessage(className, methodName, lineNumber, message);
+        console.warn(`%c${formattedMsg}`, this.LogStyles.WARN);
+
+        if (data !== null) {
+            console.warn('%cData:', 'color: #FFC107;', data);
+        }
+    }
+
+    /**
+     * 에러 로그
+     * @param {string} className - 클래스명
+     * @param {string} methodName - 메서드명
+     * @param {number} lineNumber - 라인 번호
+     * @param {string} message - 로그 메시지
+     * @param {any} error - 에러 객체 (선택사항)
+     */
+    static error(className, methodName, lineNumber, message, error = null) {
+        if (!this.DEBUG_MODE) return;
+
+        const formattedMsg = this.formatMessage(className, methodName, lineNumber, message);
+        console.error(`%c${formattedMsg}`, this.LogStyles.ERROR);
+
+        if (error !== null) {
+            console.error('%cError:', 'color: #DC3545;', error);
+        }
+    }
+
+    /**
+     * View 로그 출력 (Activity, Fragment, View가 화면에 표시될 때)
+     * @param {string} viewName - View 이름 (클래스명)
+     */
+    static logViewDisplayed(viewName) {
+        if (!this.DEBUG_MODE) return;
+
+        const separator = '@'.repeat(55);
+        console.log(`%c${separator}`, 'color: #DC143C; font-weight: bold;');
+        console.log(`%c${viewName}`, 'color: #DC143C; font-size: 16px; font-weight: bold;');
+        console.log(`%c${separator}`, 'color: #DC143C; font-weight: bold;');
+    }
+
+    /**
+     * 그룹 로그 시작
+     * @param {string} groupName - 그룹명
+     */
+    static groupStart(groupName) {
+        if (!this.DEBUG_MODE) return;
+        console.group(`%c[${this.LOG_TAG}] ${groupName}`, 'color: #0D6EFD; font-weight: bold;');
+    }
+
+    /**
+     * 그룹 로그 종료
+     */
+    static groupEnd() {
+        if (!this.DEBUG_MODE) return;
+        console.groupEnd();
+    }
+
+    /**
+     * 성능 측정 시작
+     * @param {string} label - 측정 레이블
+     */
+    static timeStart(label) {
+        if (!this.DEBUG_MODE) return;
+        console.time(`[${this.LOG_TAG}] ${label}`);
+    }
+
+    /**
+     * 성능 측정 종료
+     * @param {string} label - 측정 레이블
+     */
+    static timeEnd(label) {
+        if (!this.DEBUG_MODE) return;
+        console.timeEnd(`[${this.LOG_TAG}] ${label}`);
+    }
+
+    /**
+     * 테이블 형식 로그
+     * @param {Array|Object} data - 테이블로 표시할 데이터
+     */
+    static table(data) {
+        if (!this.DEBUG_MODE) return;
+        console.table(data);
+    }
+}
+
+/**
+ * ============================================
+ * Utility Functions
+ * ============================================
+ */
+
+/**
+ * 디바운스 함수 - 연속된 이벤트 호출을 제어
+ * @param {Function} func - 실행할 함수
+ * @param {number} delay - 지연 시간 (ms)
+ * @returns {Function} 디바운스된 함수
+ */
+function debounce(func, delay = 300) {
+    let timeoutId;
+    return function (...args) {
+        clearTimeout(timeoutId);
+        timeoutId = setTimeout(() => func.apply(this, args), delay);
+    };
+}
+
+/**
+ * 쓰로틀 함수 - 일정 시간마다 한 번만 함수 실행
+ * @param {Function} func - 실행할 함수
+ * @param {number} limit - 제한 시간 (ms)
+ * @returns {Function} 쓰로틀된 함수
+ */
+function throttle(func, limit = 300) {
+    let inThrottle;
+    return function (...args) {
+        if (!inThrottle) {
+            func.apply(this, args);
+            inThrottle = true;
+            setTimeout(() => inThrottle = false, limit);
+        }
+    };
+}
+
+/**
+ * 요소가 뷰포트에 보이는지 확인
+ * @param {HTMLElement} element - 확인할 요소
+ * @param {number} threshold - 임계값 (0-1, 기본값: 0.1)
+ * @returns {boolean} 요소 가시성 여부
+ */
+function isElementInViewport(element, threshold = 0.1) {
+    const rect = element.getBoundingClientRect();
+    const windowHeight = window.innerHeight || document.documentElement.clientHeight;
+    const windowWidth = window.innerWidth || document.documentElement.clientWidth;
+
+    const vertInView = (rect.top <= windowHeight * (1 - threshold)) && ((rect.top + rect.height) >= windowHeight * threshold);
+    const horInView = (rect.left <= windowWidth) && ((rect.left + rect.width) >= 0);
+
+    return vertInView && horInView;
+}
+
+/**
+ * 부드러운 스크롤
+ * @param {string|HTMLElement} target - 스크롤할 대상 (선택자 또는 요소)
+ * @param {number} offset - 오프셋 (px, 기본값: 0)
+ */
+function smoothScrollTo(target, offset = 0) {
+    const element = typeof target === 'string' ? document.querySelector(target) : target;
+
+    if (!element) {
+        LoggerManager.warn('Utils', 'smoothScrollTo', 269, '대상 요소를 찾을 수 없습니다', target);
+        return;
+    }
+
+    const targetPosition = element.getBoundingClientRect().top + window.pageYOffset - offset;
+
+    window.scrollTo({
+        top: targetPosition,
+        behavior: 'smooth'
+    });
+
+    LoggerManager.debug('Utils', 'smoothScrollTo', 280, '부드러운 스크롤 실행', { target, offset, targetPosition });
+}
+
+/**
+ * 로컬 스토리지 헬퍼
+ */
+const StorageHelper = {
+    /**
+     * 데이터 저장
+     * @param {string} key - 키
+     * @param {any} value - 값
+     */
+    set(key, value) {
+        try {
+            const serialized = JSON.stringify(value);
+            localStorage.setItem(key, serialized);
+            LoggerManager.debug('StorageHelper', 'set', 297, '데이터 저장 완료', { key, value });
+        } catch (error) {
+            LoggerManager.error('StorageHelper', 'set', 299, '데이터 저장 실패', error);
+        }
+    },
+
+    /**
+     * 데이터 가져오기
+     * @param {string} key - 키
+     * @param {any} defaultValue - 기본값 (선택사항)
+     * @returns {any} 저장된 값 또는 기본값
+     */
+    get(key, defaultValue = null) {
+        try {
+            const item = localStorage.getItem(key);
+            if (item === null) return defaultValue;
+            return JSON.parse(item);
+        } catch (error) {
+            LoggerManager.error('StorageHelper', 'get', 314, '데이터 가져오기 실패', error);
+            return defaultValue;
+        }
+    },
+
+    /**
+     * 데이터 삭제
+     * @param {string} key - 키
+     */
+    remove(key) {
+        try {
+            localStorage.removeItem(key);
+            LoggerManager.debug('StorageHelper', 'remove', 325, '데이터 삭제 완료', { key });
+        } catch (error) {
+            LoggerManager.error('StorageHelper', 'remove', 327, '데이터 삭제 실패', error);
+        }
+    },
+
+    /**
+     * 모든 데이터 삭제
+     */
+    clear() {
+        try {
+            localStorage.clear();
+            LoggerManager.debug('StorageHelper', 'clear', 337, '모든 데이터 삭제 완료');
+        } catch (error) {
+            LoggerManager.error('StorageHelper', 'clear', 339, '데이터 삭제 실패', error);
+        }
+    }
+};
+
+/**
+ * 날짜 포맷 헬퍼
+ */
+const DateHelper = {
+    /**
+     * 날짜를 특정 형식으로 포맷
+     * @param {Date} date - 날짜 객체
+     * @param {string} format - 포맷 (YYYY-MM-DD, YYYY/MM/DD HH:mm:ss 등)
+     * @returns {string} 포맷된 날짜 문자열
+     */
+    format(date, format = 'YYYY-MM-DD') {
+        const year = date.getFullYear();
+        const month = String(date.getMonth() + 1).padStart(2, '0');
+        const day = String(date.getDate()).padStart(2, '0');
+        const hours = String(date.getHours()).padStart(2, '0');
+        const minutes = String(date.getMinutes()).padStart(2, '0');
+        const seconds = String(date.getSeconds()).padStart(2, '0');
+
+        return format
+            .replace('YYYY', year)
+            .replace('MM', month)
+            .replace('DD', day)
+            .replace('HH', hours)
+            .replace('mm', minutes)
+            .replace('ss', seconds);
+    },
+
+    /**
+     * 상대 시간 문자열 생성 (예: "5분 전", "2시간 전")
+     * @param {Date} date - 날짜 객체
+     * @returns {string} 상대 시간 문자열
+     */
+    getRelativeTime(date) {
+        const now = new Date();
+        const diff = now - date;
+        const seconds = Math.floor(diff / 1000);
+        const minutes = Math.floor(seconds / 60);
+        const hours = Math.floor(minutes / 60);
+        const days = Math.floor(hours / 24);
+
+        if (days > 0) return `${days}일 전`;
+        if (hours > 0) return `${hours}시간 전`;
+        if (minutes > 0) return `${minutes}분 전`;
+        return '방금 전';
+    }
+};
+
+/**
+ * ============================================
+ * MyTube Landing Page - Main JavaScript
+ * ============================================
+ */
+
+/**
+ * Screenshot Slider 클래스
+ * 스크린샷 갤러리를 관리하는 슬라이더
+ */
+class ScreenshotSlider {
+    constructor(sliderElement) {
+        this.slider = sliderElement;
+        this.track = this.slider.querySelector('.screenshots-track');
+        this.items = Array.from(this.slider.querySelectorAll('.screenshot-item'));
+        this.prevBtn = this.slider.querySelector('.slider-btn-prev');
+        this.nextBtn = this.slider.querySelector('.slider-btn-next');
+        this.dotsContainer = document.querySelector('.slider-dots');
+
+        this.currentIndex = 0;
+        this.itemsToShow = this.getItemsToShow();
+        this.totalSlides = Math.max(0, this.items.length - this.itemsToShow + 1);
+
+        // 터치/스와이프 관련
+        this.touchStartX = 0;
+        this.touchEndX = 0;
+        this.isDragging = false;
+
+        this.init();
+        LoggerManager.logViewDisplayed('ScreenshotSlider');
+        LoggerManager.info('ScreenshotSlider', 'constructor', 32, '슬라이더 초기화 완료', {
+            itemsCount: this.items.length,
+            itemsToShow: this.itemsToShow,
+            totalSlides: this.totalSlides
+        });
+    }
+
+    /**
+     * 초기화
+     */
+    init() {
+        LoggerManager.debug('ScreenshotSlider', 'init', 43, '슬라이더 초기화 시작');
+
+        this.createDots();
+        this.attachEventListeners();
+        this.updateSlider();
+
+        // 반응형 대응
+        window.addEventListener('resize', debounce(() => {
+            this.handleResize();
+        }, 250));
+
+        LoggerManager.debug('ScreenshotSlider', 'init', 53, '슬라이더 초기화 완료');
+    }
+
+    /**
+     * 화면 크기에 따라 보여줄 아이템 수 결정
+     * @returns {number} 보여줄 아이템 수
+     */
+    getItemsToShow() {
+        const width = window.innerWidth;
+        if (width >= 1024) return 3;  // Desktop
+        if (width >= 768) return 2;   // Tablet
+        return 1;                      // Mobile
+    }
+
+    /**
+     * 도트 네비게이션 생성
+     */
+    createDots() {
+        if (!this.dotsContainer) {
+            LoggerManager.warn('ScreenshotSlider', 'createDots', 73, '도트 컨테이너를 찾을 수 없습니다');
+            return;
+        }
+
+        this.dotsContainer.innerHTML = '';
+
+        for (let i = 0; i < this.totalSlides; i++) {
+            const dot = document.createElement('button');
+            dot.className = 'slider-dot';
+            dot.setAttribute('role', 'tab');
+            dot.setAttribute('aria-label', `스크린샷 ${i + 1}로 이동`);
+            dot.setAttribute('aria-selected', i === 0 ? 'true' : 'false');
+
+            if (i === 0) {
+                dot.classList.add('active');
+            }
+
+            dot.addEventListener('click', () => this.goToSlide(i));
+            this.dotsContainer.appendChild(dot);
+        }
+
+        LoggerManager.debug('ScreenshotSlider', 'createDots', 95, '도트 생성 완료', { count: this.totalSlides });
+    }
+
+    /**
+     * 이벤트 리스너 등록
+     */
+    attachEventListeners() {
+        // 버튼 클릭
+        this.prevBtn?.addEventListener('click', () => this.prev());
+        this.nextBtn?.addEventListener('click', () => this.next());
+
+        // 터치 이벤트
+        this.track.addEventListener('touchstart', (e) => this.handleTouchStart(e), { passive: true });
+        this.track.addEventListener('touchmove', (e) => this.handleTouchMove(e), { passive: true });
+        this.track.addEventListener('touchend', () => this.handleTouchEnd());
+
+        // 마우스 드래그 (데스크톱)
+        this.track.addEventListener('mousedown', (e) => this.handleMouseDown(e));
+        this.track.addEventListener('mousemove', (e) => this.handleMouseMove(e));
+        this.track.addEventListener('mouseup', () => this.handleMouseUp());
+        this.track.addEventListener('mouseleave', () => this.handleMouseUp());
+
+        // 키보드 네비게이션
+        document.addEventListener('keydown', (e) => this.handleKeyboard(e));
+
+        LoggerManager.debug('ScreenshotSlider', 'attachEventListeners', 122, '이벤트 리스너 등록 완료');
+    }
+
+    /**
+     * 슬라이더 업데이트
+     */
+    updateSlider() {
+        const offset = -this.currentIndex * (100 / this.itemsToShow);
+        this.track.style.transform = `translateX(${offset}%)`;
+
+        // 도트 업데이트
+        const dots = this.dotsContainer?.querySelectorAll('.slider-dot');
+        dots?.forEach((dot, index) => {
+            const isActive = index === this.currentIndex;
+            dot.classList.toggle('active', isActive);
+            dot.setAttribute('aria-selected', isActive.toString());
+        });
+
+        // 버튼 비활성화 상태 업데이트
+        if (this.prevBtn) {
+            this.prevBtn.disabled = this.currentIndex === 0;
+            this.prevBtn.style.opacity = this.currentIndex === 0 ? '0.5' : '1';
+        }
+
+        if (this.nextBtn) {
+            this.nextBtn.disabled = this.currentIndex >= this.totalSlides - 1;
+            this.nextBtn.style.opacity = this.currentIndex >= this.totalSlides - 1 ? '0.5' : '1';
+        }
+
+        LoggerManager.debug('ScreenshotSlider', 'updateSlider', 152, '슬라이더 업데이트', {
+            currentIndex: this.currentIndex,
+            offset: `${offset}%`
+        });
+    }
+
+    /**
+     * 이전 슬라이드
+     */
+    prev() {
+        if (this.currentIndex > 0) {
+            this.currentIndex--;
+            this.updateSlider();
+            LoggerManager.info('ScreenshotSlider', 'prev', 165, '이전 슬라이드로 이동', { currentIndex: this.currentIndex });
+        }
+    }
+
+    /**
+     * 다음 슬라이드
+     */
+    next() {
+        if (this.currentIndex < this.totalSlides - 1) {
+            this.currentIndex++;
+            this.updateSlider();
+            LoggerManager.info('ScreenshotSlider', 'next', 176, '다음 슬라이드로 이동', { currentIndex: this.currentIndex });
+        }
+    }
+
+    /**
+     * 특정 슬라이드로 이동
+     * @param {number} index - 슬라이드 인덱스
+     */
+    goToSlide(index) {
+        if (index >= 0 && index < this.totalSlides) {
+            this.currentIndex = index;
+            this.updateSlider();
+            LoggerManager.info('ScreenshotSlider', 'goToSlide', 189, '슬라이드로 이동', { index });
+        }
+    }
+
+    /**
+     * 터치 시작 처리
+     * @param {TouchEvent} e - 터치 이벤트
+     */
+    handleTouchStart(e) {
+        this.touchStartX = e.touches[0].clientX;
+        LoggerManager.debug('ScreenshotSlider', 'handleTouchStart', 199, '터치 시작', { x: this.touchStartX });
+    }
+
+    /**
+     * 터치 이동 처리
+     * @param {TouchEvent} e - 터치 이벤트
+     */
+    handleTouchMove(e) {
+        this.touchEndX = e.touches[0].clientX;
+    }
+
+    /**
+     * 터치 종료 처리
+     */
+    handleTouchEnd() {
+        const threshold = 50; // 최소 스와이프 거리
+        const diff = this.touchStartX - this.touchEndX;
+
+        if (Math.abs(diff) > threshold) {
+            if (diff > 0) {
+                this.next(); // 왼쪽 스와이프
+            } else {
+                this.prev(); // 오른쪽 스와이프
+            }
+        }
+
+        this.touchStartX = 0;
+        this.touchEndX = 0;
+
+        LoggerManager.debug('ScreenshotSlider', 'handleTouchEnd', 227, '터치 종료', { diff });
+    }
+
+    /**
+     * 마우스 다운 처리
+     * @param {MouseEvent} e - 마우스 이벤트
+     */
+    handleMouseDown(e) {
+        this.isDragging = true;
+        this.touchStartX = e.clientX;
+        this.track.style.cursor = 'grabbing';
+        e.preventDefault();
+        LoggerManager.debug('ScreenshotSlider', 'handleMouseDown', 240, '마우스 다운', { x: this.touchStartX });
+    }
+
+    /**
+     * 마우스 이동 처리
+     * @param {MouseEvent} e - 마우스 이벤트
+     */
+    handleMouseMove(e) {
+        if (!this.isDragging) return;
+        this.touchEndX = e.clientX;
+    }
+
+    /**
+     * 마우스 업 처리
+     */
+    handleMouseUp() {
+        if (!this.isDragging) return;
+
+        const threshold = 50;
+        const diff = this.touchStartX - this.touchEndX;
+
+        if (Math.abs(diff) > threshold) {
+            if (diff > 0) {
+                this.next();
+            } else {
+                this.prev();
+            }
+        }
+
+        this.isDragging = false;
+        this.touchStartX = 0;
+        this.touchEndX = 0;
+        this.track.style.cursor = 'grab';
+
+        LoggerManager.debug('ScreenshotSlider', 'handleMouseUp', 273, '마우스 업', { diff });
+    }
+
+    /**
+     * 키보드 네비게이션
+     * @param {KeyboardEvent} e - 키보드 이벤트
+     */
+    handleKeyboard(e) {
+        if (e.key === 'ArrowLeft') {
+            this.prev();
+        } else if (e.key === 'ArrowRight') {
+            this.next();
+        }
+    }
+
+    /**
+     * 리사이즈 처리
+     */
+    handleResize() {
+        const newItemsToShow = this.getItemsToShow();
+
+        if (newItemsToShow !== this.itemsToShow) {
+            this.itemsToShow = newItemsToShow;
+            this.totalSlides = Math.max(0, this.items.length - this.itemsToShow + 1);
+            this.currentIndex = Math.min(this.currentIndex, this.totalSlides - 1);
+
+            this.createDots();
+            this.updateSlider();
+
+            LoggerManager.info('ScreenshotSlider', 'handleResize', 303, '리사이즈 처리 완료', {
+                itemsToShow: this.itemsToShow,
+                totalSlides: this.totalSlides
+            });
+        }
+    }
+
+    /**
+     * 슬라이더 정리 (메모리 해제)
+     */
+    destroy() {
+        window.removeEventListener('resize', this.handleResize);
+        LoggerManager.info('ScreenshotSlider', 'destroy', 316, '슬라이더 정리 완료');
+    }
+}
+
+/**
+ * Scroll Animations 클래스
+ * 스크롤 시 요소 애니메이션 처리
+ */
+class ScrollAnimations {
+    constructor() {
+        this.elements = document.querySelectorAll('.fade-in, .feature-card, .benefit-card');
+        this.observer = null;
+
+        this.init();
+        LoggerManager.info('ScrollAnimations', 'constructor', 330, '스크롤 애니메이션 초기화', {
+            elementsCount: this.elements.length
+        });
+    }
+
+    /**
+     * 초기화
+     */
+    init() {
+        // Intersection Observer 지원 확인
+        if (!('IntersectionObserver' in window)) {
+            LoggerManager.warn('ScrollAnimations', 'init', 341, 'IntersectionObserver 미지원, 폴백 사용');
+            this.fallbackAnimation();
+            return;
+        }
+
+        // Observer 옵션
+        const options = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.1
+        };
+
+        // Observer 생성
+        this.observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    LoggerManager.debug('ScrollAnimations', 'init', 358, '요소 표시', {
+                        element: entry.target.className
+                    });
+                }
+            });
+        }, options);
+
+        // 모든 요소 관찰
+        this.elements.forEach(element => {
+            element.classList.add('fade-in');
+            this.observer.observe(element);
+        });
+
+        LoggerManager.info('ScrollAnimations', 'init', 370, 'Intersection Observer 설정 완료');
+    }
+
+    /**
+     * 폴백 애니메이션 (IntersectionObserver 미지원 브라우저용)
+     */
+    fallbackAnimation() {
+        const checkVisibility = throttle(() => {
+            this.elements.forEach(element => {
+                if (isElementInViewport(element)) {
+                    element.classList.add('visible');
+                }
+            });
+        }, 100);
+
+        window.addEventListener('scroll', checkVisibility);
+        window.addEventListener('resize', checkVisibility);
+        checkVisibility(); // 초기 실행
+
+        LoggerManager.info('ScrollAnimations', 'fallbackAnimation', 388, '폴백 애니메이션 설정 완료');
+    }
+
+    /**
+     * 정리 (메모리 해제)
+     */
+    destroy() {
+        if (this.observer) {
+            this.observer.disconnect();
+            LoggerManager.info('ScrollAnimations', 'destroy', 397, 'Observer 정리 완료');
+        }
+    }
+}
+
+/**
+ * Smooth Scroll 클래스
+ * 앵커 링크 부드러운 스크롤 처리
+ */
+class SmoothScroll {
+    constructor() {
+        this.links = document.querySelectorAll('a[href^="#"]');
+        this.init();
+        LoggerManager.info('SmoothScroll', 'constructor', 410, '부드러운 스크롤 초기화', {
+            linksCount: this.links.length
+        });
+    }
+
+    /**
+     * 초기화
+     */
+    init() {
+        this.links.forEach(link => {
+            link.addEventListener('click', (e) => {
+                const href = link.getAttribute('href');
+
+                // '#' 또는 빈 href 무시
+                if (!href || href === '#') return;
+
+                e.preventDefault();
+
+                const targetId = href.substring(1);
+                const targetElement = document.getElementById(targetId);
+
+                if (targetElement) {
+                    const headerOffset = 80; // 헤더 높이 고려
+                    smoothScrollTo(targetElement, headerOffset);
+
+                    // URL 업데이트 (히스토리에 추가하지 않음)
+                    history.replaceState(null, null, href);
+
+                    LoggerManager.debug('SmoothScroll', 'init', 437, '부드러운 스크롤 실행', {
+                        targetId,
+                        offset: headerOffset
+                    });
+                } else {
+                    LoggerManager.warn('SmoothScroll', 'init', 442, '대상 요소를 찾을 수 없습니다', { targetId });
+                }
+            });
+        });
+
+        LoggerManager.info('SmoothScroll', 'init', 447, '부드러운 스크롤 설정 완료');
+    }
+}
+
+/**
+ * CTA Buttons 클래스
+ * Call-to-Action 버튼 트래킹 및 애니메이션
+ */
+class CTAButtons {
+    constructor() {
+        this.buttons = document.querySelectorAll('.btn');
+        this.init();
+        LoggerManager.info('CTAButtons', 'constructor', 459, 'CTA 버튼 초기화', {
+            buttonsCount: this.buttons.length
+        });
+    }
+
+    /**
+     * 초기화
+     */
+    init() {
+        this.buttons.forEach(button => {
+            button.addEventListener('click', (e) => {
+                const href = button.getAttribute('href');
+                const buttonText = button.textContent.trim();
+
+                // 외부 링크가 아닌 경우 (앵커 링크 등)
+                if (href && href.startsWith('#')) {
+                    return; // SmoothScroll이 처리
+                }
+
+                // 버튼 클릭 로깅
+                LoggerManager.info('CTAButtons', 'init', 479, 'CTA 버튼 클릭', {
+                    buttonText,
+                    href
+                });
+
+                // 실제 앱 다운로드 링크가 있다면 여기서 처리
+                // 현재는 #download로 연결되어 있음
+            });
+        });
+
+        LoggerManager.info('CTAButtons', 'init', 489, 'CTA 버튼 설정 완료');
+    }
+}
+
+/**
+ * Performance Monitoring
+ * 페이지 성능 모니터링
+ */
+class PerformanceMonitor {
+    constructor() {
+        this.init();
+    }
+
+    /**
+     * 초기화
+     */
+    init() {
+        // DOM Content Loaded 시간
+        if (document.readyState === 'complete') {
+            this.logPerformance();
+        } else {
+            window.addEventListener('load', () => this.logPerformance());
+        }
+    }
+
+    /**
+     * 성능 로그
+     */
+    logPerformance() {
+        if (!window.performance) {
+            LoggerManager.warn('PerformanceMonitor', 'logPerformance', 518, 'Performance API 미지원');
+            return;
+        }
+
+        const perfData = window.performance.timing;
+        const pageLoadTime = perfData.loadEventEnd - perfData.navigationStart;
+        const domReadyTime = perfData.domContentLoadedEventEnd - perfData.navigationStart;
+        const renderTime = perfData.domComplete - perfData.domLoading;
+
+        LoggerManager.groupStart('성능 모니터링');
+        LoggerManager.info('PerformanceMonitor', 'logPerformance', 528, '페이지 로드 시간', `${pageLoadTime}ms`);
+        LoggerManager.info('PerformanceMonitor', 'logPerformance', 529, 'DOM Ready 시간', `${domReadyTime}ms`);
+        LoggerManager.info('PerformanceMonitor', 'logPerformance', 530, '렌더링 시간', `${renderTime}ms`);
+        LoggerManager.groupEnd();
+
+        // Navigation Timing API v2 지원 확인
+        if (window.performance.getEntriesByType) {
+            const navigationEntries = window.performance.getEntriesByType('navigation');
+            if (navigationEntries.length > 0) {
+                LoggerManager.table(navigationEntries[0]);
+            }
+        }
+    }
+}
+
+/**
+ * ============================================
+ * App Initialization
+ * ============================================
+ */
+class App {
+    constructor() {
+        this.slider = null;
+        this.scrollAnimations = null;
+        this.smoothScroll = null;
+        this.ctaButtons = null;
+        this.performanceMonitor = null;
+
+        this.init();
+    }
+
+    /**
+     * 앱 초기화
+     */
+    init() {
+        LoggerManager.logViewDisplayed('MyTube Landing Page');
+        LoggerManager.groupStart('앱 초기화');
+
+        try {
+            // Screenshot Slider 초기화
+            const sliderElement = document.querySelector('.screenshots-slider');
+            if (sliderElement) {
+                this.slider = new ScreenshotSlider(sliderElement);
+                LoggerManager.info('App', 'init', 573, 'Screenshot Slider 초기화 완료');
+            } else {
+                LoggerManager.warn('App', 'init', 575, 'Slider 요소를 찾을 수 없습니다');
+            }
+
+            // Scroll Animations 초기화
+            this.scrollAnimations = new ScrollAnimations();
+            LoggerManager.info('App', 'init', 580, 'Scroll Animations 초기화 완료');
+
+            // Smooth Scroll 초기화
+            this.smoothScroll = new SmoothScroll();
+            LoggerManager.info('App', 'init', 584, 'Smooth Scroll 초기화 완료');
+
+            // CTA Buttons 초기화
+            this.ctaButtons = new CTAButtons();
+            LoggerManager.info('App', 'init', 588, 'CTA Buttons 초기화 완료');
+
+            // Performance Monitor 초기화
+            this.performanceMonitor = new PerformanceMonitor();
+            LoggerManager.info('App', 'init', 592, 'Performance Monitor 초기화 완료');
+
+            LoggerManager.groupEnd();
+            LoggerManager.info('App', 'init', 595, '🎉 앱 초기화 성공');
+
+        } catch (error) {
+            LoggerManager.error('App', 'init', 598, '앱 초기화 실패', error);
+            LoggerManager.groupEnd();
+        }
+    }
+
+    /**
+     * 앱 정리
+     */
+    destroy() {
+        this.slider?.destroy();
+        this.scrollAnimations?.destroy();
+        LoggerManager.info('App', 'destroy', 609, '앱 정리 완료');
+    }
+}
+
+/**
+ * ============================================
+ * DOMContentLoaded Event
+ * ============================================
+ */
+document.addEventListener('DOMContentLoaded', () => {
+    LoggerManager.timeStart('앱 초기화');
+
+    // 앱 인스턴스 생성
+    const app = new App();
+
+    // 전역 변수로 저장 (디버깅용)
+    window.myTubeApp = app;
+
+    LoggerManager.timeEnd('앱 초기화');
+});
+
+/**
+ * ============================================
+ * Page Visibility API
+ * ============================================
+ */
+document.addEventListener('visibilitychange', () => {
+    if (document.hidden) {
+        LoggerManager.debug('Main', 'visibilitychange', 638, '페이지 숨김');
+    } else {
+        LoggerManager.debug('Main', 'visibilitychange', 640, '페이지 표시');
+    }
+});
+
+/**
+ * ============================================
+ * Unload Event
+ * ============================================
+ */
+window.addEventListener('beforeunload', () => {
+    LoggerManager.debug('Main', 'beforeunload', 650, '페이지 언로드');
+});
+    </script>
+</body>
+</html>
