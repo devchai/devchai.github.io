@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "MoltBot(OpenClaw)이 AI 에이전트 생태계에 미치는 영향: 장점과 단점 완벽 분석"
-date: 2026-02-04 14:30:00 +0900
+date: 2026-02-04 08:30:00 +0900
 categories: "AI"
 author: "Dev C"
 tag: AI에이전트
