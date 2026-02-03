@@ -13,7 +13,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://devchai.github.io" # the base hostname & protocol for your site
 github_username:  devchai
 paginate: 5
-gems: [jekyll-paginate, kramdown]
+gems: [jekyll-paginate, kramdown, jekyll-sitemap]
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
 # Build settings
 markdown: kramdown
 # Handling Reading
