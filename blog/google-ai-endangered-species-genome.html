@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="구글이 DeepVariant, DeepPolisher AI 도구로 멸종위기종 13종의 유전체 분석을 완료했다. 수년 걸리던 작업을 며칠로 단축한 혁명적 기술.">
+    <title>구글 AI가 멸종 막는다 — 수년 걸린 유전체 분석, 이제 며칠이면 끝 | Blog</title>
+    <style>
+        /* ===== Reset & Base ===== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background-color: #fff;
+        }
+
+        /* ===== Article Container ===== */
+        .article-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* ===== Header Section ===== */
+        .article-header {
+            border-bottom: 4px solid #cf0a2c;
+            padding-bottom: 30px;
+            margin-bottom: 30px;
+        }
+
+        .category-tag {
+            display: inline-block;
+            background-color: #cf0a2c;
+            color: white;
+            padding: 5px 12px;
+            font-size: 12px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 15px;
+        }
+
+        .article-title {
+            font-family: Georgia, 'Times New Roman', serif;
+            font-size: 42px;
+            font-weight: 900;
+            line-height: 1.2;
+            color: #1a1a1a;
+            margin-bottom: 20px;
+        }
+
+        .article-subtitle {
+            font-size: 22px;
+            color: #555;
+            font-weight: 400;
+            line-height: 1.4;
+            margin-bottom: 20px;
+        }
+
+        .article-meta {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            font-size: 14px;
+            color: #666;
+        }
+
+        .author-name {
+            font-weight: bold;
+            color: #1a1a1a;
+        }
+
+        .publish-date {
+            color: #888;
+        }
+
+        .read-time {
+            background-color: #f5f5f5;
+            padding: 3px 10px;
+            border-radius: 3px;
+        }
+
+        /* ===== Featured Image ===== */
+        .featured-image {
+            width: 100%;
+            margin: 30px 0;
+        }
+
+        .featured-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .image-caption {
+            font-size: 13px;
+            color: #888;
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+            font-style: italic;
+        }
+
+        /* ===== Article Content ===== */
+        .article-content {
+            font-size: 18px;
+        }
+
+        .article-content p {
+            margin-bottom: 24px;
+        }
+
+        .article-content p:first-of-type::first-letter {
+            font-size: 65px;
+            font-family: Georgia, serif;
+            font-weight: bold;
+            float: left;
+            line-height: 1;
+            padding-right: 12px;
+            color: #cf0a2c;
+        }
+
+        /* ===== Subheadings ===== */
+        .article-content h2 {
+            font-family: Georgia, 'Times New Roman', serif;
+            font-size: 28px;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin: 40px 0 20px;
+            padding-left: 15px;
+            border-left: 4px solid #cf0a2c;
+        }
+
+        .article-content h3 {
+            font-family: Georgia, 'Times New Roman', serif;
+            font-size: 22px;
+            font-weight: 600;
+            color: #333;
+            margin: 30px 0 15px;
+        }
+
+        /* ===== Blockquote (Pull Quote) ===== */
+        .pull-quote {
+            font-family: Georgia, serif;
+            font-size: 26px;
+            font-style: italic;
+            color: #1a1a1a;
+            border-left: 5px solid #cf0a2c;
+            padding: 20px 30px;
+            margin: 35px 0;
+            background-color: #fafafa;
+            line-height: 1.5;
+        }
+
+        .pull-quote cite {
+            display: block;
+            font-size: 14px;
+            font-style: normal;
+            color: #666;
+            margin-top: 15px;
+        }
+
+        /* ===== Highlight Box ===== */
+        .highlight-box {
+            background-color: #fff3cd;
+            border-left: 4px solid #cf0a2c;
+            padding: 20px 25px;
+            margin: 30px 0;
+            font-size: 17px;
+        }
+
+        .highlight-box strong {
+            color: #cf0a2c;
+        }
+
+        /* ===== Lists ===== */
+        .article-content ul,
+        .article-content ol {
+            margin: 20px 0 20px 30px;
+        }
+
+        .article-content li {
+            margin-bottom: 12px;
+        }
+
+        /* ===== Links ===== */
+        .article-content a {
+            color: #0066cc;
+            text-decoration: none;
+            border-bottom: 1px solid #0066cc;
+            transition: all 0.2s;
+        }
+
+        .article-content a:hover {
+            color: #cf0a2c;
+            border-bottom-color: #cf0a2c;
+        }
+
+        /* ===== Inline Emphasis ===== */
+        .article-content strong {
+            font-weight: 700;
+            color: #1a1a1a;
+        }
+
+        .article-content em {
+            font-style: italic;
+        }
+
+        .key-point {
+            background-color: #fffde7;
+            padding: 2px 6px;
+            font-weight: 600;
+        }
+
+        /* ===== Divider ===== */
+        .section-divider {
+            text-align: center;
+            margin: 40px 0;
+            color: #ccc;
+            font-size: 24px;
+            letter-spacing: 10px;
+        }
+
+        /* ===== Bottom Line / Conclusion ===== */
+        .bottom-line {
+            background-color: #1a1a1a;
+            color: #fff;
+            padding: 25px 30px;
+            margin: 40px 0;
+        }
+
+        .bottom-line-title {
+            font-family: Georgia, serif;
+            font-size: 18px;
+            font-weight: bold;
+            color: #cf0a2c;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        .bottom-line p {
+            font-size: 17px;
+            line-height: 1.7;
+            margin: 0;
+        }
+
+        /* ===== Tags ===== */
+        .article-tags {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+
+        .tag {
+            display: inline-block;
+            background-color: #f5f5f5;
+            color: #666;
+            padding: 5px 12px;
+            margin: 5px 5px 5px 0;
+            font-size: 13px;
+            border-radius: 3px;
+            text-decoration: none;
+        }
+
+        .tag:hover {
+            background-color: #cf0a2c;
+            color: white;
+        }
+
+        /* ===== Author Bio ===== */
+        .author-bio {
+            display: flex;
+            gap: 20px;
+            margin-top: 40px;
+            padding: 25px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+        }
+
+        .author-avatar {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: #ddd;
+        }
+
+        .author-info h4 {
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+
+        .author-info p {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.5;
+        }
+
+        /* ===== Responsive ===== */
+        @media (max-width: 600px) {
+            .article-title {
+                font-size: 32px;
+            }
+
+            .article-subtitle {
+                font-size: 18px;
+            }
+
+            .pull-quote {
+                font-size: 20px;
+                padding: 15px 20px;
+            }
+
+            .article-content h2 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <article class="article-container">
+        <!-- Header -->
+        <header class="article-header">
+            <span class="category-tag">AI</span>
+            <h1 class="article-title">구글 AI가 멸종 막는다 — 수년 걸린 유전체 분석, 이제 며칠이면 끝</h1>
+            <p class="article-subtitle">DeepVariant와 DeepPolisher, 멸종위기종 13종의 유전자 코드 해독 성공. 보존 생물학의 게임 체인저가 될까?</p>
+            <div class="article-meta">
+                <span class="author-name">에디터</span>
+                <span class="publish-date">2026년 2월 3일</span>
+                <span class="read-time">5분 읽기</span>
+            </div>
+        </header>
+
+        <!-- Article Content -->
+        <div class="article-content">
+            <p>구글이 AI로 멸종위기종을 구하는 방법을 찾아냈다. 과거 수년이 걸리던 유전체 분석을 단 며칠로 줄였다는 게 핵심이다. 그리고 벌써 13종의 멸종위기 동물들이 그 혜택을 받았다.</p>
+
+            <p>2월 2일, 구글 CEO 순다르 피차이가 발표한 내용은 간단하지만 강력했다. 구글이 개발한 <span class="key-point">DeepVariant</span>와 <span class="key-point">DeepPolisher</span>라는 AI 도구가 포유류, 조류, 양서류, 파충류를 망라한 13종의 멸종위기종 유전체 시퀀싱을 완료했다는 것.</p>
+
+            <div class="highlight-box">
+                <strong>핵심 포인트:</strong> 유전체 시퀀싱이란 생명체의 DNA 전체를 읽어내는 작업이다. 이 정보가 있어야 질병 예방, 유전적 다양성 보존, 종의 생존 전략 수립이 가능하다.
+            </div>
+
+            <h2>수년에서 수일로 — 속도의 혁명</h2>
+
+            <p>과거에는 한 종의 유전체를 분석하는 데 몇 년이 걸렸다. 비용도 만만치 않았다. 하지만 구글의 AI 도구들은 이 과정을 며칠로 단축했다. 비용도 수천 달러 수준으로 낮췄다.</p>
+
+            <p>이게 얼마나 중요한 일인지 감이 안 온다면 이렇게 생각해보자. 멸종위기종은 시간과의 싸움이다. 분석에 몇 년씩 걸린다면, 그 사이에 종 자체가 사라질 수도 있다는 얘기다.</p>
+
+            <blockquote class="pull-quote">
+                "AI 도구들이 인간, 동물, 식물을 며칠 만에 시퀀싱할 수 있게 됐다. 정확도도 별처럼 높다."
+                <cite>— 구글 공식 블로그</cite>
+            </blockquote>
+
+            <h2>DeepPolisher의 놀라운 성능</h2>
+
+            <p>DeepPolisher는 UC Santa Cruz Genomics Institute와 협력해 개발한 오픈소스 도구다. 이 녀석이 하는 일은 유전체 조립의 '교정' 작업이다.</p>
+
+            <p>유전체 시퀀싱은 긴 DNA 가닥을 조각조각 읽어낸 뒤 다시 맞추는 과정인데, 여기서 오류가 생기기 쉽다. DeepPolisher는 이런 오류를 트랜스포머 기반 딥러닝 아키텍처로 잡아낸다.</p>
+
+            <p>결과는? indel 오류 70% 감소, 전체 조립 오류 50% 감소. Human Pangenome Reference의 최신 릴리스에서는 조립 품질을 Q66.7에서 Q70.1로 끌어올렸다.</p>
+
+            <div class="section-divider">• • •</div>
+
+            <h2>Earth BioGenome Project와의 연결고리</h2>
+
+            <p>구글의 이번 작업은 단독 플레이가 아니다. Vertebrate Genomes Project 및 Earth BioGenome Project와 협력하고 있다.</p>
+
+            <p>Earth BioGenome Project는 지구상의 알려진 모든 생명체 185만 종의 유전체를 시퀀싱하겠다는 야심찬 프로젝트다. 구글의 AI 도구들이 이 작업을 가속화하고 있는 셈이다.</p>
+
+            <p>더 흥미로운 건 앞으로의 계획이다. Google.org는 최근 Rockefeller University를 AI for Science 펀드 수혜자로 선정했다. 목표는? 추가 150종의 유전체를 시퀀싱해서 과학 커뮤니티와 대중에게 공개하는 것.</p>
+
+            <h2>왜 이게 중요한가</h2>
+
+            <p>멸종위기종의 유전체를 분석하면 뭐가 좋을까? 세 가지로 요약된다.</p>
+
+            <p>첫째, 질병 예방이다. 야생 동물들이 어떤 질병에 취약한지 미리 알 수 있다면, 보호 전략을 세울 수 있다.</p>
+
+            <p>둘째, 유전적 다양성 보존이다. 개체 수가 적은 종일수록 근친교배로 인한 유전적 다양성 손실이 심각하다. 유전체 정보가 있으면 이를 관리할 수 있다.</p>
+
+            <p>셋째, 멸종 자체를 막는 데 도움이 된다. 어떤 개입이 효과적일지 데이터 기반으로 판단할 수 있기 때문이다.</p>
+
+            <blockquote class="pull-quote">
+                "연구자들은 이 도구로 야생 종의 질병을 예방하고, 민감한 개입을 통해 멸종위기종이 사라지는 것을 막을 수 있다."
+                <cite>— 구글 리서치</cite>
+            </blockquote>
+
+            <div class="bottom-line">
+                <div class="bottom-line-title">결론</div>
+                <p>구글의 DeepVariant와 DeepPolisher는 단순한 기술 데모가 아니다. 실제로 멸종위기에 처한 생명들을 구할 수 있는 실용적 도구다. 13종에서 시작해 150종으로, 그리고 언젠가는 185만 종으로. AI가 생물 다양성 보존의 최전선에 섰다는 사실은, 어쩌면 우리 시대의 가장 희망적인 뉴스일지도 모른다.</p>
+            </div>
+
+            <div class="section-divider">• • •</div>
+
+            <h2>Sources</h2>
+            <ul>
+                <li><a href="https://blog.google/innovation-and-ai/technology/ai/ai-to-preserve-endangered-species/" target="_blank">Google Blog: How we're helping preserve the genetic information of endangered species with AI</a></li>
+                <li><a href="https://research.google/blog/highly-accurate-genome-polishing-with-deeppolisher-enhancing-the-foundation-of-genomic-research/" target="_blank">Google Research: Highly accurate genome polishing with DeepPolisher</a></li>
+                <li><a href="https://newatlas.com/biology/ai-sequencing-genomes-all-species-google-ebp/" target="_blank">New Atlas: How Google AI Tools Boost Genome Sequencing for Conservation</a></li>
+                <li><a href="https://blockchain.news/flashnews/google-googl-ai-breakthrough-deepvariant-and-deeppolisher-cut-genome-sequencing-from-years-to-days" target="_blank">Blockchain.news: Google AI Breakthrough</a></li>
+            </ul>
+        </div>
+
+        <!-- Tags -->
+        <div class="article-tags">
+            <a href="#" class="tag">AI</a>
+            <a href="#" class="tag">구글</a>
+            <a href="#" class="tag">DeepVariant</a>
+            <a href="#" class="tag">DeepPolisher</a>
+            <a href="#" class="tag">멸종위기종</a>
+            <a href="#" class="tag">유전체</a>
+            <a href="#" class="tag">보존생물학</a>
+            <a href="#" class="tag">딥러닝</a>
+        </div>
+    </article>
+</body>
+</html>
