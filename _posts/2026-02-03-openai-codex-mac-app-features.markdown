@@ -10,6 +10,29 @@ description: "OpenAI가 macOS용 Codex 앱을 출시했습니다. 멀티 에이�
 comments: true
 ---
 
+<div class="video-container" style="margin-bottom: 2rem;">
+  <video id="codex-video" controls playsinline style="width: 100%; max-width: 800px; border-radius: 8px;">
+    <source src="https://vod-adaptive-ak.vimeocdn.com/exp=1770103588~acl=%2Fa8fc4b5e-bdac-4fe0-894d-0fa1721350db%2Fpsid%3D617627d6f0630fff203e633bccfb7550e6e35bf4877615836e1d5d8a658a7f5e%2F%2A~hmac=51977a40739b61ea22e5f44d24a2e7432deae7eea276f1d17f5b72998c55c6e5/a8fc4b5e-bdac-4fe0-894d-0fa1721350db/psid=617627d6f0630fff203e633bccfb7550e6e35bf4877615836e1d5d8a658a7f5e/v2/playlist/av/primary/prot/cXNyPTE/playlist.m3u8?omit=opus&pathsig=8c953e4f~1IlxaxmbcwbvkK_tSqHrW7uq956Pda1uXC67i3GVw4k&qsr=1&r=dXM%3D&rh=2ljjhN&sf=fmp4" type="application/x-mpegURL">
+    브라우저가 동영상을 지원하지 않습니다.
+  </video>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var video = document.getElementById('codex-video');
+    var videoSrc = 'https://vod-adaptive-ak.vimeocdn.com/exp=1770103588~acl=%2Fa8fc4b5e-bdac-4fe0-894d-0fa1721350db%2Fpsid%3D617627d6f0630fff203e633bccfb7550e6e35bf4877615836e1d5d8a658a7f5e%2F%2A~hmac=51977a40739b61ea22e5f44d24a2e7432deae7eea276f1d17f5b72998c55c6e5/a8fc4b5e-bdac-4fe0-894d-0fa1721350db/psid=617627d6f0630fff203e633bccfb7550e6e35bf4877615836e1d5d8a658a7f5e/v2/playlist/av/primary/prot/cXNyPTE/playlist.m3u8?omit=opus&pathsig=8c953e4f~1IlxaxmbcwbvkK_tSqHrW7uq956Pda1uXC67i3GVw4k&qsr=1&r=dXM%3D&rh=2ljjhN&sf=fmp4';
+
+    if (Hls.isSupported()) {
+      var hls = new Hls();
+      hls.loadSource(videoSrc);
+      hls.attachMedia(video);
+    } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+      video.src = videoSrc;
+    }
+  });
+</script>
+
 OpenAI가 2026년 2월 2일, macOS용 **Codex 앱**을 공식 출시했다. 이번 앱은 단순한 코드 생성 도구를 넘어 **여러 AI 에이전트를 동시에 관리하는 "커맨드 센터"** 역할을 한다. 100만 명 이상의 개발자가 이미 Codex를 사용 중이며, GPT-5.2-Codex 출시 이후 사용량이 2배로 증가했다.
 
 ## 1. 멀티 에이전트 병렬 실행
