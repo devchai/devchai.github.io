@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "AI 개발 워크플로우 최적화: Claude와 GPT-5로 생산성 10배 높이는 법"
-date:   2026-02-03 14:30:00 +0900
+date:   2026-02-03 09:00:00 +0900
 categories: "AI"
 author: "Dev C"
 tag: ai-development
