@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "OpenAI Codex Mac 앱 출시, 개발자가 알아야 할 8가지 핵심 기능"
-date: 2026-02-03 14:00:00 +0900
+date: 2026-02-03 13:00:00 +0900
 categories: "AI"
 author: "Dev C"
 tag: AI
