@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Anthropic Knowledge Work Plugins: Claude를 업무 전문가로 만드는 오픈소스 도구"
-date: 2026-02-04 12:30:00 +0900
+date: 2026-02-04 11:30:00 +0900
 categories: "AI"
 author: "Dev C"
 tag: claude
