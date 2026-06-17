@@ -1,6 +1,7 @@
 {
   "link": "https://www.naver.com",
   "title": "테스트진행합니다",
-  "phone" "1670-2626",
+  "phone":"1670-2626",
+  "phone_title":"콜센터",
   "visible": "Y"
 }
