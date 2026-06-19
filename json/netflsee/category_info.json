@@ -1,0 +1,363 @@
+{
+  "version": "2026-06-17.1",
+  "source": {
+    "type": "attached_screenshots",
+    "capturedAt": "2026-06-17",
+    "note": "첨부 이미지에서 육안으로 명확히 확인 가능한 항목만 입력했습니다. 이미지 하단이 잘린 일부 항목은 제외했습니다."
+  },
+  "app": {
+    "name": "넷플릭스 코드 탐색",
+    "defaultLocale": "ko-KR",
+    "theme": "cinematic-red-black",
+    "externalSearch": {
+      "provider": "netflix",
+      "urlTemplate": "https://www.netflix.com/search?q={code}",
+      "queryParam": "q"
+    },
+    "iconUrl": "https://cdn.example.com/netflix-code-finder/icons/app-icon-bright-glassmorphism-1000x1000.png"
+  },
+  "categories": [
+    {
+      "id": "food",
+      "order": 10,
+      "title": "음식 관련",
+      "bookmarkable": true,
+      "imageUrl": "https://cdn.example.com/netflix-code-finder/images/food-bright-900x1200.png",
+      "items": [
+        {
+          "number": "3272152",
+          "title": "배고플 때 시청 금지"
+        },
+        {
+          "number": "72436",
+          "title": "음식 & 여행 프로그램"
+        }
+      ]
+    },
+    {
+      "id": "documentary",
+      "order": 20,
+      "title": "다큐멘터리",
+      "bookmarkable": true,
+      "imageUrl": "https://cdn.example.com/netflix-code-finder/images/documentary-bright-900x1200.png",
+      "items": [
+        {
+          "number": "6839",
+          "title": "다큐멘터리 전체"
+        },
+        {
+          "number": "3652",
+          "title": "실존인물 다큐"
+        },
+        {
+          "number": "9875",
+          "title": "범죄 다큐"
+        },
+        {
+          "number": "2595",
+          "title": "과학, 자연 다큐"
+        },
+        {
+          "number": "90361",
+          "title": "음악, 콘서트"
+        },
+        {
+          "number": "5161",
+          "title": "해외 다큐"
+        },
+        {
+          "number": "5349",
+          "title": "역사 다큐"
+        },
+        {
+          "number": "3675",
+          "title": "사회,문화 다큐"
+        },
+        {
+          "number": "1159",
+          "title": "여행, 모험 다큐"
+        }
+      ]
+    },
+    {
+      "id": "binge",
+      "order": 30,
+      "title": "심심풀이용",
+      "bookmarkable": true,
+      "imageUrl": "https://cdn.example.com/netflix-code-finder/images/binge-bright-900x1200.png",
+      "items": [
+        {
+          "number": "3182735",
+          "title": "정주행 찰떡 콘텐츠"
+        },
+        {
+          "number": "2953105",
+          "title": "인기 K-드라마"
+        },
+        {
+          "number": "81466194",
+          "title": "믿고 보는 명작 영화"
+        },
+        {
+          "number": "1192582",
+          "title": "밤샘 각 영국 범죄물"
+        }
+      ]
+    },
+    {
+      "id": "romance",
+      "order": 40,
+      "title": "로맨스물",
+      "bookmarkable": true,
+      "imageUrl": "https://cdn.example.com/netflix-code-finder/images/romance-bright-900x1200.png",
+      "items": [
+        {
+          "number": "8883",
+          "title": "로맨스물 전체"
+        },
+        {
+          "number": "502675",
+          "title": "인기 로맨스"
+        },
+        {
+          "number": "1255",
+          "title": "로맨틱 드라마"
+        },
+        {
+          "number": "5475",
+          "title": "로맨스 코미디"
+        },
+        {
+          "number": "11781",
+          "title": "관능적 로맨스"
+        },
+        {
+          "number": "7153",
+          "title": "해외 로맨스 영화"
+        },
+        {
+          "number": "35800",
+          "title": "19금 로맨스"
+        },
+        {
+          "number": "31273",
+          "title": "로맨스 영화"
+        },
+        {
+          "number": "9916",
+          "title": "독립영화(로맨스)"
+        }
+      ]
+    },
+    {
+      "id": "crime-thriller",
+      "order": 50,
+      "title": "범죄 & 스릴러",
+      "bookmarkable": true,
+      "imageUrl": "https://cdn.example.com/netflix-code-finder/images/crime-thriller-bright-900x1200.png",
+      "items": [
+        {
+          "number": "8933",
+          "title": "스릴러 영화 전체"
+        },
+        {
+          "number": "9994",
+          "title": "미스터리 영화"
+        },
+        {
+          "number": "10499",
+          "title": "범죄 스릴러"
+        },
+        {
+          "number": "43048",
+          "title": "액션 스릴러"
+        },
+        {
+          "number": "6889",
+          "title": "범죄 드라마"
+        },
+        {
+          "number": "9584",
+          "title": "범죄 액션"
+        },
+        {
+          "number": "11014",
+          "title": "SF 스릴러"
+        },
+        {
+          "number": "10702",
+          "title": "스파이 액션"
+        },
+        {
+          "number": "7442",
+          "title": "어드벤처 영화"
+        }
+      ]
+    },
+    {
+      "id": "adult-sensual",
+      "order": 60,
+      "title": "관능 & 성인",
+      "bookmarkable": true,
+      "ageRating": "adult",
+      "imageUrl": "https://cdn.example.com/netflix-code-finder/images/adult-sensual-bright-900x1200.png",
+      "items": [
+        {
+          "number": "100040",
+          "title": "관능적"
+        },
+        {
+          "number": "11781",
+          "title": "관능적 영화"
+        },
+        {
+          "number": "1255",
+          "title": "로맨틱, 관능"
+        },
+        {
+          "number": "11881",
+          "title": "성인 애니"
+        },
+        {
+          "number": "35800",
+          "title": "성인 로맨스 영화"
+        }
+      ]
+    },
+    {
+      "id": "comedy",
+      "order": 70,
+      "title": "코미디",
+      "bookmarkable": true,
+      "imageUrl": "https://cdn.example.com/netflix-code-finder/images/comedy-bright-900x1200.png",
+      "items": [
+        {
+          "number": "6548",
+          "title": "코미디 전체"
+        },
+        {
+          "number": "3519",
+          "title": "하이틴 코미디"
+        },
+        {
+          "number": "4426",
+          "title": "외국 코미디"
+        },
+        {
+          "number": "89585",
+          "title": "공포 코미디"
+        },
+        {
+          "number": "11559",
+          "title": "스탠드 업 코미디"
+        },
+        {
+          "number": "10256",
+          "title": "엽기 코미디"
+        },
+        {
+          "number": "5475",
+          "title": "로맨틱 코미디"
+        },
+        {
+          "number": "5286",
+          "title": "스포츠 코미디"
+        },
+        {
+          "number": "869",
+          "title": "다크 코미디"
+        }
+      ]
+    },
+    {
+      "id": "horror",
+      "order": 80,
+      "title": "공포영화",
+      "bookmarkable": true,
+      "imageUrl": "https://cdn.example.com/netflix-code-finder/images/horror-bright-900x1200.png",
+      "items": [
+        {
+          "number": "8711",
+          "title": "공포물 전체"
+        },
+        {
+          "number": "10944",
+          "title": "오컬트 공포"
+        },
+        {
+          "number": "8195",
+          "title": "B급 공포 영화"
+        },
+        {
+          "number": "42023",
+          "title": "초자연 공포"
+        },
+        {
+          "number": "75405",
+          "title": "좀비물 공포"
+        },
+        {
+          "number": "947",
+          "title": "크리처물 공포"
+        },
+        {
+          "number": "6895",
+          "title": "생물 공포"
+        },
+        {
+          "number": "45028",
+          "title": "심해 공포"
+        },
+        {
+          "number": "52147",
+          "title": "틴 공포"
+        }
+      ]
+    },
+    {
+      "id": "animation",
+      "order": 90,
+      "title": "애니메이션",
+      "bookmarkable": true,
+      "imageUrl": "https://cdn.example.com/netflix-code-finder/images/animation-bright-900x1200.png",
+      "items": [
+        {
+          "number": "7424",
+          "title": "애니메이션 전체"
+        },
+        {
+          "number": "10695",
+          "title": "공포 애니"
+        },
+        {
+          "number": "2653",
+          "title": "액션 애니"
+        },
+        {
+          "number": "9302",
+          "title": "코미디 애니"
+        },
+        {
+          "number": "11146",
+          "title": "판타지 애니"
+        },
+        {
+          "number": "2729",
+          "title": "SF 애니"
+        },
+        {
+          "number": "3063",
+          "title": "애니메이션 영화"
+        },
+        {
+          "number": "11881",
+          "title": "성인 애니"
+        },
+        {
+          "number": "6721",
+          "title": "시리즈물(TV)"
+        }
+      ]
+    }
+  ]
+}
