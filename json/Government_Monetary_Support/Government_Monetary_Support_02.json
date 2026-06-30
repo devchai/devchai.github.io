@@ -1,0 +1,32 @@
+{
+  "main_banner": {
+    "link": "https://www.mois.go.kr/frt/sub/a06/b07/highOilPriceSupport/screen.do",
+    "title": "고유가 피해지원금 확인",
+    "phone": "1670-2626",
+    "phone_title": "콜센터",
+    "visible": "Y"
+  },
+  "more_list": [
+    {
+      "link": "https://www.bojo.go.kr",
+      "title": "e나라도움",
+      "phone": "",
+      "phone_title": "",
+      "visible": "Y"
+    },
+    {
+      "link": "https://www.bokjiro.go.kr",
+      "title": "복지로",
+      "phone": "",
+      "phone_title": "",
+      "visible": "Y"
+    },
+    {
+      "link": "https://www.kosmes.or.kr",
+      "title": "중소벤처기업진흥공단",
+      "phone": "",
+      "phone_title": "",
+      "visible": "Y"
+    }
+  ]
+}
