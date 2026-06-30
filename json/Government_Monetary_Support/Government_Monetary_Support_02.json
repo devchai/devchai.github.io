@@ -1,7 +1,7 @@
 {
   "main_banner": {
     "link": "https://www.mois.go.kr/frt/sub/a06/b07/highOilPriceSupport/screen.do",
-    "title": "고유가 피해지원금",
+    "title": "고유가 피해지원금 확인",
     "phone": "1670-2626",
     "phone_title": "콜센터",
     "visible": "Y"
@@ -26,7 +26,7 @@
       "title": "중소벤처기업진흥공단",
       "phone": "",
       "phone_title": "",
-      "visible": "N"
+      "visible": "Y"
     }
   ]
 }
