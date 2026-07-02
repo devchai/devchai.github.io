@@ -1,0 +1,1263 @@
+{
+  "schemaVersion": "1.0.0",
+  "parserVersion": "2026-07-02.1",
+  "sourceUrl": "https://whale-insight.com/legend/nps",
+  "generatedAt": "2026-07-02T11:34:33+09:00",
+  "title": "국민연금 해외 포트폴리오",
+  "manager": {
+    "name": "국민연금",
+    "legalName": "국민연금기금운용본부 (NPS)",
+    "asOf": "2026년 1분기 기준",
+    "description": "세계 3대 연기금 중 하나로, 대한민국 국민의 노후자금을 운용하는 초대형 기관투자자입니다. 국내 증시를 넘어 미국 등 해외 우량주에도 장기 분산투자를 진행하며, 안정성과 장기 수익률을 동시에 추구하는 포트폴리오를 운용합니다."
+  },
+  "summary": {
+    "topBuyCount": 5,
+    "topSellCount": 5,
+    "holdingCount": 10,
+    "quarterHistoryCount": 50
+  },
+  "topBuys": [
+    {
+      "rank": 1,
+      "issuerName": "EXXON MOBIL CORP",
+      "holdingWeight": "1.22%",
+      "holdingWeightNumber": 1.22,
+      "weightDelta": "+0.39%p",
+      "weightDeltaNumber": 0.39,
+      "direction": "buy",
+      "value": "$28,306,583",
+      "valueUsd": 28306583
+    },
+    {
+      "rank": 2,
+      "issuerName": "CHEVRON CORP NEW",
+      "holdingWeight": "0.70%",
+      "holdingWeightNumber": 0.7,
+      "weightDelta": "+0.21%p",
+      "weightDeltaNumber": 0.21,
+      "direction": "buy",
+      "value": "$24,646,549",
+      "valueUsd": 24646549
+    },
+    {
+      "rank": 3,
+      "issuerName": "JOHNSON & JOHNSON",
+      "holdingWeight": "0.96%",
+      "holdingWeightNumber": 0.96,
+      "weightDelta": "+0.19%p",
+      "weightDeltaNumber": 0.19,
+      "direction": "buy",
+      "value": "$41,300,094",
+      "valueUsd": 41300094
+    },
+    {
+      "rank": 4,
+      "issuerName": "APPLIED MATLS INC",
+      "holdingWeight": "0.51%",
+      "holdingWeightNumber": 0.51,
+      "weightDelta": "+0.14%p",
+      "weightDeltaNumber": 0.14,
+      "direction": "buy",
+      "value": "$5,685,335",
+      "valueUsd": 5685335
+    },
+    {
+      "rank": 5,
+      "issuerName": "GE VERNOVA INC",
+      "holdingWeight": "0.36%",
+      "holdingWeightNumber": 0.36,
+      "weightDelta": "+0.13%p",
+      "weightDeltaNumber": 0.13,
+      "direction": "buy",
+      "value": "$65,552,171",
+      "valueUsd": 65552171
+    }
+  ],
+  "topSells": [
+    {
+      "rank": 1,
+      "issuerName": "APPLOVIN CORP (Class A)",
+      "holdingWeight": "0.17%",
+      "holdingWeightNumber": 0.17,
+      "weightDelta": "-0.18%p",
+      "weightDeltaNumber": -0.18,
+      "direction": "sell",
+      "value": "$57,693,284",
+      "valueUsd": 57693284
+    },
+    {
+      "rank": 2,
+      "issuerName": "MARSH & MCLENNAN COS INC",
+      "holdingWeight": "0.00%",
+      "holdingWeightNumber": 0.0,
+      "weightDelta": "-0.16%p",
+      "weightDeltaNumber": -0.16,
+      "direction": "sell",
+      "value": "$211,635,094",
+      "valueUsd": 211635094
+    },
+    {
+      "rank": 3,
+      "issuerName": "BOSTON SCIENTIFIC CORP",
+      "holdingWeight": "0.18%",
+      "holdingWeightNumber": 0.18,
+      "weightDelta": "-0.09%p",
+      "weightDeltaNumber": -0.09,
+      "direction": "sell",
+      "value": "$3,945,093",
+      "valueUsd": 3945093
+    },
+    {
+      "rank": 4,
+      "issuerName": "CAPITAL ONE FINL CORP",
+      "holdingWeight": "0.20%",
+      "holdingWeightNumber": 0.2,
+      "weightDelta": "-0.07%p",
+      "weightDeltaNumber": -0.07,
+      "direction": "sell",
+      "value": "$7,752,910",
+      "valueUsd": 7752910
+    },
+    {
+      "rank": 5,
+      "issuerName": "AMERICAN EXPRESS CO",
+      "holdingWeight": "0.27%",
+      "holdingWeightNumber": 0.27,
+      "weightDelta": "-0.05%p",
+      "weightDeltaNumber": -0.05,
+      "direction": "sell",
+      "value": "$1,123,108",
+      "valueUsd": 1123108
+    }
+  ],
+  "holdings": [
+    {
+      "rank": 1,
+      "issuerName": "NVIDIA CORPORATION",
+      "weight": "6.79%",
+      "weightNumber": 6.79,
+      "shares": "51,274,183",
+      "sharesNumber": 51274183,
+      "sharesDelta": "▲ 1,167,483",
+      "sharesDeltaNumber": 1167483,
+      "value": "$8,942,217,515",
+      "valueUsd": 8942217515
+    },
+    {
+      "rank": 2,
+      "issuerName": "APPLE INC",
+      "weight": "5.98%",
+      "weightNumber": 5.98,
+      "shares": "31,019,702",
+      "sharesNumber": 31019702,
+      "sharesDelta": "▲ 824,459",
+      "sharesDeltaNumber": 824459,
+      "value": "$7,872,490,171",
+      "valueUsd": 7872490171
+    },
+    {
+      "rank": 3,
+      "issuerName": "MICROSOFT CORP",
+      "weight": "4.19%",
+      "weightNumber": 4.19,
+      "shares": "14,917,409",
+      "sharesNumber": 14917409,
+      "sharesDelta": "▲ 408,580",
+      "sharesDeltaNumber": 408580,
+      "value": "$5,521,977,290",
+      "valueUsd": 5521977290
+    },
+    {
+      "rank": 4,
+      "issuerName": "AMAZON COM INC",
+      "weight": "3.23%",
+      "weightNumber": 3.23,
+      "shares": "20,442,324",
+      "sharesNumber": 20442324,
+      "sharesDelta": "▲ 599,005",
+      "sharesDeltaNumber": 599005,
+      "value": "$4,257,522,819",
+      "valueUsd": 4257522819
+    },
+    {
+      "rank": 5,
+      "issuerName": "ALPHABET INC (Class A)",
+      "weight": "2.79%",
+      "weightNumber": 2.79,
+      "shares": "12,793,377",
+      "sharesNumber": 12793377,
+      "sharesDelta": "▲ 324,727",
+      "sharesDeltaNumber": 324727,
+      "value": "$3,678,863,490",
+      "valueUsd": 3678863490
+    },
+    {
+      "rank": 6,
+      "issuerName": "INVESCO EXCH TRADED FD TR II (PURBTA MSCI US)",
+      "weight": "2.35%",
+      "weightNumber": 2.35,
+      "shares": "47,382,366",
+      "sharesNumber": 47382366,
+      "sharesDelta": null,
+      "sharesDeltaNumber": null,
+      "value": "$3,087,908,792",
+      "valueUsd": 3087908792
+    },
+    {
+      "rank": 7,
+      "issuerName": "ALPHABET INC (Class C)",
+      "weight": "2.31%",
+      "weightNumber": 2.31,
+      "shares": "10,612,812",
+      "sharesNumber": 10612812,
+      "sharesDelta": "▲ 220,592",
+      "sharesDeltaNumber": 220592,
+      "value": "$3,044,391,250",
+      "valueUsd": 3044391250
+    },
+    {
+      "rank": 8,
+      "issuerName": "BROADCOM INC",
+      "weight": "2.21%",
+      "weightNumber": 2.21,
+      "shares": "9,382,706",
+      "sharesNumber": 9382706,
+      "sharesDelta": "▲ 265,522",
+      "sharesDeltaNumber": 265522,
+      "value": "$2,904,041,334",
+      "valueUsd": 2904041334
+    },
+    {
+      "rank": 9,
+      "issuerName": "ISHARES TR (CORE S&P500 ETF)",
+      "weight": "2.04%",
+      "weightNumber": 2.04,
+      "shares": "4,119,355",
+      "sharesNumber": 4119355,
+      "sharesDelta": null,
+      "sharesDeltaNumber": null,
+      "value": "$2,690,803,880",
+      "valueUsd": 2690803880
+    },
+    {
+      "rank": 10,
+      "issuerName": "META PLATFORMS INC (Class A)",
+      "weight": "2.04%",
+      "weightNumber": 2.04,
+      "shares": "4,695,451",
+      "sharesNumber": 4695451,
+      "sharesDelta": "▲ 87,681",
+      "sharesDeltaNumber": 87681,
+      "value": "$2,686,408,381",
+      "valueUsd": 2686408381
+    }
+  ],
+  "quarterlyShareHistory": [
+    {
+      "issuerName": "NVIDIA CORPORATION",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "49,553,761",
+          "sharesNumber": 49553761
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "50,106,700",
+          "sharesNumber": 50106700
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "51,274,183",
+          "sharesNumber": 51274183
+        }
+      ]
+    },
+    {
+      "issuerName": "APPLE INC",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "29,726,955",
+          "sharesNumber": 29726955
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "30,195,243",
+          "sharesNumber": 30195243
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "31,019,702",
+          "sharesNumber": 31019702
+        }
+      ]
+    },
+    {
+      "issuerName": "MICROSOFT CORP",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "14,288,881",
+          "sharesNumber": 14288881
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "14,508,829",
+          "sharesNumber": 14508829
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "14,917,409",
+          "sharesNumber": 14917409
+        }
+      ]
+    },
+    {
+      "issuerName": "AMAZON COM INC",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "18,939,183",
+          "sharesNumber": 18939183
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "19,843,319",
+          "sharesNumber": 19843319
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "20,442,324",
+          "sharesNumber": 20442324
+        }
+      ]
+    },
+    {
+      "issuerName": "ALPHABET INC (Class A)",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "11,947,797",
+          "sharesNumber": 11947797
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "12,468,650",
+          "sharesNumber": 12468650
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "12,793,377",
+          "sharesNumber": 12793377
+        }
+      ]
+    },
+    {
+      "issuerName": "INVESCO EXCH TRADED FD TR II (PURBTA MSCI US)",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "47,382,366",
+          "sharesNumber": 47382366
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "47,382,366",
+          "sharesNumber": 47382366
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "47,382,366",
+          "sharesNumber": 47382366
+        }
+      ]
+    },
+    {
+      "issuerName": "ALPHABET INC (Class C)",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "10,185,776",
+          "sharesNumber": 10185776
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "10,392,220",
+          "sharesNumber": 10392220
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "10,612,812",
+          "sharesNumber": 10612812
+        }
+      ]
+    },
+    {
+      "issuerName": "BROADCOM INC",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "8,860,165",
+          "sharesNumber": 8860165
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "9,117,184",
+          "sharesNumber": 9117184
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "9,382,706",
+          "sharesNumber": 9382706
+        }
+      ]
+    },
+    {
+      "issuerName": "ISHARES TR (CORE S&P500 ETF)",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "4,119,355",
+          "sharesNumber": 4119355
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "4,119,355",
+          "sharesNumber": 4119355
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "4,119,355",
+          "sharesNumber": 4119355
+        }
+      ]
+    },
+    {
+      "issuerName": "META PLATFORMS INC (Class A)",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "4,470,199",
+          "sharesNumber": 4470199
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "4,607,770",
+          "sharesNumber": 4607770
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "4,695,451",
+          "sharesNumber": 4695451
+        }
+      ]
+    },
+    {
+      "issuerName": "TESLA INC",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "5,681,563",
+          "sharesNumber": 5681563
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "5,672,777",
+          "sharesNumber": 5672777
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "5,890,660",
+          "sharesNumber": 5890660
+        }
+      ]
+    },
+    {
+      "issuerName": "JPMORGAN CHASE & CO",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "5,450,875",
+          "sharesNumber": 5450875
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "5,408,990",
+          "sharesNumber": 5408990
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "5,513,297",
+          "sharesNumber": 5513297
+        }
+      ]
+    },
+    {
+      "issuerName": "EXXON MOBIL CORP",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "9,217,615",
+          "sharesNumber": 9217615
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "9,330,910",
+          "sharesNumber": 9330910
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "9,497,753",
+          "sharesNumber": 9497753
+        }
+      ]
+    },
+    {
+      "issuerName": "ELI LILLY & CO",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "1,592,232",
+          "sharesNumber": 1592232
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "1,615,647",
+          "sharesNumber": 1615647
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "1,661,226",
+          "sharesNumber": 1661226
+        }
+      ]
+    },
+    {
+      "issuerName": "BERKSHIRE HATHAWAY INC DEL (Class B)",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "2,547,108",
+          "sharesNumber": 2547108
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "2,655,610",
+          "sharesNumber": 2655610
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "2,732,608",
+          "sharesNumber": 2732608
+        }
+      ]
+    },
+    {
+      "issuerName": "JOHNSON & JOHNSON",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "4,926,569",
+          "sharesNumber": 4926569
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "4,990,526",
+          "sharesNumber": 4990526
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "5,159,484",
+          "sharesNumber": 5159484
+        }
+      ]
+    },
+    {
+      "issuerName": "WALMART INC",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "9,160,741",
+          "sharesNumber": 9160741
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "9,812,461",
+          "sharesNumber": 9812461
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "9,969,043",
+          "sharesNumber": 9969043
+        }
+      ]
+    },
+    {
+      "issuerName": "VISA INC (Class A)",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "3,233,527",
+          "sharesNumber": 3233527
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "3,296,730",
+          "sharesNumber": 3296730
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "3,398,829",
+          "sharesNumber": 3398829
+        }
+      ]
+    },
+    {
+      "issuerName": "MICRON TECHNOLOGY INC",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "2,815,509",
+          "sharesNumber": 2815509
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "3,051,766",
+          "sharesNumber": 3051766
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "2,876,052",
+          "sharesNumber": 2876052
+        }
+      ]
+    },
+    {
+      "issuerName": "COSTCO WHOLESALE CORPORATION",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "997,577",
+          "sharesNumber": 997577
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "919,193",
+          "sharesNumber": 919193
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "933,576",
+          "sharesNumber": 933576
+        }
+      ]
+    },
+    {
+      "issuerName": "CHEVRON CORPORATION",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "3,940,671",
+          "sharesNumber": 3940671
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "4,360,210",
+          "sharesNumber": 4360210
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "4,479,333",
+          "sharesNumber": 4479333
+        }
+      ]
+    },
+    {
+      "issuerName": "NETFLIX INC.",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "927,368",
+          "sharesNumber": 927368
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "9,372,071",
+          "sharesNumber": 9372071
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "9,455,919",
+          "sharesNumber": 9455919
+        }
+      ]
+    },
+    {
+      "issuerName": "MASTERCARD INCORPORATED (Class A)",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "1,574,341",
+          "sharesNumber": 1574341
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "1,682,172",
+          "sharesNumber": 1682172
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "1,721,463",
+          "sharesNumber": 1721463
+        }
+      ]
+    },
+    {
+      "issuerName": "ABBVIE INC",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "3,934,720",
+          "sharesNumber": 3934720
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "3,856,731",
+          "sharesNumber": 3856731
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "3,949,697",
+          "sharesNumber": 3949697
+        }
+      ]
+    },
+    {
+      "issuerName": "PROCTER & GAMBLE CO",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "5,030,147",
+          "sharesNumber": 5030147
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "5,404,211",
+          "sharesNumber": 5404211
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "5,471,690",
+          "sharesNumber": 5471690
+        }
+      ]
+    },
+    {
+      "issuerName": "PALANTIR TECHNOLOGIES INC (Class A)",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "4,475,175",
+          "sharesNumber": 4475175
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "4,783,713",
+          "sharesNumber": 4783713
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "5,184,024",
+          "sharesNumber": 5184024
+        }
+      ]
+    },
+    {
+      "issuerName": "BANK AMERICA CORP",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "13,878,478",
+          "sharesNumber": 13878478
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "15,163,763",
+          "sharesNumber": 15163763
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "15,490,057",
+          "sharesNumber": 15490057
+        }
+      ]
+    },
+    {
+      "issuerName": "CISCO SYS INC",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "9,323,224",
+          "sharesNumber": 9323224
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "9,531,981",
+          "sharesNumber": 9531981
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "9,622,922",
+          "sharesNumber": 9622922
+        }
+      ]
+    },
+    {
+      "issuerName": "ADVANCED MICRO DEVICES INC",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "3,377,037",
+          "sharesNumber": 3377037
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "3,431,359",
+          "sharesNumber": 3431359
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "3,551,712",
+          "sharesNumber": 3551712
+        }
+      ]
+    },
+    {
+      "issuerName": "HOME DEPOT INC",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "2,066,276",
+          "sharesNumber": 2066276
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "2,137,562",
+          "sharesNumber": 2137562
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "2,189,543",
+          "sharesNumber": 2189543
+        }
+      ]
+    },
+    {
+      "issuerName": "LAM RESEARCH CORP (COM NEW)",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "3,518,046",
+          "sharesNumber": 3518046
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "3,312,195",
+          "sharesNumber": 3312195
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "3,364,610",
+          "sharesNumber": 3364610
+        }
+      ]
+    },
+    {
+      "issuerName": "COCA COLA CO",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "8,888,237",
+          "sharesNumber": 8888237
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "9,105,640",
+          "sharesNumber": 9105640
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "9,287,778",
+          "sharesNumber": 9287778
+        }
+      ]
+    },
+    {
+      "issuerName": "CATERPILLAR INC",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "1,025,256",
+          "sharesNumber": 1025256
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "979,008",
+          "sharesNumber": 979008
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "988,716",
+          "sharesNumber": 988716
+        }
+      ]
+    },
+    {
+      "issuerName": "MERCK & CO INC",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "5,707,385",
+          "sharesNumber": 5707385
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "5,789,424",
+          "sharesNumber": 5789424
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "5,762,086",
+          "sharesNumber": 5762086
+        }
+      ]
+    },
+    {
+      "issuerName": "GE AEROSPACE (COM NEW)",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "2,391,681",
+          "sharesNumber": 2391681
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "2,374,686",
+          "sharesNumber": 2374686
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "2,390,708",
+          "sharesNumber": 2390708
+        }
+      ]
+    },
+    {
+      "issuerName": "APPLIED MATLS INC",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "2,257,690",
+          "sharesNumber": 2257690
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "1,935,654",
+          "sharesNumber": 1935654
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "1,952,288",
+          "sharesNumber": 1952288
+        }
+      ]
+    },
+    {
+      "issuerName": "T ROWE PRICE ETF INC (PRICE GRW STOCK)",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "15,814,477",
+          "sharesNumber": 15814477
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "15,814,477",
+          "sharesNumber": 15814477
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "15,814,477",
+          "sharesNumber": 15814477
+        }
+      ]
+    },
+    {
+      "issuerName": "PHILIP MORRIS INTL INC",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "3,810,514",
+          "sharesNumber": 3810514
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "3,587,297",
+          "sharesNumber": 3587297
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "3,612,916",
+          "sharesNumber": 3612916
+        }
+      ]
+    },
+    {
+      "issuerName": "LINDE PLC (SHS)",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "967,516",
+          "sharesNumber": 967516
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "1,198,564",
+          "sharesNumber": 1198564
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "1,199,655",
+          "sharesNumber": 1199655
+        }
+      ]
+    },
+    {
+      "issuerName": "WELLS FARGO & CO",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "6,635,396",
+          "sharesNumber": 6635396
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "7,283,908",
+          "sharesNumber": 7283908
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "7,322,564",
+          "sharesNumber": 7322564
+        }
+      ]
+    },
+    {
+      "issuerName": "HARBOR ETF TRUST (PANAGORA DYNAMIC)",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "24,565,625",
+          "sharesNumber": 24565625
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "24,565,625",
+          "sharesNumber": 24565625
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "24,565,625",
+          "sharesNumber": 24565625
+        }
+      ]
+    },
+    {
+      "issuerName": "GOLDMAN SACHS GROUP INC",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "665,794",
+          "sharesNumber": 665794
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "660,068",
+          "sharesNumber": 660068
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "674,837",
+          "sharesNumber": 674837
+        }
+      ]
+    },
+    {
+      "issuerName": "ORACLE CORP",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "3,451,215",
+          "sharesNumber": 3451215
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "3,672,921",
+          "sharesNumber": 3672921
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "3,774,444",
+          "sharesNumber": 3774444
+        }
+      ]
+    },
+    {
+      "issuerName": "INTERNATIONAL BUSINESS MACHS",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "2,241,113",
+          "sharesNumber": 2241113
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "2,267,663",
+          "sharesNumber": 2267663
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "2,285,117",
+          "sharesNumber": 2285117
+        }
+      ]
+    },
+    {
+      "issuerName": "RTX CORPORATION",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "2,808,284",
+          "sharesNumber": 2808284
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "2,761,539",
+          "sharesNumber": 2761539
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "2,827,989",
+          "sharesNumber": 2827989
+        }
+      ]
+    },
+    {
+      "issuerName": "KLA CORP (COM NEW)",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "367,909",
+          "sharesNumber": 367909
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "364,098",
+          "sharesNumber": 364098
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "363,701",
+          "sharesNumber": 363701
+        }
+      ]
+    },
+    {
+      "issuerName": "ADVISORS INNER CIRCLE FD (LSV DISCIPLINED)",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "18,162,000",
+          "sharesNumber": 18162000
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "18,162,000",
+          "sharesNumber": 18162000
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "18,162,000",
+          "sharesNumber": 18162000
+        }
+      ]
+    },
+    {
+      "issuerName": "VERIZON COMMUNICATIONS INC",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "9,878,922",
+          "sharesNumber": 9878922
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "10,325,584",
+          "sharesNumber": 10325584
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "10,585,296",
+          "sharesNumber": 10585296
+        }
+      ]
+    },
+    {
+      "issuerName": "UNITEDHEALTH GROUP INC",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "1,876,774",
+          "sharesNumber": 1876774
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "1,920,398",
+          "sharesNumber": 1920398
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "1,947,305",
+          "sharesNumber": 1947305
+        }
+      ]
+    },
+    {
+      "issuerName": "AT&T INC",
+      "quarters": [
+        {
+          "label": "25년 3Q",
+          "shares": "16,902,567",
+          "sharesNumber": 16902567
+        },
+        {
+          "label": "25년 4Q",
+          "shares": "17,890,741",
+          "sharesNumber": 17890741
+        },
+        {
+          "label": "26년 1Q",
+          "shares": "17,404,803",
+          "sharesNumber": 17404803
+        }
+      ]
+    }
+  ],
+  "quarters": [
+    "25년 3Q",
+    "25년 4Q",
+    "26년 1Q"
+  ],
+  "disclaimer": "Whale Insight page snapshots are converted for prototype/static-data use. Confirm reuse rights before public redistribution. Data may be delayed, incomplete, or affected by source page/parser changes."
+}
