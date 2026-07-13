@@ -1,8 +1,8 @@
 {
   "schemaVersion": "1.0.0",
-  "parserVersion": "2026-07-02.1",
+  "parserVersion": "2026-07-13.2",
   "sourceUrl": "https://whale-insight.com/legend/nps",
-  "generatedAt": "2026-07-11T10:56:03+09:00",
+  "generatedAt": "2026-07-13T15:23:47+09:00",
   "title": "국민연금 해외 포트폴리오",
   "manager": {
     "name": "국민연금",
@@ -1259,5 +1259,5 @@
     "25년 4Q",
     "26년 1Q"
   ],
-  "disclaimer": "Whale Insight page snapshots are converted for prototype/static-data use. Confirm reuse rights before public redistribution. Data may be delayed, incomplete, or affected by source page/parser changes."
+  "disclaimer": "Whale Insight page/API snapshots are converted for prototype/static-data use. Confirm reuse rights before public redistribution. Data may be delayed, incomplete, or affected by source page/parser changes."
 }
