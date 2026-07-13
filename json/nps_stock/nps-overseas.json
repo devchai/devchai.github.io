@@ -1,8 +1,8 @@
 {
   "schemaVersion": "1.0.0",
-  "parserVersion": "2026-07-02.1",
+  "parserVersion": "2026-07-13.1",
   "sourceUrl": "https://whale-insight.com/legend/nps",
-  "generatedAt": "2026-07-11T10:56:03+09:00",
+  "generatedAt": "2026-07-13T15:06:10+09:00",
   "title": "국민연금 해외 포트폴리오",
   "manager": {
     "name": "국민연금",
@@ -11,8 +11,8 @@
     "description": "세계 3대 연기금 중 하나로, 대한민국 국민의 노후자금을 운용하는 초대형 기관투자자입니다. 국내 증시를 넘어 미국 등 해외 우량주에도 장기 분산투자를 진행하며, 안정성과 장기 수익률을 동시에 추구하는 포트폴리오를 운용합니다."
   },
   "summary": {
-    "topBuyCount": 5,
-    "topSellCount": 5,
+    "topBuyCount": 4,
+    "topSellCount": 4,
     "holdingCount": 10,
     "quarterHistoryCount": 50
   },
@@ -27,17 +27,6 @@
       "direction": "buy",
       "value": "$28,306,583",
       "valueUsd": 28306583
-    },
-    {
-      "rank": 2,
-      "issuerName": "CHEVRON CORP NEW",
-      "holdingWeight": "0.70%",
-      "holdingWeightNumber": 0.7,
-      "weightDelta": "+0.21%p",
-      "weightDeltaNumber": 0.21,
-      "direction": "buy",
-      "value": "$24,646,549",
-      "valueUsd": 24646549
     },
     {
       "rank": 3,
@@ -84,17 +73,6 @@
       "direction": "sell",
       "value": "$57,693,284",
       "valueUsd": 57693284
-    },
-    {
-      "rank": 2,
-      "issuerName": "MARSH & MCLENNAN COS INC",
-      "holdingWeight": "0.00%",
-      "holdingWeightNumber": 0.0,
-      "weightDelta": "-0.16%p",
-      "weightDeltaNumber": -0.16,
-      "direction": "sell",
-      "value": "$211,635,094",
-      "valueUsd": 211635094
     },
     {
       "rank": 3,
@@ -257,6 +235,11 @@
       "issuerName": "NVIDIA CORPORATION",
       "quarters": [
         {
+          "label": "25년 2Q",
+          "shares": "46,535,267",
+          "sharesNumber": 46535267
+        },
+        {
           "label": "25년 3Q",
           "shares": "49,553,761",
           "sharesNumber": 49553761
@@ -276,6 +259,11 @@
     {
       "issuerName": "APPLE INC",
       "quarters": [
+        {
+          "label": "25년 2Q",
+          "shares": "28,813,985",
+          "sharesNumber": 28813985
+        },
         {
           "label": "25년 3Q",
           "shares": "29,726,955",
@@ -297,6 +285,11 @@
       "issuerName": "MICROSOFT CORP",
       "quarters": [
         {
+          "label": "25년 2Q",
+          "shares": "13,664,645",
+          "sharesNumber": 13664645
+        },
+        {
           "label": "25년 3Q",
           "shares": "14,288,881",
           "sharesNumber": 14288881
@@ -316,6 +309,11 @@
     {
       "issuerName": "AMAZON COM INC",
       "quarters": [
+        {
+          "label": "25년 2Q",
+          "shares": "18,352,886",
+          "sharesNumber": 18352886
+        },
         {
           "label": "25년 3Q",
           "shares": "18,939,183",
@@ -337,6 +335,11 @@
       "issuerName": "ALPHABET INC (Class A)",
       "quarters": [
         {
+          "label": "25년 2Q",
+          "shares": "11,584,502",
+          "sharesNumber": 11584502
+        },
+        {
           "label": "25년 3Q",
           "shares": "11,947,797",
           "sharesNumber": 11947797
@@ -356,6 +359,11 @@
     {
       "issuerName": "INVESCO EXCH TRADED FD TR II (PURBTA MSCI US)",
       "quarters": [
+        {
+          "label": "25년 2Q",
+          "shares": "70,631,785",
+          "sharesNumber": 70631785
+        },
         {
           "label": "25년 3Q",
           "shares": "47,382,366",
@@ -377,6 +385,11 @@
       "issuerName": "ALPHABET INC (Class C)",
       "quarters": [
         {
+          "label": "25년 2Q",
+          "shares": "9,872,626",
+          "sharesNumber": 9872626
+        },
+        {
           "label": "25년 3Q",
           "shares": "10,185,776",
           "sharesNumber": 10185776
@@ -396,6 +409,11 @@
     {
       "issuerName": "BROADCOM INC",
       "quarters": [
+        {
+          "label": "25년 2Q",
+          "shares": "8,581,997",
+          "sharesNumber": 8581997
+        },
         {
           "label": "25년 3Q",
           "shares": "8,860,165",
@@ -417,6 +435,11 @@
       "issuerName": "ISHARES TR (CORE S&P500 ETF)",
       "quarters": [
         {
+          "label": "25년 2Q",
+          "shares": "4,119,355",
+          "sharesNumber": 4119355
+        },
+        {
           "label": "25년 3Q",
           "shares": "4,119,355",
           "sharesNumber": 4119355
@@ -436,6 +459,11 @@
     {
       "issuerName": "META PLATFORMS INC (Class A)",
       "quarters": [
+        {
+          "label": "25년 2Q",
+          "shares": "4,331,629",
+          "sharesNumber": 4331629
+        },
         {
           "label": "25년 3Q",
           "shares": "4,470,199",
@@ -457,6 +485,11 @@
       "issuerName": "TESLA INC",
       "quarters": [
         {
+          "label": "25년 2Q",
+          "shares": "5,517,336",
+          "sharesNumber": 5517336
+        },
+        {
           "label": "25년 3Q",
           "shares": "5,681,563",
           "sharesNumber": 5681563
@@ -476,6 +509,11 @@
     {
       "issuerName": "JPMORGAN CHASE & CO",
       "quarters": [
+        {
+          "label": "25년 2Q",
+          "shares": "5,271,990",
+          "sharesNumber": 5271990
+        },
         {
           "label": "25년 3Q",
           "shares": "5,450,875",
@@ -497,6 +535,11 @@
       "issuerName": "EXXON MOBIL CORP",
       "quarters": [
         {
+          "label": "25년 2Q",
+          "shares": "8,941,990",
+          "sharesNumber": 8941990
+        },
+        {
           "label": "25년 3Q",
           "shares": "9,217,615",
           "sharesNumber": 9217615
@@ -517,6 +560,11 @@
       "issuerName": "ELI LILLY & CO",
       "quarters": [
         {
+          "label": "25년 2Q",
+          "shares": "1,543,238",
+          "sharesNumber": 1543238
+        },
+        {
           "label": "25년 3Q",
           "shares": "1,592,232",
           "sharesNumber": 1592232
@@ -534,8 +582,13 @@
       ]
     },
     {
-      "issuerName": "BERKSHIRE HATHAWAY INC DEL (Class B)",
+      "issuerName": "BRK/BBERKSHIRE HATHAWAY INC DEL (Class B)",
       "quarters": [
+        {
+          "label": "25년 2Q",
+          "shares": "2,469,534",
+          "sharesNumber": 2469534
+        },
         {
           "label": "25년 3Q",
           "shares": "2,547,108",
@@ -557,6 +610,11 @@
       "issuerName": "JOHNSON & JOHNSON",
       "quarters": [
         {
+          "label": "25년 2Q",
+          "shares": "4,774,862",
+          "sharesNumber": 4774862
+        },
+        {
           "label": "25년 3Q",
           "shares": "4,926,569",
           "sharesNumber": 4926569
@@ -576,6 +634,11 @@
     {
       "issuerName": "WALMART INC",
       "quarters": [
+        {
+          "label": "25년 2Q",
+          "shares": "8,879,979",
+          "sharesNumber": 8879979
+        },
         {
           "label": "25년 3Q",
           "shares": "9,160,741",
@@ -597,6 +660,11 @@
       "issuerName": "VISA INC (Class A)",
       "quarters": [
         {
+          "label": "25년 2Q",
+          "shares": "3,136,548",
+          "sharesNumber": 3136548
+        },
+        {
           "label": "25년 3Q",
           "shares": "3,233,527",
           "sharesNumber": 3233527
@@ -616,6 +684,11 @@
     {
       "issuerName": "MICRON TECHNOLOGY INC",
       "quarters": [
+        {
+          "label": "25년 2Q",
+          "shares": "2,697,647",
+          "sharesNumber": 2697647
+        },
         {
           "label": "25년 3Q",
           "shares": "2,815,509",
@@ -637,6 +710,11 @@
       "issuerName": "COSTCO WHOLESALE CORPORATION",
       "quarters": [
         {
+          "label": "25년 2Q",
+          "shares": "971,035",
+          "sharesNumber": 971035
+        },
+        {
           "label": "25년 3Q",
           "shares": "997,577",
           "sharesNumber": 997577
@@ -654,8 +732,13 @@
       ]
     },
     {
-      "issuerName": "CHEVRON CORPORATION",
+      "issuerName": "CHVCHEVRON CORPORATION",
       "quarters": [
+        {
+          "label": "25년 2Q",
+          "shares": "3,461,940",
+          "sharesNumber": 3461940
+        },
         {
           "label": "25년 3Q",
           "shares": "3,940,671",
@@ -677,6 +760,11 @@
       "issuerName": "NETFLIX INC.",
       "quarters": [
         {
+          "label": "25년 2Q",
+          "shares": "899,484",
+          "sharesNumber": 899484
+        },
+        {
           "label": "25년 3Q",
           "shares": "927,368",
           "sharesNumber": 927368
@@ -696,6 +784,11 @@
     {
       "issuerName": "MASTERCARD INCORPORATED (Class A)",
       "quarters": [
+        {
+          "label": "25년 2Q",
+          "shares": "1,519,790",
+          "sharesNumber": 1519790
+        },
         {
           "label": "25년 3Q",
           "shares": "1,574,341",
@@ -717,6 +810,11 @@
       "issuerName": "ABBVIE INC",
       "quarters": [
         {
+          "label": "25년 2Q",
+          "shares": "3,820,450",
+          "sharesNumber": 3820450
+        },
+        {
           "label": "25년 3Q",
           "shares": "3,934,720",
           "sharesNumber": 3934720
@@ -736,6 +834,11 @@
     {
       "issuerName": "PROCTER & GAMBLE CO",
       "quarters": [
+        {
+          "label": "25년 2Q",
+          "shares": "4,889,223",
+          "sharesNumber": 4889223
+        },
         {
           "label": "25년 3Q",
           "shares": "5,030,147",
@@ -757,6 +860,11 @@
       "issuerName": "PALANTIR TECHNOLOGIES INC (Class A)",
       "quarters": [
         {
+          "label": "25년 2Q",
+          "shares": "4,367,253",
+          "sharesNumber": 4367253
+        },
+        {
           "label": "25년 3Q",
           "shares": "4,475,175",
           "sharesNumber": 4475175
@@ -776,6 +884,11 @@
     {
       "issuerName": "BANK AMERICA CORP",
       "quarters": [
+        {
+          "label": "25년 2Q",
+          "shares": "13,512,376",
+          "sharesNumber": 13512376
+        },
         {
           "label": "25년 3Q",
           "shares": "13,878,478",
@@ -797,6 +910,11 @@
       "issuerName": "CISCO SYS INC",
       "quarters": [
         {
+          "label": "25년 2Q",
+          "shares": "9,049,429",
+          "sharesNumber": 9049429
+        },
+        {
           "label": "25년 3Q",
           "shares": "9,323,224",
           "sharesNumber": 9323224
@@ -816,6 +934,11 @@
     {
       "issuerName": "ADVANCED MICRO DEVICES INC",
       "quarters": [
+        {
+          "label": "25년 2Q",
+          "shares": "3,286,275",
+          "sharesNumber": 3286275
+        },
         {
           "label": "25년 3Q",
           "shares": "3,377,037",
@@ -837,6 +960,11 @@
       "issuerName": "HOME DEPOT INC",
       "quarters": [
         {
+          "label": "25년 2Q",
+          "shares": "2,007,389",
+          "sharesNumber": 2007389
+        },
+        {
           "label": "25년 3Q",
           "shares": "2,066,276",
           "sharesNumber": 2066276
@@ -856,6 +984,11 @@
     {
       "issuerName": "LAM RESEARCH CORP (COM NEW)",
       "quarters": [
+        {
+          "label": "25년 2Q",
+          "shares": "3,421,664",
+          "sharesNumber": 3421664
+        },
         {
           "label": "25년 3Q",
           "shares": "3,518,046",
@@ -877,6 +1010,11 @@
       "issuerName": "COCA COLA CO",
       "quarters": [
         {
+          "label": "25년 2Q",
+          "shares": "8,666,229",
+          "sharesNumber": 8666229
+        },
+        {
           "label": "25년 3Q",
           "shares": "8,888,237",
           "sharesNumber": 8888237
@@ -896,6 +1034,11 @@
     {
       "issuerName": "CATERPILLAR INC",
       "quarters": [
+        {
+          "label": "25년 2Q",
+          "shares": "994,303",
+          "sharesNumber": 994303
+        },
         {
           "label": "25년 3Q",
           "shares": "1,025,256",
@@ -917,6 +1060,11 @@
       "issuerName": "MERCK & CO INC",
       "quarters": [
         {
+          "label": "25년 2Q",
+          "shares": "5,531,803",
+          "sharesNumber": 5531803
+        },
+        {
           "label": "25년 3Q",
           "shares": "5,707,385",
           "sharesNumber": 5707385
@@ -936,6 +1084,11 @@
     {
       "issuerName": "GE AEROSPACE (COM NEW)",
       "quarters": [
+        {
+          "label": "25년 2Q",
+          "shares": "2,328,584",
+          "sharesNumber": 2328584
+        },
         {
           "label": "25년 3Q",
           "shares": "2,391,681",
@@ -957,6 +1110,11 @@
       "issuerName": "APPLIED MATLS INC",
       "quarters": [
         {
+          "label": "25년 2Q",
+          "shares": "2,201,543",
+          "sharesNumber": 2201543
+        },
+        {
           "label": "25년 3Q",
           "shares": "2,257,690",
           "sharesNumber": 2257690
@@ -974,8 +1132,13 @@
       ]
     },
     {
-      "issuerName": "T ROWE PRICE ETF INC (PRICE GRW STOCK)",
+      "issuerName": "TGRWT ROWE PRICE ETF INC (PRICE GRW STOCK)",
       "quarters": [
+        {
+          "label": "25년 2Q",
+          "shares": "4,245,777",
+          "sharesNumber": 4245777
+        },
         {
           "label": "25년 3Q",
           "shares": "15,814,477",
@@ -994,8 +1157,13 @@
       ]
     },
     {
-      "issuerName": "PHILIP MORRIS INTL INC",
+      "issuerName": "4I1PHILIP MORRIS INTL INC",
       "quarters": [
+        {
+          "label": "25년 2Q",
+          "shares": "3,712,064",
+          "sharesNumber": 3712064
+        },
         {
           "label": "25년 3Q",
           "shares": "3,810,514",
@@ -1017,6 +1185,11 @@
       "issuerName": "LINDE PLC (SHS)",
       "quarters": [
         {
+          "label": "25년 2Q",
+          "shares": "942,892",
+          "sharesNumber": 942892
+        },
+        {
           "label": "25년 3Q",
           "shares": "967,516",
           "sharesNumber": 967516
@@ -1036,6 +1209,11 @@
     {
       "issuerName": "WELLS FARGO & CO",
       "quarters": [
+        {
+          "label": "25년 2Q",
+          "shares": "6,417,035",
+          "sharesNumber": 6417035
+        },
         {
           "label": "25년 3Q",
           "shares": "6,635,396",
@@ -1057,6 +1235,11 @@
       "issuerName": "HARBOR ETF TRUST (PANAGORA DYNAMIC)",
       "quarters": [
         {
+          "label": "25년 2Q",
+          "shares": "2,412,324",
+          "sharesNumber": 2412324
+        },
+        {
           "label": "25년 3Q",
           "shares": "24,565,625",
           "sharesNumber": 24565625
@@ -1076,6 +1259,11 @@
     {
       "issuerName": "GOLDMAN SACHS GROUP INC",
       "quarters": [
+        {
+          "label": "25년 2Q",
+          "shares": "645,998",
+          "sharesNumber": 645998
+        },
         {
           "label": "25년 3Q",
           "shares": "665,794",
@@ -1097,6 +1285,11 @@
       "issuerName": "ORACLE CORP",
       "quarters": [
         {
+          "label": "25년 2Q",
+          "shares": "3,348,663",
+          "sharesNumber": 3348663
+        },
+        {
           "label": "25년 3Q",
           "shares": "3,451,215",
           "sharesNumber": 3451215
@@ -1116,6 +1309,11 @@
     {
       "issuerName": "INTERNATIONAL BUSINESS MACHS",
       "quarters": [
+        {
+          "label": "25년 2Q",
+          "shares": "2,178,026",
+          "sharesNumber": 2178026
+        },
         {
           "label": "25년 3Q",
           "shares": "2,241,113",
@@ -1137,6 +1335,11 @@
       "issuerName": "RTX CORPORATION",
       "quarters": [
         {
+          "label": "25년 2Q",
+          "shares": "2,731,407",
+          "sharesNumber": 2731407
+        },
+        {
           "label": "25년 3Q",
           "shares": "2,808,284",
           "sharesNumber": 2808284
@@ -1157,6 +1360,11 @@
       "issuerName": "KLA CORP (COM NEW)",
       "quarters": [
         {
+          "label": "25년 2Q",
+          "shares": "358,792",
+          "sharesNumber": 358792
+        },
+        {
           "label": "25년 3Q",
           "shares": "367,909",
           "sharesNumber": 367909
@@ -1174,8 +1382,13 @@
       ]
     },
     {
-      "issuerName": "ADVISORS INNER CIRCLE FD (LSV DISCIPLINED)",
+      "issuerName": "LSVDADVISORS INNER CIRCLE FD (LSV DISCIPLINED)",
       "quarters": [
+        {
+          "label": "25년 2Q",
+          "shares": "-",
+          "sharesNumber": null
+        },
         {
           "label": "25년 3Q",
           "shares": "18,162,000",
@@ -1197,6 +1410,11 @@
       "issuerName": "VERIZON COMMUNICATIONS INC",
       "quarters": [
         {
+          "label": "25년 2Q",
+          "shares": "9,569,160",
+          "sharesNumber": 9569160
+        },
+        {
           "label": "25년 3Q",
           "shares": "9,878,922",
           "sharesNumber": 9878922
@@ -1216,6 +1434,11 @@
     {
       "issuerName": "UNITEDHEALTH GROUP INC",
       "quarters": [
+        {
+          "label": "25년 2Q",
+          "shares": "1,822,757",
+          "sharesNumber": 1822757
+        },
         {
           "label": "25년 3Q",
           "shares": "1,876,774",
@@ -1237,6 +1460,11 @@
       "issuerName": "AT&T INC",
       "quarters": [
         {
+          "label": "25년 2Q",
+          "shares": "16,270,803",
+          "sharesNumber": 16270803
+        },
+        {
           "label": "25년 3Q",
           "shares": "16,902,567",
           "sharesNumber": 16902567
@@ -1255,9 +1483,10 @@
     }
   ],
   "quarters": [
+    "25년 2Q",
     "25년 3Q",
     "25년 4Q",
     "26년 1Q"
   ],
-  "disclaimer": "Whale Insight page snapshots are converted for prototype/static-data use. Confirm reuse rights before public redistribution. Data may be delayed, incomplete, or affected by source page/parser changes."
+  "disclaimer": "Whale Insight page/API snapshots are converted for prototype/static-data use. Confirm reuse rights before public redistribution. Data may be delayed, incomplete, or affected by source page/parser changes."
 }
