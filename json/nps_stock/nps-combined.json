@@ -1,15 +1,15 @@
 {
   "schemaVersion": "1.0.0",
-  "parserVersion": "2026-07-11.1",
+  "parserVersion": "2026-07-13.1",
   "sourceUrl": "https://whale-insight.com/nps-combined",
-  "generatedAt": "2026-07-11T11:29:14+09:00",
+  "generatedAt": "2026-07-13T15:06:10+09:00",
   "title": "국민연금 전체 공시",
   "periodLabel": "7월",
-  "latestObligationDate": "2026-06-30",
+  "latestObligationDate": "2026-07-06",
   "summary": {
-    "buyCount": 58,
-    "sellCount": 63,
-    "rowCount": 121
+    "buyCount": 85,
+    "sellCount": 79,
+    "rowCount": 164
   },
   "columns": [
     "rank",
@@ -26,6 +26,66 @@
   "rows": [
     {
       "rank": 1,
+      "disclosureType": "임원·주요주주",
+      "companyName": "GS리테일",
+      "finalOwnershipRate": "10.02%",
+      "finalOwnershipRateNumber": 10.02,
+      "deltaRate": "10.02%",
+      "deltaRateNumber": 10.02,
+      "deltaShares": "8,377,370주",
+      "deltaSharesNumber": 8377370,
+      "direction": "buy",
+      "obligationDate": "2026-07-06",
+      "reportDate": "2026-07-06",
+      "note": "신규"
+    },
+    {
+      "rank": 2,
+      "disclosureType": "임원·주요주주",
+      "companyName": "대웅제약",
+      "finalOwnershipRate": "10.10%",
+      "finalOwnershipRateNumber": 10.1,
+      "deltaRate": "10.10%",
+      "deltaRateNumber": 10.1,
+      "deltaShares": "1,170,516주",
+      "deltaSharesNumber": 1170516,
+      "direction": "buy",
+      "obligationDate": "2026-07-06",
+      "reportDate": "2026-07-06",
+      "note": "신규"
+    },
+    {
+      "rank": 3,
+      "disclosureType": "임원·주요주주",
+      "companyName": "동아쏘시오홀딩스",
+      "finalOwnershipRate": "9.97%",
+      "finalOwnershipRateNumber": 9.97,
+      "deltaRate": "-0.19%",
+      "deltaRateNumber": -0.19,
+      "deltaShares": "-12,471주",
+      "deltaSharesNumber": -12471,
+      "direction": "sell",
+      "obligationDate": "2026-07-01",
+      "reportDate": "2026-07-06",
+      "note": "변동"
+    },
+    {
+      "rank": 4,
+      "disclosureType": "임원·주요주주",
+      "companyName": "코리아써키트",
+      "finalOwnershipRate": "8.60%",
+      "finalOwnershipRateNumber": 8.6,
+      "deltaRate": "-0.49%",
+      "deltaRateNumber": -0.49,
+      "deltaShares": "-137,801주",
+      "deltaSharesNumber": -137801,
+      "direction": "sell",
+      "obligationDate": "2026-07-01",
+      "reportDate": "2026-07-02",
+      "note": "변동"
+    },
+    {
+      "rank": 5,
       "disclosureType": "대량",
       "companyName": "(주)포스코디엑스",
       "finalOwnershipRate": "5.01%",
@@ -40,7 +100,7 @@
       "note": "변동"
     },
     {
-      "rank": 2,
+      "rank": 6,
       "disclosureType": "대량",
       "companyName": "(주)후성",
       "finalOwnershipRate": "5.09%",
@@ -55,7 +115,562 @@
       "note": "신규"
     },
     {
-      "rank": 3,
+      "rank": 7,
+      "disclosureType": "임원·주요주주",
+      "companyName": "현대엘리베이터",
+      "finalOwnershipRate": "9.97%",
+      "finalOwnershipRateNumber": 9.97,
+      "deltaRate": "-0.05%",
+      "deltaRateNumber": -0.05,
+      "deltaShares": "-19,810주",
+      "deltaSharesNumber": -19810,
+      "direction": "sell",
+      "obligationDate": "2026-06-24",
+      "reportDate": "2026-06-30",
+      "note": "변동"
+    },
+    {
+      "rank": 8,
+      "disclosureType": "임원·주요주주",
+      "companyName": "DL이앤씨",
+      "finalOwnershipRate": "10.45%",
+      "finalOwnershipRateNumber": 10.45,
+      "deltaRate": "1.13%",
+      "deltaRateNumber": 1.13,
+      "deltaShares": "481,663주",
+      "deltaSharesNumber": 481663,
+      "direction": "buy",
+      "obligationDate": "2026-04-16",
+      "reportDate": "2026-06-30",
+      "note": "변동"
+    },
+    {
+      "rank": 9,
+      "disclosureType": "임원·주요주주",
+      "companyName": "대덕전자",
+      "finalOwnershipRate": "12.19%",
+      "finalOwnershipRateNumber": 12.19,
+      "deltaRate": "-0.68%",
+      "deltaRateNumber": -0.68,
+      "deltaShares": "-352,457주",
+      "deltaSharesNumber": -352457,
+      "direction": "sell",
+      "obligationDate": "2026-04-01",
+      "reportDate": "2026-06-30",
+      "note": "변동"
+    },
+    {
+      "rank": 10,
+      "disclosureType": "임원·주요주주",
+      "companyName": "효성중공업",
+      "finalOwnershipRate": "10.08%",
+      "finalOwnershipRateNumber": 10.08,
+      "deltaRate": "0.07%",
+      "deltaRateNumber": 0.07,
+      "deltaShares": "7,345주",
+      "deltaSharesNumber": 7345,
+      "direction": "buy",
+      "obligationDate": "2026-06-15",
+      "reportDate": "2026-06-30",
+      "note": "변동"
+    },
+    {
+      "rank": 11,
+      "disclosureType": "임원·주요주주",
+      "companyName": "IPARK현대산업개발",
+      "finalOwnershipRate": "10.13%",
+      "finalOwnershipRateNumber": 10.13,
+      "deltaRate": "0.05%",
+      "deltaRateNumber": 0.05,
+      "deltaShares": "35,252주",
+      "deltaSharesNumber": 35252,
+      "direction": "buy",
+      "obligationDate": "2026-05-19",
+      "reportDate": "2026-06-30",
+      "note": "변동"
+    },
+    {
+      "rank": 12,
+      "disclosureType": "임원·주요주주",
+      "companyName": "HD건설기계",
+      "finalOwnershipRate": "12.07%",
+      "finalOwnershipRateNumber": 12.07,
+      "deltaRate": "-0.27%",
+      "deltaRateNumber": -0.27,
+      "deltaShares": "-131,621주",
+      "deltaSharesNumber": -131621,
+      "direction": "sell",
+      "obligationDate": "2026-04-01",
+      "reportDate": "2026-06-30",
+      "note": "변동"
+    },
+    {
+      "rank": 13,
+      "disclosureType": "임원·주요주주",
+      "companyName": "코스메카코리아",
+      "finalOwnershipRate": "12.87%",
+      "finalOwnershipRateNumber": 12.87,
+      "deltaRate": "0.35%",
+      "deltaRateNumber": 0.35,
+      "deltaShares": "37,005주",
+      "deltaSharesNumber": 37005,
+      "direction": "buy",
+      "obligationDate": "2026-04-01",
+      "reportDate": "2026-06-30",
+      "note": "변동"
+    },
+    {
+      "rank": 14,
+      "disclosureType": "임원·주요주주",
+      "companyName": "HL만도",
+      "finalOwnershipRate": "10.60%",
+      "finalOwnershipRateNumber": 10.6,
+      "deltaRate": "0.46%",
+      "deltaRateNumber": 0.46,
+      "deltaShares": "218,093주",
+      "deltaSharesNumber": 218093,
+      "direction": "buy",
+      "obligationDate": "2026-05-27",
+      "reportDate": "2026-06-30",
+      "note": "변동"
+    },
+    {
+      "rank": 15,
+      "disclosureType": "임원·주요주주",
+      "companyName": "코스맥스",
+      "finalOwnershipRate": "12.57%",
+      "finalOwnershipRateNumber": 12.57,
+      "deltaRate": "1.35%",
+      "deltaRateNumber": 1.35,
+      "deltaShares": "152,316주",
+      "deltaSharesNumber": 152316,
+      "direction": "buy",
+      "obligationDate": "2026-04-01",
+      "reportDate": "2026-06-30",
+      "note": "변동"
+    },
+    {
+      "rank": 16,
+      "disclosureType": "임원·주요주주",
+      "companyName": "한국콜마",
+      "finalOwnershipRate": "12.80%",
+      "finalOwnershipRateNumber": 12.8,
+      "deltaRate": "2.59%",
+      "deltaRateNumber": 2.59,
+      "deltaShares": "610,516주",
+      "deltaSharesNumber": 610516,
+      "direction": "buy",
+      "obligationDate": "2026-04-01",
+      "reportDate": "2026-06-30",
+      "note": "변동"
+    },
+    {
+      "rank": 17,
+      "disclosureType": "임원·주요주주",
+      "companyName": "한미약품",
+      "finalOwnershipRate": "10.30%",
+      "finalOwnershipRateNumber": 10.3,
+      "deltaRate": "0.19%",
+      "deltaRateNumber": 0.19,
+      "deltaShares": "23,502주",
+      "deltaSharesNumber": 23502,
+      "direction": "buy",
+      "obligationDate": "2026-06-08",
+      "reportDate": "2026-06-30",
+      "note": "변동"
+    },
+    {
+      "rank": 18,
+      "disclosureType": "임원·주요주주",
+      "companyName": "코오롱인더",
+      "finalOwnershipRate": "10.05%",
+      "finalOwnershipRateNumber": 10.05,
+      "deltaRate": "0.83%",
+      "deltaRateNumber": 0.83,
+      "deltaShares": "272,558주",
+      "deltaSharesNumber": 272558,
+      "direction": "buy",
+      "obligationDate": "2026-04-23",
+      "reportDate": "2026-06-30",
+      "note": "변동"
+    },
+    {
+      "rank": 19,
+      "disclosureType": "임원·주요주주",
+      "companyName": "영원무역",
+      "finalOwnershipRate": "10.57%",
+      "finalOwnershipRateNumber": 10.57,
+      "deltaRate": "0.38%",
+      "deltaRateNumber": 0.38,
+      "deltaShares": "168,344주",
+      "deltaSharesNumber": 168344,
+      "direction": "buy",
+      "obligationDate": "2026-04-01",
+      "reportDate": "2026-06-30",
+      "note": "변동"
+    },
+    {
+      "rank": 20,
+      "disclosureType": "임원·주요주주",
+      "companyName": "비에이치",
+      "finalOwnershipRate": "13.35%",
+      "finalOwnershipRateNumber": 13.35,
+      "deltaRate": "2.73%",
+      "deltaRateNumber": 2.73,
+      "deltaShares": "921,614주",
+      "deltaSharesNumber": 921614,
+      "direction": "buy",
+      "obligationDate": "2026-04-22",
+      "reportDate": "2026-06-30",
+      "note": "변동"
+    },
+    {
+      "rank": 21,
+      "disclosureType": "임원·주요주주",
+      "companyName": "LIG디펜스앤에어로스페이스",
+      "finalOwnershipRate": "10.31%",
+      "finalOwnershipRateNumber": 10.31,
+      "deltaRate": "0.25%",
+      "deltaRateNumber": 0.25,
+      "deltaShares": "55,530주",
+      "deltaSharesNumber": 55530,
+      "direction": "buy",
+      "obligationDate": "2026-05-29",
+      "reportDate": "2026-06-30",
+      "note": "변동"
+    },
+    {
+      "rank": 22,
+      "disclosureType": "임원·주요주주",
+      "companyName": "한국금융지주",
+      "finalOwnershipRate": "12.16%",
+      "finalOwnershipRateNumber": 12.16,
+      "deltaRate": "0.13%",
+      "deltaRateNumber": 0.13,
+      "deltaShares": "83,544주",
+      "deltaSharesNumber": 83544,
+      "direction": "buy",
+      "obligationDate": "2026-04-01",
+      "reportDate": "2026-06-30",
+      "note": "변동"
+    },
+    {
+      "rank": 23,
+      "disclosureType": "임원·주요주주",
+      "companyName": "현대백화점",
+      "finalOwnershipRate": "13.49%",
+      "finalOwnershipRateNumber": 13.49,
+      "deltaRate": "0.79%",
+      "deltaRateNumber": 0.79,
+      "deltaShares": "34,530주",
+      "deltaSharesNumber": 34530,
+      "direction": "buy",
+      "obligationDate": "2026-04-01",
+      "reportDate": "2026-06-30",
+      "note": "변동"
+    },
+    {
+      "rank": 24,
+      "disclosureType": "임원·주요주주",
+      "companyName": "한전기술",
+      "finalOwnershipRate": "10.43%",
+      "finalOwnershipRateNumber": 10.43,
+      "deltaRate": "-0.63%",
+      "deltaRateNumber": -0.63,
+      "deltaShares": "-239,123주",
+      "deltaSharesNumber": -239123,
+      "direction": "sell",
+      "obligationDate": "2026-04-01",
+      "reportDate": "2026-06-30",
+      "note": "변동"
+    },
+    {
+      "rank": 25,
+      "disclosureType": "임원·주요주주",
+      "companyName": "키움증권",
+      "finalOwnershipRate": "11.58%",
+      "finalOwnershipRateNumber": 11.58,
+      "deltaRate": "-0.59%",
+      "deltaRateNumber": -0.59,
+      "deltaShares": "-155,013주",
+      "deltaSharesNumber": -155013,
+      "direction": "sell",
+      "obligationDate": "2026-04-01",
+      "reportDate": "2026-06-30",
+      "note": "변동"
+    },
+    {
+      "rank": 26,
+      "disclosureType": "임원·주요주주",
+      "companyName": "진성티이씨",
+      "finalOwnershipRate": "10.29%",
+      "finalOwnershipRateNumber": 10.29,
+      "deltaRate": "0.17%",
+      "deltaRateNumber": 0.17,
+      "deltaShares": "37,571주",
+      "deltaSharesNumber": 37571,
+      "direction": "buy",
+      "obligationDate": "2026-06-19",
+      "reportDate": "2026-06-30",
+      "note": "변동"
+    },
+    {
+      "rank": 27,
+      "disclosureType": "임원·주요주주",
+      "companyName": "NC",
+      "finalOwnershipRate": "11.08%",
+      "finalOwnershipRateNumber": 11.08,
+      "deltaRate": "1.07%",
+      "deltaRateNumber": 1.07,
+      "deltaShares": "230,623주",
+      "deltaSharesNumber": 230623,
+      "direction": "buy",
+      "obligationDate": "2026-05-13",
+      "reportDate": "2026-06-30",
+      "note": "변동"
+    },
+    {
+      "rank": 28,
+      "disclosureType": "임원·주요주주",
+      "companyName": "파라다이스",
+      "finalOwnershipRate": "12.21%",
+      "finalOwnershipRateNumber": 12.21,
+      "deltaRate": "0.61%",
+      "deltaRateNumber": 0.61,
+      "deltaShares": "565,242주",
+      "deltaSharesNumber": 565242,
+      "direction": "buy",
+      "obligationDate": "2026-04-01",
+      "reportDate": "2026-06-30",
+      "note": "변동"
+    },
+    {
+      "rank": 29,
+      "disclosureType": "임원·주요주주",
+      "companyName": "롯데쇼핑",
+      "finalOwnershipRate": "12.88%",
+      "finalOwnershipRateNumber": 12.88,
+      "deltaRate": "2.19%",
+      "deltaRateNumber": 2.19,
+      "deltaShares": "620,022주",
+      "deltaSharesNumber": 620022,
+      "direction": "buy",
+      "obligationDate": "2026-04-01",
+      "reportDate": "2026-06-30",
+      "note": "변동"
+    },
+    {
+      "rank": 30,
+      "disclosureType": "임원·주요주주",
+      "companyName": "삼성증권",
+      "finalOwnershipRate": "13.35%",
+      "finalOwnershipRateNumber": 13.35,
+      "deltaRate": "0.04%",
+      "deltaRateNumber": 0.04,
+      "deltaShares": "34,541주",
+      "deltaSharesNumber": 34541,
+      "direction": "buy",
+      "obligationDate": "2026-04-01",
+      "reportDate": "2026-06-30",
+      "note": "변동"
+    },
+    {
+      "rank": 31,
+      "disclosureType": "임원·주요주주",
+      "companyName": "한솔케미칼",
+      "finalOwnershipRate": "11.16%",
+      "finalOwnershipRateNumber": 11.16,
+      "deltaRate": "-1.58%",
+      "deltaRateNumber": -1.58,
+      "deltaShares": "-244,593주",
+      "deltaSharesNumber": -244593,
+      "direction": "sell",
+      "obligationDate": "2026-04-01",
+      "reportDate": "2026-06-30",
+      "note": "변동"
+    },
+    {
+      "rank": 32,
+      "disclosureType": "임원·주요주주",
+      "companyName": "OCI홀딩스",
+      "finalOwnershipRate": "13.25%",
+      "finalOwnershipRateNumber": 13.25,
+      "deltaRate": "-0.04%",
+      "deltaRateNumber": -0.04,
+      "deltaShares": "-6,742주",
+      "deltaSharesNumber": -6742,
+      "direction": "sell",
+      "obligationDate": "2026-04-01",
+      "reportDate": "2026-06-30",
+      "note": "변동"
+    },
+    {
+      "rank": 33,
+      "disclosureType": "임원·주요주주",
+      "companyName": "한올바이오파마",
+      "finalOwnershipRate": "10.84%",
+      "finalOwnershipRateNumber": 10.84,
+      "deltaRate": "0.79%",
+      "deltaRateNumber": 0.79,
+      "deltaShares": "415,021주",
+      "deltaSharesNumber": 415021,
+      "direction": "buy",
+      "obligationDate": "2026-04-03",
+      "reportDate": "2026-06-30",
+      "note": "변동"
+    },
+    {
+      "rank": 34,
+      "disclosureType": "임원·주요주주",
+      "companyName": "코리아써키트",
+      "finalOwnershipRate": "9.09%",
+      "finalOwnershipRateNumber": 9.09,
+      "deltaRate": "0.37%",
+      "deltaRateNumber": 0.37,
+      "deltaShares": "102,439주",
+      "deltaSharesNumber": 102439,
+      "direction": "buy",
+      "obligationDate": "2026-06-22",
+      "reportDate": "2026-06-30",
+      "note": "변동"
+    },
+    {
+      "rank": 35,
+      "disclosureType": "임원·주요주주",
+      "companyName": "대한유화",
+      "finalOwnershipRate": "10.91%",
+      "finalOwnershipRateNumber": 10.91,
+      "deltaRate": "0.82%",
+      "deltaRateNumber": 0.82,
+      "deltaShares": "53,367주",
+      "deltaSharesNumber": 53367,
+      "direction": "buy",
+      "obligationDate": "2026-06-09",
+      "reportDate": "2026-06-30",
+      "note": "변동"
+    },
+    {
+      "rank": 36,
+      "disclosureType": "임원·주요주주",
+      "companyName": "LS",
+      "finalOwnershipRate": "12.58%",
+      "finalOwnershipRateNumber": 12.58,
+      "deltaRate": "-0.17%",
+      "deltaRateNumber": -0.17,
+      "deltaShares": "-53,316주",
+      "deltaSharesNumber": -53316,
+      "direction": "sell",
+      "obligationDate": "2026-04-01",
+      "reportDate": "2026-06-30",
+      "note": "변동"
+    },
+    {
+      "rank": 37,
+      "disclosureType": "임원·주요주주",
+      "companyName": "신세계",
+      "finalOwnershipRate": "12.72%",
+      "finalOwnershipRateNumber": 12.72,
+      "deltaRate": "-0.75%",
+      "deltaRateNumber": -0.75,
+      "deltaShares": "-70,323주",
+      "deltaSharesNumber": -70323,
+      "direction": "sell",
+      "obligationDate": "2026-04-01",
+      "reportDate": "2026-06-30",
+      "note": "변동"
+    },
+    {
+      "rank": 38,
+      "disclosureType": "임원·주요주주",
+      "companyName": "대상",
+      "finalOwnershipRate": "9.92%",
+      "finalOwnershipRateNumber": 9.92,
+      "deltaRate": "-0.69%",
+      "deltaRateNumber": -0.69,
+      "deltaShares": "-247,816주",
+      "deltaSharesNumber": -247816,
+      "direction": "sell",
+      "obligationDate": "2026-04-01",
+      "reportDate": "2026-06-30",
+      "note": "변동"
+    },
+    {
+      "rank": 39,
+      "disclosureType": "임원·주요주주",
+      "companyName": "CJ",
+      "finalOwnershipRate": "10.91%",
+      "finalOwnershipRateNumber": 10.91,
+      "deltaRate": "0.17%",
+      "deltaRateNumber": 0.17,
+      "deltaShares": "57,694주",
+      "deltaSharesNumber": 57694,
+      "direction": "buy",
+      "obligationDate": "2026-04-01",
+      "reportDate": "2026-06-30",
+      "note": "변동"
+    },
+    {
+      "rank": 40,
+      "disclosureType": "임원·주요주주",
+      "companyName": "동아쏘시오홀딩스",
+      "finalOwnershipRate": "10.16%",
+      "finalOwnershipRateNumber": 10.16,
+      "deltaRate": "-0.81%",
+      "deltaRateNumber": -0.81,
+      "deltaShares": "-54,640주",
+      "deltaSharesNumber": -54640,
+      "direction": "sell",
+      "obligationDate": "2026-04-02",
+      "reportDate": "2026-06-30",
+      "note": "변동"
+    },
+    {
+      "rank": 41,
+      "disclosureType": "임원·주요주주",
+      "companyName": "효성티앤씨",
+      "finalOwnershipRate": "10.49%",
+      "finalOwnershipRateNumber": 10.49,
+      "deltaRate": "-0.43%",
+      "deltaRateNumber": -0.43,
+      "deltaShares": "-18,362주",
+      "deltaSharesNumber": -18362,
+      "direction": "sell",
+      "obligationDate": "2026-06-01",
+      "reportDate": "2026-06-30",
+      "note": "변동"
+    },
+    {
+      "rank": 42,
+      "disclosureType": "임원·주요주주",
+      "companyName": "삼양식품",
+      "finalOwnershipRate": "10.69%",
+      "finalOwnershipRateNumber": 10.69,
+      "deltaRate": "0.13%",
+      "deltaRateNumber": 0.13,
+      "deltaShares": "10,205주",
+      "deltaSharesNumber": 10205,
+      "direction": "buy",
+      "obligationDate": "2026-06-01",
+      "reportDate": "2026-06-30",
+      "note": "변동"
+    },
+    {
+      "rank": 43,
+      "disclosureType": "임원·주요주주",
+      "companyName": "금호석유화학",
+      "finalOwnershipRate": "9.72%",
+      "finalOwnershipRateNumber": 9.72,
+      "deltaRate": "-0.11%",
+      "deltaRateNumber": -0.11,
+      "deltaShares": "-32,284주",
+      "deltaSharesNumber": -32284,
+      "direction": "sell",
+      "obligationDate": "2026-06-29",
+      "reportDate": "2026-06-29",
+      "note": "변동"
+    },
+    {
+      "rank": 44,
       "disclosureType": "대량",
       "companyName": "세방전지(주)",
       "finalOwnershipRate": "5.35%",
@@ -70,7 +685,7 @@
       "note": "변동"
     },
     {
-      "rank": 4,
+      "rank": 45,
       "disclosureType": "대량",
       "companyName": "(주)제이에스링크",
       "finalOwnershipRate": "5.05%",
@@ -85,7 +700,7 @@
       "note": "신규"
     },
     {
-      "rank": 5,
+      "rank": 46,
       "disclosureType": "대량",
       "companyName": "현대제철(주)",
       "finalOwnershipRate": "8.84%",
@@ -100,7 +715,37 @@
       "note": "변동"
     },
     {
-      "rank": 6,
+      "rank": 47,
+      "disclosureType": "임원·주요주주",
+      "companyName": "LG이노텍",
+      "finalOwnershipRate": "9.97%",
+      "finalOwnershipRateNumber": 9.97,
+      "deltaRate": "-0.05%",
+      "deltaRateNumber": -0.05,
+      "deltaShares": "-12,429주",
+      "deltaSharesNumber": -12429,
+      "direction": "sell",
+      "obligationDate": "2026-04-22",
+      "reportDate": "2026-06-26",
+      "note": "변동"
+    },
+    {
+      "rank": 48,
+      "disclosureType": "임원·주요주주",
+      "companyName": "금호석유화학",
+      "finalOwnershipRate": "9.83%",
+      "finalOwnershipRateNumber": 9.83,
+      "deltaRate": "9.83%",
+      "deltaRateNumber": 9.83,
+      "deltaShares": "2,770,882주",
+      "deltaSharesNumber": 2770882,
+      "direction": "buy",
+      "obligationDate": "2026-06-26",
+      "reportDate": "2026-06-26",
+      "note": "신규"
+    },
+    {
+      "rank": 49,
       "disclosureType": "대량",
       "companyName": "솔브레인",
       "finalOwnershipRate": "4.00%",
@@ -115,7 +760,7 @@
       "note": "변동"
     },
     {
-      "rank": 7,
+      "rank": 50,
       "disclosureType": "대량",
       "companyName": "ESR켄달스퀘어리츠",
       "finalOwnershipRate": "4.80%",
@@ -130,7 +775,7 @@
       "note": "변동"
     },
     {
-      "rank": 8,
+      "rank": 51,
       "disclosureType": "대량",
       "companyName": "에스엘(주)",
       "finalOwnershipRate": "8.28%",
@@ -145,7 +790,7 @@
       "note": "변동"
     },
     {
-      "rank": 9,
+      "rank": 52,
       "disclosureType": "대량",
       "companyName": "(주)대한항공",
       "finalOwnershipRate": "8.10%",
@@ -160,7 +805,7 @@
       "note": "변동"
     },
     {
-      "rank": 10,
+      "rank": 53,
       "disclosureType": "대량",
       "companyName": "(주)현대지에프홀딩스",
       "finalOwnershipRate": "5.00%",
@@ -175,7 +820,7 @@
       "note": "신규"
     },
     {
-      "rank": 11,
+      "rank": 54,
       "disclosureType": "대량",
       "companyName": "(주)카카오",
       "finalOwnershipRate": "5.39%",
@@ -190,7 +835,7 @@
       "note": "변동"
     },
     {
-      "rank": 12,
+      "rank": 55,
       "disclosureType": "대량",
       "companyName": "오씨아이(주)",
       "finalOwnershipRate": "4.95%",
@@ -205,7 +850,7 @@
       "note": "신규"
     },
     {
-      "rank": 13,
+      "rank": 56,
       "disclosureType": "대량",
       "companyName": "해성디에스(주)",
       "finalOwnershipRate": "5.94%",
@@ -220,7 +865,7 @@
       "note": "변동"
     },
     {
-      "rank": 14,
+      "rank": 57,
       "disclosureType": "대량",
       "companyName": "브이엠(주)",
       "finalOwnershipRate": "8.05%",
@@ -235,7 +880,7 @@
       "note": "변동"
     },
     {
-      "rank": 15,
+      "rank": 58,
       "disclosureType": "대량",
       "companyName": "대주전자재료(주)",
       "finalOwnershipRate": "7.67%",
@@ -250,7 +895,7 @@
       "note": "변동"
     },
     {
-      "rank": 16,
+      "rank": 59,
       "disclosureType": "대량",
       "companyName": "(주)한미글로벌건축사사무소",
       "finalOwnershipRate": "7.21%",
@@ -265,7 +910,7 @@
       "note": "변동"
     },
     {
-      "rank": 17,
+      "rank": 60,
       "disclosureType": "대량",
       "companyName": "세아제강지주",
       "finalOwnershipRate": "5.86%",
@@ -280,7 +925,7 @@
       "note": "변동"
     },
     {
-      "rank": 18,
+      "rank": 61,
       "disclosureType": "대량",
       "companyName": "에스케이이터닉스(주)",
       "finalOwnershipRate": "5.11%",
@@ -295,7 +940,7 @@
       "note": "신규"
     },
     {
-      "rank": 19,
+      "rank": 62,
       "disclosureType": "대량",
       "companyName": "(주)엘앤에프",
       "finalOwnershipRate": "8.63%",
@@ -310,7 +955,7 @@
       "note": "변동"
     },
     {
-      "rank": 20,
+      "rank": 63,
       "disclosureType": "대량",
       "companyName": "코스맥스(주)",
       "finalOwnershipRate": "12.85%",
@@ -325,7 +970,7 @@
       "note": "변동"
     },
     {
-      "rank": 21,
+      "rank": 64,
       "disclosureType": "대량",
       "companyName": "미래에셋증권(주)",
       "finalOwnershipRate": "7.23%",
@@ -340,7 +985,7 @@
       "note": "변동"
     },
     {
-      "rank": 22,
+      "rank": 65,
       "disclosureType": "대량",
       "companyName": "비나텍(주)",
       "finalOwnershipRate": "5.12%",
@@ -355,7 +1000,7 @@
       "note": "변동"
     },
     {
-      "rank": 23,
+      "rank": 66,
       "disclosureType": "대량",
       "companyName": "(주)케이뱅크",
       "finalOwnershipRate": "5.22%",
@@ -370,7 +1015,7 @@
       "note": "신규"
     },
     {
-      "rank": 24,
+      "rank": 67,
       "disclosureType": "대량",
       "companyName": "(주)심텍",
       "finalOwnershipRate": "6.09%",
@@ -385,7 +1030,7 @@
       "note": "신규"
     },
     {
-      "rank": 25,
+      "rank": 68,
       "disclosureType": "대량",
       "companyName": "글로벌텍스프리(주)",
       "finalOwnershipRate": "6.61%",
@@ -400,7 +1045,7 @@
       "note": "신규"
     },
     {
-      "rank": 26,
+      "rank": 69,
       "disclosureType": "대량",
       "companyName": "(주)비에이치",
       "finalOwnershipRate": "13.32%",
@@ -415,7 +1060,7 @@
       "note": "변동"
     },
     {
-      "rank": 27,
+      "rank": 70,
       "disclosureType": "대량",
       "companyName": "HL만도",
       "finalOwnershipRate": "10.95%",
@@ -430,7 +1075,7 @@
       "note": "변동"
     },
     {
-      "rank": 28,
+      "rank": 71,
       "disclosureType": "대량",
       "companyName": "(주)인텍플러스",
       "finalOwnershipRate": "6.09%",
@@ -445,7 +1090,7 @@
       "note": "신규"
     },
     {
-      "rank": 29,
+      "rank": 72,
       "disclosureType": "대량",
       "companyName": "(주)원익큐엔씨",
       "finalOwnershipRate": "6.47%",
@@ -460,7 +1105,7 @@
       "note": "변동"
     },
     {
-      "rank": 30,
+      "rank": 73,
       "disclosureType": "대량",
       "companyName": "(주)코리아써키트",
       "finalOwnershipRate": "9.67%",
@@ -475,7 +1120,7 @@
       "note": "변동"
     },
     {
-      "rank": 31,
+      "rank": 74,
       "disclosureType": "대량",
       "companyName": "(주)에스앤에스텍",
       "finalOwnershipRate": "3.95%",
@@ -490,7 +1135,7 @@
       "note": "변동"
     },
     {
-      "rank": 32,
+      "rank": 75,
       "disclosureType": "대량",
       "companyName": "삼아알미늄(주)",
       "finalOwnershipRate": "7.29%",
@@ -505,7 +1150,7 @@
       "note": "신규"
     },
     {
-      "rank": 33,
+      "rank": 76,
       "disclosureType": "대량",
       "companyName": "RF머트리얼즈",
       "finalOwnershipRate": "3.68%",
@@ -520,7 +1165,7 @@
       "note": "변동"
     },
     {
-      "rank": 34,
+      "rank": 77,
       "disclosureType": "대량",
       "companyName": "동아에스티(주)",
       "finalOwnershipRate": "4.78%",
@@ -535,7 +1180,7 @@
       "note": "변동"
     },
     {
-      "rank": 35,
+      "rank": 78,
       "disclosureType": "대량",
       "companyName": "(주)하나투어",
       "finalOwnershipRate": "4.71%",
@@ -550,7 +1195,7 @@
       "note": "변동"
     },
     {
-      "rank": 36,
+      "rank": 79,
       "disclosureType": "대량",
       "companyName": "STX엔진(주)",
       "finalOwnershipRate": "5.49%",
@@ -565,7 +1210,7 @@
       "note": "변동"
     },
     {
-      "rank": 37,
+      "rank": 80,
       "disclosureType": "대량",
       "companyName": "덕산네오룩스(주)",
       "finalOwnershipRate": "8.01%",
@@ -580,7 +1225,7 @@
       "note": "변동"
     },
     {
-      "rank": 38,
+      "rank": 81,
       "disclosureType": "대량",
       "companyName": "에스케이오션플랜트(주)",
       "finalOwnershipRate": "6.69%",
@@ -595,7 +1240,7 @@
       "note": "변동"
     },
     {
-      "rank": 39,
+      "rank": 82,
       "disclosureType": "대량",
       "companyName": "산일전기",
       "finalOwnershipRate": "8.29%",
@@ -610,7 +1255,7 @@
       "note": "변동"
     },
     {
-      "rank": 40,
+      "rank": 83,
       "disclosureType": "대량",
       "companyName": "현대위아(주)",
       "finalOwnershipRate": "7.31%",
@@ -625,7 +1270,7 @@
       "note": "변동"
     },
     {
-      "rank": 41,
+      "rank": 84,
       "disclosureType": "대량",
       "companyName": "아이파크현대산업개발",
       "finalOwnershipRate": "10.40%",
@@ -640,7 +1285,7 @@
       "note": "변동"
     },
     {
-      "rank": 42,
+      "rank": 85,
       "disclosureType": "대량",
       "companyName": "현대해상화재보험(주)",
       "finalOwnershipRate": "9.42%",
@@ -649,13 +1294,13 @@
       "deltaRateNumber": 0.02,
       "deltaShares": "-370,554주",
       "deltaSharesNumber": -370554,
-      "direction": "buy",
+      "direction": "sell",
       "obligationDate": "2026-04-16",
       "reportDate": "2026-06-05",
       "note": "변동"
     },
     {
-      "rank": 43,
+      "rank": 86,
       "disclosureType": "대량",
       "companyName": "엔에이치엔(주)",
       "finalOwnershipRate": "9.62%",
@@ -670,7 +1315,7 @@
       "note": "변동"
     },
     {
-      "rank": 44,
+      "rank": 87,
       "disclosureType": "대량",
       "companyName": "한솔아이원스(주)",
       "finalOwnershipRate": "3.96%",
@@ -685,7 +1330,7 @@
       "note": "변동"
     },
     {
-      "rank": 45,
+      "rank": 88,
       "disclosureType": "대량",
       "companyName": "(주)영원무역홀딩스",
       "finalOwnershipRate": "6.02%",
@@ -700,7 +1345,7 @@
       "note": "신규"
     },
     {
-      "rank": 46,
+      "rank": 89,
       "disclosureType": "대량",
       "companyName": "코나아이(주)",
       "finalOwnershipRate": "6.16%",
@@ -715,7 +1360,7 @@
       "note": "변동"
     },
     {
-      "rank": 47,
+      "rank": 90,
       "disclosureType": "대량",
       "companyName": "삼성전기(주)",
       "finalOwnershipRate": "9.87%",
@@ -730,7 +1375,7 @@
       "note": "변동"
     },
     {
-      "rank": 48,
+      "rank": 91,
       "disclosureType": "대량",
       "companyName": "알에프에이치아이씨(주)",
       "finalOwnershipRate": "3.99%",
@@ -745,7 +1390,7 @@
       "note": "변동"
     },
     {
-      "rank": 49,
+      "rank": 92,
       "disclosureType": "대량",
       "companyName": "일진전기(주)",
       "finalOwnershipRate": "7.67%",
@@ -760,7 +1405,7 @@
       "note": "변동"
     },
     {
-      "rank": 50,
+      "rank": 93,
       "disclosureType": "대량",
       "companyName": "HL홀딩스",
       "finalOwnershipRate": "7.39%",
@@ -775,7 +1420,7 @@
       "note": "변동"
     },
     {
-      "rank": 51,
+      "rank": 94,
       "disclosureType": "대량",
       "companyName": "(주)아모텍",
       "finalOwnershipRate": "4.19%",
@@ -790,7 +1435,7 @@
       "note": "변동"
     },
     {
-      "rank": 52,
+      "rank": 95,
       "disclosureType": "대량",
       "companyName": "지에스건설(주)",
       "finalOwnershipRate": "7.82%",
@@ -805,7 +1450,7 @@
       "note": "변동"
     },
     {
-      "rank": 53,
+      "rank": 96,
       "disclosureType": "대량",
       "companyName": "(주)파인엠텍",
       "finalOwnershipRate": "3.82%",
@@ -820,7 +1465,7 @@
       "note": "변동"
     },
     {
-      "rank": 54,
+      "rank": 97,
       "disclosureType": "대량",
       "companyName": "엠앤씨솔루션",
       "finalOwnershipRate": "4.13%",
@@ -835,7 +1480,7 @@
       "note": "변동"
     },
     {
-      "rank": 55,
+      "rank": 98,
       "disclosureType": "대량",
       "companyName": "(주)엘엑스세미콘",
       "finalOwnershipRate": "4.06%",
@@ -850,7 +1495,7 @@
       "note": "변동"
     },
     {
-      "rank": 56,
+      "rank": 99,
       "disclosureType": "대량",
       "companyName": "(주)지에스리테일",
       "finalOwnershipRate": "9.47%",
@@ -859,13 +1504,13 @@
       "deltaRateNumber": 1.01,
       "deltaShares": "-945,704주",
       "deltaSharesNumber": -945704,
-      "direction": "buy",
+      "direction": "sell",
       "obligationDate": "2026-05-28",
       "reportDate": "2026-05-28",
       "note": "변동"
     },
     {
-      "rank": 57,
+      "rank": 100,
       "disclosureType": "대량",
       "companyName": "삼화콘덴서공업(주)",
       "finalOwnershipRate": "6.52%",
@@ -880,7 +1525,7 @@
       "note": "변동"
     },
     {
-      "rank": 58,
+      "rank": 101,
       "disclosureType": "대량",
       "companyName": "(주)풍산",
       "finalOwnershipRate": "7.18%",
@@ -895,7 +1540,7 @@
       "note": "변동"
     },
     {
-      "rank": 59,
+      "rank": 102,
       "disclosureType": "대량",
       "companyName": "SKC(주)",
       "finalOwnershipRate": "6.14%",
@@ -910,7 +1555,7 @@
       "note": "변동"
     },
     {
-      "rank": 60,
+      "rank": 103,
       "disclosureType": "대량",
       "companyName": "씨에스윈드(주)",
       "finalOwnershipRate": "9.92%",
@@ -925,7 +1570,7 @@
       "note": "변동"
     },
     {
-      "rank": 61,
+      "rank": 104,
       "disclosureType": "대량",
       "companyName": "(주)DB하이텍",
       "finalOwnershipRate": "8.42%",
@@ -940,7 +1585,7 @@
       "note": "변동"
     },
     {
-      "rank": 62,
+      "rank": 105,
       "disclosureType": "대량",
       "companyName": "에이치케이이노엔(주)",
       "finalOwnershipRate": "4.06%",
@@ -955,7 +1600,7 @@
       "note": "변동"
     },
     {
-      "rank": 63,
+      "rank": 106,
       "disclosureType": "대량",
       "companyName": "(주)엘지씨엔에스",
       "finalOwnershipRate": "6.09%",
@@ -970,7 +1615,7 @@
       "note": "변동"
     },
     {
-      "rank": 64,
+      "rank": 107,
       "disclosureType": "대량",
       "companyName": "한스바이오메드(주)",
       "finalOwnershipRate": "6.18%",
@@ -985,7 +1630,7 @@
       "note": "신규"
     },
     {
-      "rank": 65,
+      "rank": 108,
       "disclosureType": "대량",
       "companyName": "대한유화(주)",
       "finalOwnershipRate": "10.67%",
@@ -1000,7 +1645,7 @@
       "note": "변동"
     },
     {
-      "rank": 66,
+      "rank": 109,
       "disclosureType": "대량",
       "companyName": "SK케미칼(주)",
       "finalOwnershipRate": "6.51%",
@@ -1015,7 +1660,7 @@
       "note": "변동"
     },
     {
-      "rank": 67,
+      "rank": 110,
       "disclosureType": "대량",
       "companyName": "한세실업(주)",
       "finalOwnershipRate": "4.76%",
@@ -1030,7 +1675,7 @@
       "note": "변동"
     },
     {
-      "rank": 68,
+      "rank": 111,
       "disclosureType": "대량",
       "companyName": "두산밥캣(주)",
       "finalOwnershipRate": "6.32%",
@@ -1045,7 +1690,7 @@
       "note": "변동"
     },
     {
-      "rank": 69,
+      "rank": 112,
       "disclosureType": "대량",
       "companyName": "롯데쇼핑(주)",
       "finalOwnershipRate": "12.37%",
@@ -1060,7 +1705,7 @@
       "note": "변동"
     },
     {
-      "rank": 70,
+      "rank": 113,
       "disclosureType": "대량",
       "companyName": "(주)한국카본",
       "finalOwnershipRate": "9.48%",
@@ -1075,7 +1720,7 @@
       "note": "변동"
     },
     {
-      "rank": 71,
+      "rank": 114,
       "disclosureType": "대량",
       "companyName": "엔씨",
       "finalOwnershipRate": "10.25%",
@@ -1090,7 +1735,7 @@
       "note": "변동"
     },
     {
-      "rank": 72,
+      "rank": 115,
       "disclosureType": "대량",
       "companyName": "(주)와이지엔터테인먼트",
       "finalOwnershipRate": "4.00%",
@@ -1105,7 +1750,7 @@
       "note": "변동"
     },
     {
-      "rank": 73,
+      "rank": 116,
       "disclosureType": "대량",
       "companyName": "알지노믹스(주)",
       "finalOwnershipRate": "3.96%",
@@ -1120,7 +1765,7 @@
       "note": "변동"
     },
     {
-      "rank": 74,
+      "rank": 117,
       "disclosureType": "대량",
       "companyName": "삼화전기(주)",
       "finalOwnershipRate": "4.06%",
@@ -1135,7 +1780,7 @@
       "note": "변동"
     },
     {
-      "rank": 75,
+      "rank": 118,
       "disclosureType": "대량",
       "companyName": "엘지이노텍(주)",
       "finalOwnershipRate": "10.54%",
@@ -1150,7 +1795,7 @@
       "note": "변동"
     },
     {
-      "rank": 76,
+      "rank": 119,
       "disclosureType": "대량",
       "companyName": "효성중공업",
       "finalOwnershipRate": "10.13%",
@@ -1165,7 +1810,7 @@
       "note": "변동"
     },
     {
-      "rank": 77,
+      "rank": 120,
       "disclosureType": "대량",
       "companyName": "(주)엠로",
       "finalOwnershipRate": "4.40%",
@@ -1180,7 +1825,7 @@
       "note": "변동"
     },
     {
-      "rank": 78,
+      "rank": 121,
       "disclosureType": "대량",
       "companyName": "(주)진성티이씨",
       "finalOwnershipRate": "9.46%",
@@ -1195,7 +1840,7 @@
       "note": "변동"
     },
     {
-      "rank": 79,
+      "rank": 122,
       "disclosureType": "대량",
       "companyName": "(주)한섬",
       "finalOwnershipRate": "9.33%",
@@ -1210,7 +1855,7 @@
       "note": "변동"
     },
     {
-      "rank": 80,
+      "rank": 123,
       "disclosureType": "대량",
       "companyName": "율촌화학(주)",
       "finalOwnershipRate": "4.99%",
@@ -1225,7 +1870,7 @@
       "note": "변동"
     },
     {
-      "rank": 81,
+      "rank": 124,
       "disclosureType": "대량",
       "companyName": "(주)한샘",
       "finalOwnershipRate": "4.08%",
@@ -1240,7 +1885,7 @@
       "note": "변동"
     },
     {
-      "rank": 82,
+      "rank": 125,
       "disclosureType": "대량",
       "companyName": "대상(주)",
       "finalOwnershipRate": "10.67%",
@@ -1255,7 +1900,7 @@
       "note": "변동"
     },
     {
-      "rank": 83,
+      "rank": 126,
       "disclosureType": "대량",
       "companyName": "(주)LG",
       "finalOwnershipRate": "6.29%",
@@ -1270,7 +1915,7 @@
       "note": "변동"
     },
     {
-      "rank": 84,
+      "rank": 127,
       "disclosureType": "대량",
       "companyName": "(주)달바글로벌",
       "finalOwnershipRate": "9.58%",
@@ -1285,7 +1930,7 @@
       "note": "변동"
     },
     {
-      "rank": 85,
+      "rank": 128,
       "disclosureType": "대량",
       "companyName": "(주)녹십자",
       "finalOwnershipRate": "6.68%",
@@ -1300,7 +1945,7 @@
       "note": "변동"
     },
     {
-      "rank": 86,
+      "rank": 129,
       "disclosureType": "대량",
       "companyName": "국도화학(주)",
       "finalOwnershipRate": "7.08%",
@@ -1315,7 +1960,7 @@
       "note": "변동"
     },
     {
-      "rank": 87,
+      "rank": 130,
       "disclosureType": "대량",
       "companyName": "코오롱인더스트리(주)",
       "finalOwnershipRate": "10.92%",
@@ -1330,7 +1975,7 @@
       "note": "변동"
     },
     {
-      "rank": 88,
+      "rank": 131,
       "disclosureType": "대량",
       "companyName": "(주)더블유게임즈",
       "finalOwnershipRate": "8.22%",
@@ -1345,7 +1990,7 @@
       "note": "변동"
     },
     {
-      "rank": 89,
+      "rank": 132,
       "disclosureType": "대량",
       "companyName": "한국콜마(주)",
       "finalOwnershipRate": "12.68%",
@@ -1360,7 +2005,7 @@
       "note": "변동"
     },
     {
-      "rank": 90,
+      "rank": 133,
       "disclosureType": "대량",
       "companyName": "(주)에코프로머티리얼즈",
       "finalOwnershipRate": "5.08%",
@@ -1375,7 +2020,7 @@
       "note": "신규"
     },
     {
-      "rank": 91,
+      "rank": 134,
       "disclosureType": "대량",
       "companyName": "피에스케이(주)",
       "finalOwnershipRate": "7.12%",
@@ -1390,7 +2035,7 @@
       "note": "변동"
     },
     {
-      "rank": 92,
+      "rank": 135,
       "disclosureType": "대량",
       "companyName": "덴티움",
       "finalOwnershipRate": "4.59%",
@@ -1405,7 +2050,7 @@
       "note": "변동"
     },
     {
-      "rank": 93,
+      "rank": 136,
       "disclosureType": "대량",
       "companyName": "(주)BNK금융지주",
       "finalOwnershipRate": "7.57%",
@@ -1420,7 +2065,7 @@
       "note": "변동"
     },
     {
-      "rank": 94,
+      "rank": 137,
       "disclosureType": "대량",
       "companyName": "에이치디현대마린엔진",
       "finalOwnershipRate": "8.26%",
@@ -1435,7 +2080,7 @@
       "note": "변동"
     },
     {
-      "rank": 95,
+      "rank": 138,
       "disclosureType": "대량",
       "companyName": "롯데관광개발(주)",
       "finalOwnershipRate": "10.47%",
@@ -1450,7 +2095,7 @@
       "note": "변동"
     },
     {
-      "rank": 96,
+      "rank": 139,
       "disclosureType": "대량",
       "companyName": "(주)호텔신라",
       "finalOwnershipRate": "8.03%",
@@ -1465,7 +2110,7 @@
       "note": "변동"
     },
     {
-      "rank": 97,
+      "rank": 140,
       "disclosureType": "대량",
       "companyName": "롯데에너지머티리얼즈",
       "finalOwnershipRate": "7.02%",
@@ -1480,7 +2125,7 @@
       "note": "변동"
     },
     {
-      "rank": 98,
+      "rank": 141,
       "disclosureType": "대량",
       "companyName": "이수스페셜티케미컬(주)",
       "finalOwnershipRate": "5.05%",
@@ -1495,7 +2140,7 @@
       "note": "신규"
     },
     {
-      "rank": 99,
+      "rank": 142,
       "disclosureType": "대량",
       "companyName": "(주)케이씨씨",
       "finalOwnershipRate": "10.14%",
@@ -1510,7 +2155,7 @@
       "note": "변동"
     },
     {
-      "rank": 100,
+      "rank": 143,
       "disclosureType": "대량",
       "companyName": "한솔제지(주)",
       "finalOwnershipRate": "5.08%",
@@ -1525,7 +2170,7 @@
       "note": "신규"
     },
     {
-      "rank": 101,
+      "rank": 144,
       "disclosureType": "대량",
       "companyName": "동국제강",
       "finalOwnershipRate": "6.13%",
@@ -1540,7 +2185,7 @@
       "note": "변동"
     },
     {
-      "rank": 102,
+      "rank": 145,
       "disclosureType": "대량",
       "companyName": "SNT에너지",
       "finalOwnershipRate": "4.08%",
@@ -1555,7 +2200,7 @@
       "note": "변동"
     },
     {
-      "rank": 103,
+      "rank": 146,
       "disclosureType": "대량",
       "companyName": "디엘이앤씨",
       "finalOwnershipRate": "11.20%",
@@ -1570,7 +2215,7 @@
       "note": "변동"
     },
     {
-      "rank": 104,
+      "rank": 147,
       "disclosureType": "대량",
       "companyName": "덕산하이메탈(주)",
       "finalOwnershipRate": "5.00%",
@@ -1585,7 +2230,7 @@
       "note": "신규"
     },
     {
-      "rank": 105,
+      "rank": 148,
       "disclosureType": "대량",
       "companyName": "(주)씨엠티엑스",
       "finalOwnershipRate": "3.87%",
@@ -1600,7 +2245,7 @@
       "note": "변동"
     },
     {
-      "rank": 106,
+      "rank": 149,
       "disclosureType": "대량",
       "companyName": "(주)유니드",
       "finalOwnershipRate": "8.08%",
@@ -1615,7 +2260,7 @@
       "note": "변동"
     },
     {
-      "rank": 107,
+      "rank": 150,
       "disclosureType": "대량",
       "companyName": "(주)종근당",
       "finalOwnershipRate": "6.34%",
@@ -1630,7 +2275,7 @@
       "note": "변동"
     },
     {
-      "rank": 108,
+      "rank": 151,
       "disclosureType": "대량",
       "companyName": "네이버(주)",
       "finalOwnershipRate": "8.22%",
@@ -1645,7 +2290,7 @@
       "note": "변동"
     },
     {
-      "rank": 109,
+      "rank": 152,
       "disclosureType": "대량",
       "companyName": "(주)한솔케미칼",
       "finalOwnershipRate": "11.89%",
@@ -1660,7 +2305,7 @@
       "note": "변동"
     },
     {
-      "rank": 110,
+      "rank": 153,
       "disclosureType": "대량",
       "companyName": "(주)에스티아이",
       "finalOwnershipRate": "6.24%",
@@ -1675,7 +2320,7 @@
       "note": "변동"
     },
     {
-      "rank": 111,
+      "rank": 154,
       "disclosureType": "대량",
       "companyName": "(주)코스메카코리아",
       "finalOwnershipRate": "12.98%",
@@ -1690,7 +2335,7 @@
       "note": "변동"
     },
     {
-      "rank": 112,
+      "rank": 155,
       "disclosureType": "대량",
       "companyName": "(주)세아제강",
       "finalOwnershipRate": "5.11%",
@@ -1705,7 +2350,7 @@
       "note": "신규"
     },
     {
-      "rank": 113,
+      "rank": 156,
       "disclosureType": "대량",
       "companyName": "동원산업(주)",
       "finalOwnershipRate": "5.01%",
@@ -1720,7 +2365,7 @@
       "note": "신규"
     },
     {
-      "rank": 114,
+      "rank": 157,
       "disclosureType": "대량",
       "companyName": "금호석유화학(주)",
       "finalOwnershipRate": "9.74%",
@@ -1735,7 +2380,7 @@
       "note": "변동"
     },
     {
-      "rank": 115,
+      "rank": 158,
       "disclosureType": "대량",
       "companyName": "(주)이노션",
       "finalOwnershipRate": "6.00%",
@@ -1750,7 +2395,7 @@
       "note": "변동"
     },
     {
-      "rank": 116,
+      "rank": 159,
       "disclosureType": "대량",
       "companyName": "(주)태광",
       "finalOwnershipRate": "6.57%",
@@ -1765,7 +2410,7 @@
       "note": "변동"
     },
     {
-      "rank": 117,
+      "rank": 160,
       "disclosureType": "대량",
       "companyName": "삼성E&A",
       "finalOwnershipRate": "8.34%",
@@ -1780,7 +2425,7 @@
       "note": "변동"
     },
     {
-      "rank": 118,
+      "rank": 161,
       "disclosureType": "대량",
       "companyName": "한올바이오파마(주)",
       "finalOwnershipRate": "10.56%",
@@ -1795,7 +2440,7 @@
       "note": "변동"
     },
     {
-      "rank": 119,
+      "rank": 162,
       "disclosureType": "대량",
       "companyName": "삼성SDI(주)",
       "finalOwnershipRate": "7.97%",
@@ -1810,7 +2455,7 @@
       "note": "변동"
     },
     {
-      "rank": 120,
+      "rank": 163,
       "disclosureType": "대량",
       "companyName": "현대건설(주)",
       "finalOwnershipRate": "10.22%",
@@ -1825,7 +2470,7 @@
       "note": "변동"
     },
     {
-      "rank": 121,
+      "rank": 164,
       "disclosureType": "대량",
       "companyName": "에이치디현대에너지솔루션",
       "finalOwnershipRate": "5.31%",
@@ -1840,5 +2485,5 @@
       "note": "신규"
     }
   ],
-  "disclaimer": "Whale Insight page snapshots are converted for prototype/static-data use. Confirm reuse rights before public redistribution. Data may be delayed, incomplete, or affected by source page/parser changes."
+  "disclaimer": "Whale Insight page/API snapshots are converted for prototype/static-data use. Confirm reuse rights before public redistribution. Data may be delayed, incomplete, or affected by source page/parser changes."
 }
